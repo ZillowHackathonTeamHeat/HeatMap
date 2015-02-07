@@ -32,6 +32,8 @@ var populateCrime = function (includedCrimes) {
 console.log(includedCrimes);
 populateCrime(includedCrimes);
 
+/////////////////////////////////////////////////////////////////
+
 var includedSchoolTypes = ["public", "private"];
 var includedSchoolLevels = ["elementary", "middle"];
 var populateSchools = function () {
@@ -56,6 +58,13 @@ function parseXml(xml) {
         schools["lat"] = $(this).find("lon").text();
 
         lst.push(schools);
+        console.log(schools);
     })
     schoolList = lst;
+    console.log(lst);
 }
+
+parseXml();
+setTimeout(function(){
+console.log(schoolList);
+}, 2000);
