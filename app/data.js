@@ -2,6 +2,8 @@ var crimeBaseURL = "https://data.seattle.gov/resource/3k2p-39jp.json?initial_typ
 
 //list of crime objects
 var crimeList = [];
+//list of school objects
+var schoolList = [];
 
 //which crimes are included
 var includedCrimes = ["ASSAULTS", "BURGLARY"];
@@ -29,3 +31,31 @@ var populateCrime = function (includedCrimes) {
 
 console.log(includedCrimes);
 populateCrime(includedCrimes);
+
+var includedSchoolTypes = ["public", "private"];
+var includedSchoolLevels = ["elementary", "middle"];
+var populateSchools = function () {
+        $.ajax({
+        type: "GET",
+        url: "http://api.greatschools.org/schools/nearby?key=qjprfbqvcj6wh3k5ugcwywxx&state=WA&zip=98101&radius=200&limit=1000",
+        dataType: "xml",
+        success: parseXml
+    });
+}
+
+function parseXml(xml) {
+    var lst = [];
+    $(xml).find("school").each(function () {
+        var schools = {};
+        var curObj = data[i];
+
+        schools["gsID"] = $(this).find("gsId").text();
+        schools["name"] = $(this).find("name").text();
+        schools["type"] = $(this).find("type").text();
+        schools["long"] = $(this).find("lat").text();
+        schools["lat"] = $(this).find("lon").text();
+
+        lst.push(schools);
+    })
+    schoolList = lst;
+}
