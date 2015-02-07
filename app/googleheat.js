@@ -435,12 +435,6 @@ var taxiData = [
   new google.maps.LatLng(37.765129, -122.419378),
   new google.maps.LatLng(37.765119, -122.419481),
   new google.maps.LatLng(37.765100, -122.419852),
-  new google.maps.LatLng(37.765083, -122.420349),
-  new google.maps.LatLng(37.765045, -122.420930),
-  new google.maps.LatLng(37.764992, -122.421481),
-  new google.maps.LatLng(37.764980, -122.421695),
-  new google.maps.LatLng(37.764993, -122.421843),
-  new google.maps.LatLng(37.764986, -122.422255),
   new google.maps.LatLng(37.764975, -122.422823),
   new google.maps.LatLng(37.764939, -122.423411),
   new google.maps.LatLng(37.764902, -122.424014),
@@ -474,60 +468,45 @@ var taxiData = [
   new google.maps.LatLng(37.771964, -122.411681),
   new google.maps.LatLng(37.771479, -122.411078),
   new google.maps.LatLng(37.770992, -122.410477),
-  new google.maps.LatLng(37.770467, -122.409801),
-  new google.maps.LatLng(37.770090, -122.408904),
-  new google.maps.LatLng(37.769657, -122.408103),
-  new google.maps.LatLng(37.769132, -122.407276),
-  new google.maps.LatLng(37.768564, -122.406469),
-  new google.maps.LatLng(37.767980, -122.405745),
-  new google.maps.LatLng(37.767380, -122.405299),
-  new google.maps.LatLng(37.766604, -122.405297),
-  new google.maps.LatLng(37.765838, -122.405200),
-  new google.maps.LatLng(37.765139, -122.405139),
-  new google.maps.LatLng(37.764457, -122.405094),
-  new google.maps.LatLng(37.763716, -122.405142),
-  new google.maps.LatLng(37.762932, -122.405398),
-  new google.maps.LatLng(37.762126, -122.405813),
-  new google.maps.LatLng(37.761344, -122.406215),
-  new google.maps.LatLng(37.760556, -122.406495),
-  new google.maps.LatLng(37.759732, -122.406484),
-  new google.maps.LatLng(37.758910, -122.406228),
-  new google.maps.LatLng(37.758182, -122.405695),
-  new google.maps.LatLng(37.757676, -122.405118),
-  new google.maps.LatLng(37.757039, -122.404346),
-  new google.maps.LatLng(37.756335, -122.403719),
-  new google.maps.LatLng(37.755503, -122.403406),
-  new google.maps.LatLng(37.754665, -122.403242),
-  new google.maps.LatLng(37.753837, -122.403172),
-  new google.maps.LatLng(37.752986, -122.403112),
   new google.maps.LatLng(37.751266, -122.403355)
 ];
 
+var testData = [];
+setTimeout(function () {
+    for (var i = 0; i < crimeList.length; i++) {
+        testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
+    }
+}, 100);
+setTimeout(function () {
+    console.log(testData);
+    initialize();
+}, 2000);
+
 function initialize() {
-  var mapOptions = {
-    zoom: 13,
-    center: new google.maps.LatLng(37.774546, -122.433523),
-    mapTypeId: google.maps.MapTypeId.SATELLITE
-  };
+    var mapOptions = {
+        zoom: 14,
+        center: new google.maps.LatLng(47.6097, -122.331),
+        mapTypeId: google.maps.MapTypeId.SATELLITE
+    };
 
-  map = new google.maps.Map(document.getElementById('map-canvas'),
-      mapOptions);
+    map = new google.maps.Map(document.getElementById('map-canvas'),
+        mapOptions);
 
-  var pointArray = new google.maps.MVCArray(taxiData);
+    var pointArray = new google.maps.MVCArray(testData);
 
-  heatmap = new google.maps.visualization.HeatmapLayer({
-    data: pointArray
-  });
+    heatmap = new google.maps.visualization.HeatmapLayer({
+        data: pointArray
+    });
 
-  heatmap.setMap(map);
+    heatmap.setMap(map);
 }
 
 function toggleHeatmap() {
-  heatmap.setMap(heatmap.getMap() ? null : map);
+    heatmap.setMap(heatmap.getMap() ? null : map);
 }
 
 function changeGradient() {
-  var gradient = [
+    var gradient = [
     'rgba(0, 255, 255, 0)',
     'rgba(0, 255, 255, 1)',
     'rgba(0, 191, 255, 1)',
@@ -543,15 +522,15 @@ function changeGradient() {
     'rgba(191, 0, 31, 1)',
     'rgba(255, 0, 0, 1)'
   ]
-  heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
+    heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
 }
 
 function changeRadius() {
-  heatmap.set('radius', heatmap.get('radius') ? null : 20);
+    heatmap.set('radius', heatmap.get('radius') ? null : 20);
 }
 
 function changeOpacity() {
-  heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
+    heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
 }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+//google.maps.event.addDomListener(window, 'load', initialize);
