@@ -33,9 +33,9 @@ populateCrime(includedCrimes);
 
 ////////////////////////////////
 /////////////////////////
-var safety;
-var education;
-var transportation;
+var safetyPriority;
+var educationPriority;
+var transportationPriority;
 $("#test").ionRangeSlider({
     grid: true,
     min: 1,
@@ -43,7 +43,7 @@ $("#test").ionRangeSlider({
     from: 3,
     prefix: "Priority ",
     onChange: function (data) {
-        safety = data['from'];
+        safetyPriority = data['from'];
     }
 });
 $("#test2").ionRangeSlider({
@@ -53,7 +53,7 @@ $("#test2").ionRangeSlider({
     from: 3,
     prefix: "Priority ",
     onUpdate: function (data) {
-        education = data['from'];
+        educationPriority = data['from'];
     }
 });
 $("#test3").ionRangeSlider({
@@ -63,7 +63,7 @@ $("#test3").ionRangeSlider({
     from: 3,
     prefix: "Priority ",
     onUpdate: function (data) {
-        transportation = data['from'];
+        transportationPriority = data['from'];
     }
 });
 /////////////////////////////////////////////////////////////////
