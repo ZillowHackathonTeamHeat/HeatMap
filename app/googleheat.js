@@ -13,7 +13,7 @@ setTimeout(function () {
 
 function initialize() {
     var mapOptions = {
-        zoom: 14,
+        zoom: 12,
         center: new google.maps.LatLng(47.6097, -122.331),
         mapTypeId: google.maps.MapTypeId.SATELLITE
     };
