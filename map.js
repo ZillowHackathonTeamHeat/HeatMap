@@ -568,21 +568,21 @@ var taxiData = [
 ];
 
 function initialize() {
-  var mapOptions = {
-    zoom: 13,
-    center: new google.maps.LatLng(37.774546, -122.433523),
-    mapTypeId: google.maps.MapTypeId.SATELLITE
-  };
+    var mapOptions = {
+        zoom: 13,
+        center: new google.maps.LatLng(37.774546, -122.433523),
+        mapTypeId: google.maps.MapTypeId.SATELLITE
+    };
 
-  map = new google.maps.Map(document.getElementById('map-canvas'),
-      mapOptions);
-	  
-  var marker = new google.maps.Marker({
-      map: map,
-	  position: new google.maps.LatLng(37.774546, -122.433523)
-  });
-  
-  var sunCircle = {
+    map = new google.maps.Map(document.getElementById('map-canvas'),
+        mapOptions);
+
+    var marker = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(37.774546, -122.433523)
+    });
+
+    var sunCircle = {
         strokeColor: "#c3fc49",
         strokeOpacity: 0.8,
         strokeWeight: 2,
@@ -592,33 +592,33 @@ function initialize() {
         center: new google.maps.LatLng(37.774546, -122.433523),
         radius: 1000 // in meters
     };
-	
-  cityCircle = new google.maps.Circle(sunCircle);
-  cityCircle.bindTo('center', marker, 'position');
 
-  var apiServer = "http://zillowhack.hud.opendata.arcgis.com/datasets/27b53ea69f98474eb002ac3b9c6b51eb_0.geojson";
+    cityCircle = new google.maps.Circle(sunCircle);
+    cityCircle.bindTo('center', marker, 'position');
+
+    var apiServer = "http://zillowhack.hud.opendata.arcgis.com/datasets/27b53ea69f98474eb002ac3b9c6b51eb_0.geojson";
 
 
-  var pointArray = new google.maps.MVCArray(taxiData);
+    var pointArray = new google.maps.MVCArray(taxiData);
 
-  heatmap = new google.maps.visualization.HeatmapLayer({
-    data: pointArray
-	
-	
-  });
+    heatmap = new google.maps.visualization.HeatmapLayer({
+        data: pointArray
 
-  heatmap.setMap(map);
-  
-  
-  
+
+    });
+
+    heatmap.setMap(map);
+
+
+
 }
 
 function toggleHeatmap() {
-  heatmap.setMap(heatmap.getMap() ? null : map);
+    heatmap.setMap(heatmap.getMap() ? null : map);
 }
 
 function changeGradient() {
-  var gradient = [
+    var gradient = [
     'rgba(0, 255, 255, 0)',
     'rgba(0, 255, 255, 1)',
     'rgba(0, 191, 255, 1)',
@@ -634,15 +634,15 @@ function changeGradient() {
     'rgba(191, 0, 31, 1)',
     'rgba(255, 0, 0, 1)'
   ]
-  heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
+    heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
 }
 
 function changeRadius() {
-  heatmap.set('radius', heatmap.get('radius') ? null : 20);
+    heatmap.set('radius', heatmap.get('radius') ? null : 20);
 }
 
 function changeOpacity() {
-  heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
+    heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
