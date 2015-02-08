@@ -23,8 +23,8 @@ setTimeout(function () {
             // could be strings? no, i just checked, javascript automatically casts strings to ints when it needs
             // there are many more crimes than schools, so you need to change the weighting for schools * 10? and crimes * 1
             testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
-            }
         }
+    }
 
 
     // should remove 1 (or none if not possible) nearest LatLng from the spot
@@ -33,24 +33,34 @@ setTimeout(function () {
         //removeNearestLatLngToHere(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
 
         // if i comment this out, the heatmap breaks
-        testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
+        //testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
     }
 
     //rest of the amenities
     for (var i = 0; i < foodBankList.length; i++) {
-        testData.push(new google.maps.LatLng(foodBankList[i]["lat"], foodBankList[i]["long"]));
+        for (var j = 0; j < 20; j++) {
+            testData.push(new google.maps.LatLng(foodBankList[i]["lat"], foodBankList[i]["long"]));
+        }
     }
     for (var i = 0; i < historicBuildingsList.length; i++) {
-        testData.push(new google.maps.LatLng(historicBuildingsList[i]["lat"], historicBuildingsList[i]["long"]));
+        for (var j = 0; j < 10; j++) {
+            testData.push(new google.maps.LatLng(historicBuildingsList[i]["lat"], historicBuildingsList[i]["long"]));
+        }
     }
     for (var i = 0; i < publicArtList.length; i++) {
-        testData.push(new google.maps.LatLng(publicArtList[i]["lat"], publicArtList[i]["long"]));
+        for (var j = 0; j < 10; j++) {
+            testData.push(new google.maps.LatLng(publicArtList[i]["lat"], publicArtList[i]["long"]));
+        }
     }
     for (var i = 0; i < publicParkList.length; i++) {
-        testData.push(new google.maps.LatLng(publicParkList[i]["lat"], publicParkList[i]["long"]));
+        for (var j = 0; j < 5; j++) {
+            testData.push(new google.maps.LatLng(publicParkList[i]["lat"], publicParkList[i]["long"]));
+        }
     }
     for (var i = 0; i < publicPoolList.length; i++) {
-        testData.push(new google.maps.LatLng(publicPoolList[i]["lat"], publicPoolList[i]["long"]));
+        for (var j = 0; j < 5; j++) {
+            testData.push(new google.maps.LatLng(publicPoolList[i]["lat"], publicPoolList[i]["long"]));
+        }
     }
 }, 1000);
 setTimeout(function () {
@@ -88,7 +98,7 @@ function initialize() {
         mapOptions);
 }
 
-function setHeatMap(){
+function setHeatMap() {
     // need to remove the null references
     var cleanedTestData = [];
     for (var i = 0; i < testData.length; i++) {
@@ -143,4 +153,3 @@ function changeOpacity() {
 google.maps.event.addDomListener(window, 'load', initialize);
 
 //google.maps.event.addDomListener(window, 'load', initialize);
-
