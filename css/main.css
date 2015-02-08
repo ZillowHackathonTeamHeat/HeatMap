@@ -7,7 +7,7 @@ body,
 }
 
 #panel {
-    display:none;
+    display: none;
     position: absolute;
     top: 5px;
     left: 50%;
@@ -27,20 +27,48 @@ body,
     color: white;
     display: none;
 }
-#high{
+
+#high {
     text-align: right;
 }
-#menuheader{
+
+#menuheader {
     padding-left: 0.5em;
 }
-.slide{
+
+.slide {
     width: 15em;
 }
-#criteria{
+
+#criteria {
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 0.5em;
 }
-.item{
+
+.item {
     padding-bottom: 1.2em;
+}
+
+#overlay {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    opacity: 0.6;
+}
+
+.line-separator {
+    height: 1px;
+    background: #1DA48D;
+    border-bottom: 1px solid #1DA48D;
+    margin-bottom: 0.8em;
+    opacity: 0.5;
+}
+#overlaybutton{
+    position: absolute;
+    bottom: 10vh;
+    left: 45vw;
 }
