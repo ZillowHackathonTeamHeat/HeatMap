@@ -1,0 +1,471 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "fazd-6q45",
+      "name" : "Pools",
+      "attribution" : "City of Seattle, My Neighborhood Map program",
+      "attributionLink" : "http://www.seattle.gov/mnm",
+      "averageRating" : 0,
+      "category" : "Community",
+      "createdAt" : 1260481647,
+      "description" : "Locations of Seattle Parks Department public swimming pools. These are park features with approximate locations within a park.",
+      "downloadCount" : 331,
+      "indexUpdatedAt" : 1414470543,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 8408790,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1405119574,
+      "publicationGroup" : 215057,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1370642145,
+      "rowsUpdatedBy" : "pfbu-yuv5",
+      "tableId" : 905463,
+      "totalTimesRated" : 0,
+      "viewCount" : 732,
+      "viewLastModified" : 1281650720,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 156899307,
+        "name" : "City Feature",
+        "dataTypeName" : "text",
+        "description" : "Type of City of Seattle feature, such as traffic cameras, parks, playfields, Neighborhood Service Centers, etc. ",
+        "fieldName" : "city_feature",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283205,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 10,
+          "smallest" : "Pools",
+          "null" : 0,
+          "largest" : "Pools",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Pools"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156899308,
+        "name" : "Common Name",
+        "dataTypeName" : "text",
+        "description" : "This is the commonly referred name of the feature. It may be a name of a building, a park, or a location",
+        "fieldName" : "common_name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283206,
+        "width" : 270,
+        "cachedContents" : {
+          "non_null" : 10,
+          "smallest" : "Ballard Pool",
+          "null" : 0,
+          "largest" : "Southwest Pool",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Ballard Pool"
+          }, {
+            "count" : 19,
+            "item" : "Helen Madison Pool"
+          }, {
+            "count" : 18,
+            "item" : "Mounger Pool"
+          }, {
+            "count" : 17,
+            "item" : "Southwest Pool"
+          }, {
+            "count" : 16,
+            "item" : "Colman Pool"
+          }, {
+            "count" : 15,
+            "item" : "Evans Pool"
+          }, {
+            "count" : 14,
+            "item" : "Meadowbrook Pool"
+          }, {
+            "count" : 13,
+            "item" : "Evers Pool"
+          }, {
+            "count" : 12,
+            "item" : "Queen Anne Pool"
+          }, {
+            "count" : 11,
+            "item" : "Rainier Beach Pool"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156899309,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "description" : "Address is the most specific location information for a feature. It ranges from a building on a campus (like Cunningham Hall on the University of Washington campus, to an intersection, to a specific street address.",
+        "fieldName" : "address",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283207,
+        "width" : 300,
+        "cachedContents" : {
+          "non_null" : 10,
+          "smallest" : "10515 35th Ave NE",
+          "null" : 0,
+          "largest" : "8825 Rainier Ave. S",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1471 NW 67th St"
+          }, {
+            "count" : 19,
+            "item" : "13401 Meridian N."
+          }, {
+            "count" : 18,
+            "item" : "2535 32nd Ave. W"
+          }, {
+            "count" : 17,
+            "item" : "2801 SW Thistle St"
+          }, {
+            "count" : 16,
+            "item" : "8603 Fauntleroy Way SW"
+          }, {
+            "count" : 15,
+            "item" : "7201 E Green Lake Dr. N"
+          }, {
+            "count" : 14,
+            "item" : "10515 35th Ave NE"
+          }, {
+            "count" : 13,
+            "item" : "500 23rd Ave"
+          }, {
+            "count" : 12,
+            "item" : "1901 1st Ave. W"
+          }, {
+            "count" : 11,
+            "item" : "8825 Rainier Ave. S"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156899310,
+        "name" : "Website",
+        "dataTypeName" : "url",
+        "description" : "This is the most recent known correct website address for the given feature. ",
+        "fieldName" : "website",
+        "position" : 5,
+        "renderTypeName" : "url",
+        "tableColumnId" : 1283208,
+        "width" : 415,
+        "cachedContents" : {
+          "non_null" : 10,
+          "smallest" : {
+            "url" : "http://www.seattle.gov/parks/aquatics/Evanspool.htm"
+          },
+          "null" : 0,
+          "largest" : {
+            "url" : "http://www.seattle.gov/parks/aquatics/swpool.htm"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/aquatics/ballardp.htm"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/aquatics/madisonpool.htm"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/aquatics/mounger.htm"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/aquatics/swpool.htm"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/aquatics/colman.htm"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/aquatics/Evanspool.htm"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/aquatics/meadowbrookpool.htm"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/aquatics/everspool.htm"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/aquatics/queenannepool.htm"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/aquatics/rainierbeachpool.htm"
+            }
+          } ]
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 156899311,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "description" : "This is the longitude value. Lines of longitude run perpendicular to lines of latitude, and all pass through both poles.",
+        "fieldName" : "longitude",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1283209,
+        "width" : 82,
+        "cachedContents" : {
+          "non_null" : 10,
+          "smallest" : "-122.400979",
+          "sum" : "-1223.430581",
+          "null" : 0,
+          "average" : "-122.3430581",
+          "largest" : "-122.270338",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-122.376162"
+          }, {
+            "count" : 19,
+            "item" : "-122.334656"
+          }, {
+            "count" : 18,
+            "item" : "-122.39887"
+          }, {
+            "count" : 17,
+            "item" : "-122.369162"
+          }, {
+            "count" : 16,
+            "item" : "-122.400979"
+          }, {
+            "count" : 15,
+            "item" : "-122.328438"
+          }, {
+            "count" : 14,
+            "item" : "-122.291624"
+          }, {
+            "count" : 13,
+            "item" : "-122.302402"
+          }, {
+            "count" : 12,
+            "item" : "-122.35795"
+          }, {
+            "count" : 11,
+            "item" : "-122.270338"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156899312,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "description" : "This is the latitude value. Lines of latitude are parallel to the equator.",
+        "fieldName" : "latitude",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1283210,
+        "width" : 82,
+        "cachedContents" : {
+          "non_null" : 10,
+          "smallest" : "47.524766",
+          "sum" : "476.258137",
+          "null" : 0,
+          "average" : "47.6258137",
+          "largest" : "47.725801",
+          "top" : [ {
+            "count" : 20,
+            "item" : "47.67754"
+          }, {
+            "count" : 19,
+            "item" : "47.725801"
+          }, {
+            "count" : 18,
+            "item" : "47.6429"
+          }, {
+            "count" : 17,
+            "item" : "47.528001"
+          }, {
+            "count" : 16,
+            "item" : "47.530453"
+          }, {
+            "count" : 15,
+            "item" : "47.680183"
+          }, {
+            "count" : 14,
+            "item" : "47.705342"
+          }, {
+            "count" : 13,
+            "item" : "47.606888"
+          }, {
+            "count" : 12,
+            "item" : "47.636263"
+          }, {
+            "count" : 11,
+            "item" : "47.524766"
+          } ]
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "owner" : {
+        "id" : "pfbu-yuv5",
+        "displayName" : "Department of Information Technology",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/3184/7575/Logo_thumb_large.gif",
+        "profileImageUrlMedium" : "/images/profile/3184/7575/Logo_thumb_thumb.gif",
+        "profileImageUrlSmall" : "/images/profile/3184/7575/Logo_thumb_tiny.gif",
+        "roleName" : "administrator",
+        "screenName" : "Department of Information Technology",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 156899307,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "Pools"
+            } ]
+          } ]
+        }
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "pfbu-yuv5",
+        "displayName" : "Department of Information Technology",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/3184/7575/Logo_thumb_large.gif",
+        "profileImageUrlMedium" : "/images/profile/3184/7575/Logo_thumb_thumb.gif",
+        "profileImageUrlSmall" : "/images/profile/3184/7575/Logo_thumb_tiny.gif",
+        "roleName" : "administrator",
+        "screenName" : "Department of Information Technology",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "swimming pools", "pools" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "EQUALS",
+          "children" : [ {
+            "columnId" : 156899307,
+            "type" : "column"
+          }, {
+            "type" : "literal",
+            "value" : "Pools"
+          } ]
+        } ]
+      }
+    }
+  },
+  "data" : [ [ 1349, "AB9C044B-96CD-489C-A6B2-4F1316F218F3", 1349, 1263313296, "386118", 1263313296, "386118", null, "Pools", "Ballard Pool", "1471 NW 67th St", [ "http://www.seattle.gov/parks/aquatics/ballardp.htm", null ], "-122.376162", "47.67754" ]
+, [ 1350, "D25FD9EA-26C3-4607-885C-ECDE1180B621", 1350, 1263313296, "386118", 1263313296, "386118", null, "Pools", "Helen Madison Pool", "13401 Meridian N.", [ "http://www.seattle.gov/parks/aquatics/madisonpool.htm", null ], "-122.334656", "47.725801" ]
+, [ 1351, "37B72385-F5E7-4B20-A63B-454CDB90A3A1", 1351, 1263313296, "386118", 1263313296, "386118", null, "Pools", "Mounger Pool", "2535 32nd Ave. W", [ "http://www.seattle.gov/parks/aquatics/mounger.htm", null ], "-122.39887", "47.6429" ]
+, [ 1352, "89D2C4DE-FF5D-4333-9815-F4633809CF03", 1352, 1263313296, "386118", 1263313296, "386118", null, "Pools", "Southwest Pool", "2801 SW Thistle St", [ "http://www.seattle.gov/parks/aquatics/swpool.htm", null ], "-122.369162", "47.528001" ]
+, [ 1353, "7589866E-7B8F-4141-95D1-71972529DA9B", 1353, 1263313296, "386118", 1263313296, "386118", null, "Pools", "Colman Pool", "8603 Fauntleroy Way SW", [ "http://www.seattle.gov/parks/aquatics/colman.htm", null ], "-122.400979", "47.530453" ]
+, [ 1354, "9643BFBA-C6B9-403F-BD76-3F17D5A71090", 1354, 1263313296, "386118", 1263313296, "386118", null, "Pools", "Evans Pool", "7201 E Green Lake Dr. N", [ "http://www.seattle.gov/parks/aquatics/Evanspool.htm", null ], "-122.328438", "47.680183" ]
+, [ 1355, "357B02FA-2F05-4A52-A23E-CF35D203B25C", 1355, 1263313296, "386118", 1263313296, "386118", null, "Pools", "Meadowbrook Pool", "10515 35th Ave NE", [ "http://www.seattle.gov/parks/aquatics/meadowbrookpool.htm", null ], "-122.291624", "47.705342" ]
+, [ 1356, "95DAB6E6-7BA5-457D-AD06-83E92E8C8755", 1356, 1263313296, "386118", 1263313296, "386118", null, "Pools", "Evers Pool", "500 23rd Ave", [ "http://www.seattle.gov/parks/aquatics/everspool.htm", null ], "-122.302402", "47.606888" ]
+, [ 1357, "92421BD8-3175-4692-9513-C6B131CCB8B5", 1357, 1263313296, "386118", 1263313296, "386118", null, "Pools", "Queen Anne Pool", "1901 1st Ave. W", [ "http://www.seattle.gov/parks/aquatics/queenannepool.htm", null ], "-122.35795", "47.636263" ]
+, [ 1358, "CBCF9A82-7460-40D1-86B3-95D4D8D672E3", 1358, 1263313296, "386118", 1263313296, "386118", null, "Pools", "Rainier Beach Pool", "8825 Rainier Ave. S", [ "http://www.seattle.gov/parks/aquatics/rainierbeachpool.htm", null ], "-122.270338", "47.524766" ]
+ ]
+}

@@ -1,0 +1,743 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "7ckr-2zz9",
+      "name" : "Public Art",
+      "attribution" : "City of Seattle, My Neighborhood Map program",
+      "attributionLink" : "http://www.seattle.gov/mnm",
+      "averageRating" : 0,
+      "category" : "Community",
+      "createdAt" : 1260481615,
+      "description" : "Permanently sited public art works funded by percent-for-art ordinance",
+      "downloadCount" : 824,
+      "indexUpdatedAt" : 1414470465,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 8408854,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1405119574,
+      "publicationGroup" : 215057,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1370642145,
+      "rowsUpdatedBy" : "pfbu-yuv5",
+      "tableId" : 905463,
+      "totalTimesRated" : 0,
+      "viewCount" : 1936,
+      "viewLastModified" : 1281650776,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 156899819,
+        "name" : "City Feature",
+        "dataTypeName" : "text",
+        "description" : "Type of City of Seattle feature, such as traffic cameras, parks, playfields, Neighborhood Service Centers, etc. ",
+        "fieldName" : "city_feature",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283205,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 112,
+          "smallest" : "Public Art",
+          "null" : 0,
+          "largest" : "Public Art",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Public Art"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156899820,
+        "name" : "Common Name",
+        "dataTypeName" : "text",
+        "description" : "This is the commonly referred name of the feature. It may be a name of a building, a park, or a location",
+        "fieldName" : "common_name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283206,
+        "width" : 270,
+        "cachedContents" : {
+          "non_null" : 112,
+          "smallest" : "81 Vine Street",
+          "null" : 0,
+          "largest" : "Yesler Community Center",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Woodland Park Zoo"
+          }, {
+            "count" : 19,
+            "item" : "Seattle Center"
+          }, {
+            "count" : 18,
+            "item" : "Southwest Police Precinct"
+          }, {
+            "count" : 17,
+            "item" : "Seattle City Hall"
+          }, {
+            "count" : 16,
+            "item" : "Seattle Justice Center"
+          }, {
+            "count" : 15,
+            "item" : "Delridge Community Center"
+          }, {
+            "count" : 14,
+            "item" : "Central Library"
+          }, {
+            "count" : 13,
+            "item" : "Fire Station #10"
+          }, {
+            "count" : 12,
+            "item" : "Rainier Community Center"
+          }, {
+            "count" : 11,
+            "item" : "Lake City Branch Library"
+          }, {
+            "count" : 10,
+            "item" : "Greenwood Branch Library"
+          }, {
+            "count" : 9,
+            "item" : "Capitol Hill Branch Library"
+          }, {
+            "count" : 8,
+            "item" : "Ballard Branch Library"
+          }, {
+            "count" : 7,
+            "item" : "Beacon Hill Branch Library"
+          }, {
+            "count" : 6,
+            "item" : "Broadview Branch Library"
+          }, {
+            "count" : 5,
+            "item" : "Warren G. Magnuson Park"
+          }, {
+            "count" : 4,
+            "item" : "Sam Smith Park"
+          }, {
+            "count" : 3,
+            "item" : "Fremont Ave N & N 34th St"
+          }, {
+            "count" : 2,
+            "item" : "Bitter Lake Community Center"
+          }, {
+            "count" : 1,
+            "item" : "Longfellow Creek Trail"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156899821,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "description" : "Address is the most specific location information for a feature. It ranges from a building on a campus (like Cunningham Hall on the University of Washington campus, to an intersection, to a specific street address.",
+        "fieldName" : "address",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283207,
+        "width" : 300,
+        "cachedContents" : {
+          "non_null" : 112,
+          "smallest" : "1000 4th Ave",
+          "null" : 0,
+          "largest" : "West Seattle Cultural Trail Alki Point to Duwamish Head",
+          "top" : [ {
+            "count" : 20,
+            "item" : "5500 Phinney Ave N"
+          }, {
+            "count" : 19,
+            "item" : "321 Mercer St"
+          }, {
+            "count" : 18,
+            "item" : "2300 SW Webster"
+          }, {
+            "count" : 17,
+            "item" : "600 4th Ave"
+          }, {
+            "count" : 16,
+            "item" : "600 5th Ave"
+          }, {
+            "count" : 15,
+            "item" : "4501 Delridge Wy SW"
+          }, {
+            "count" : 14,
+            "item" : "1000 4th Ave"
+          }, {
+            "count" : 13,
+            "item" : "4600 38th Ave S"
+          }, {
+            "count" : 12,
+            "item" : "400 S Washington St"
+          }, {
+            "count" : 11,
+            "item" : "1618 E Calhoun St"
+          }, {
+            "count" : 10,
+            "item" : "2801 SW Thistle St"
+          }, {
+            "count" : 9,
+            "item" : "4554 NE 41st St"
+          }, {
+            "count" : 8,
+            "item" : "12501 28th Ave NE"
+          }, {
+            "count" : 7,
+            "item" : "8016 Greenwood Ave N"
+          }, {
+            "count" : 6,
+            "item" : "425 Harvard Ave E"
+          }, {
+            "count" : 5,
+            "item" : "5614 22nd Ave NW"
+          }, {
+            "count" : 4,
+            "item" : "2821 Beacon Ave S"
+          }, {
+            "count" : 3,
+            "item" : "12755 Greenwood Ave N"
+          }, {
+            "count" : 2,
+            "item" : "6550 Sand Point Wy NE"
+          }, {
+            "count" : 1,
+            "item" : "1400 K L King JR WAY S"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156899822,
+        "name" : "Website",
+        "dataTypeName" : "url",
+        "description" : "This is the most recent known correct website address for the given feature. ",
+        "fieldName" : "website",
+        "position" : 5,
+        "renderTypeName" : "url",
+        "tableColumnId" : 1283208,
+        "width" : 415,
+        "cachedContents" : {
+          "non_null" : 112,
+          "smallest" : {
+            "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=1&view=2&img=0&item=11"
+          },
+          "null" : 0,
+          "largest" : {
+            "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=9&item=3"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=8&view=2&img=0&item=4"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=17"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=1&view=2&img=0&item=11"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=1&view=2&img=0&item=12"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=3&view=2&img=0&item=9"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=11"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=13"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=14"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=3&view=2&img=0&item=10"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=11"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=16"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=18"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=20"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=22"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=23"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=24"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=25"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=26"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=27"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "url" : "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=28"
+            }
+          } ]
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 156899823,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "description" : "This is the longitude value. Lines of longitude run perpendicular to lines of latitude, and all pass through both poles.",
+        "fieldName" : "longitude",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1283209,
+        "width" : 82,
+        "cachedContents" : {
+          "non_null" : 112,
+          "smallest" : "-122.395845",
+          "sum" : "-13701.235269",
+          "null" : 0,
+          "average" : "-122.3324577589286",
+          "largest" : "-122.26355",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-122.353686"
+          }, {
+            "count" : 19,
+            "item" : "-122.362049"
+          }, {
+            "count" : 18,
+            "item" : "-122.329706"
+          }, {
+            "count" : 17,
+            "item" : "-122.329188"
+          }, {
+            "count" : 16,
+            "item" : "-122.364111"
+          }, {
+            "count" : 15,
+            "item" : "-122.332967"
+          }, {
+            "count" : 14,
+            "item" : "-122.28435"
+          }, {
+            "count" : 13,
+            "item" : "-122.32873"
+          }, {
+            "count" : 12,
+            "item" : "-122.30995"
+          }, {
+            "count" : 11,
+            "item" : "-122.36918"
+          }, {
+            "count" : 10,
+            "item" : "-122.27793"
+          }, {
+            "count" : 9,
+            "item" : "-122.29809"
+          }, {
+            "count" : 8,
+            "item" : "-122.35496"
+          }, {
+            "count" : 7,
+            "item" : "-122.32245"
+          }, {
+            "count" : 6,
+            "item" : "-122.3842"
+          }, {
+            "count" : 5,
+            "item" : "-122.31141"
+          }, {
+            "count" : 4,
+            "item" : "-122.35603"
+          }, {
+            "count" : 3,
+            "item" : "-122.26355"
+          }, {
+            "count" : 2,
+            "item" : "-122.29672"
+          }, {
+            "count" : 1,
+            "item" : "-122.34975"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156899824,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "description" : "This is the latitude value. Lines of latitude are parallel to the equator.",
+        "fieldName" : "latitude",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1283210,
+        "width" : 82,
+        "cachedContents" : {
+          "non_null" : 112,
+          "smallest" : "47.50729",
+          "sum" : "5332.913541",
+          "null" : 0,
+          "average" : "47.61529947321429",
+          "largest" : "47.72406",
+          "top" : [ {
+            "count" : 20,
+            "item" : "47.668532"
+          }, {
+            "count" : 19,
+            "item" : "47.53578"
+          }, {
+            "count" : 18,
+            "item" : "47.603773"
+          }, {
+            "count" : 17,
+            "item" : "47.604205"
+          }, {
+            "count" : 16,
+            "item" : "47.56309"
+          }, {
+            "count" : 15,
+            "item" : "47.606486"
+          }, {
+            "count" : 14,
+            "item" : "47.56154"
+          }, {
+            "count" : 13,
+            "item" : "47.60102"
+          }, {
+            "count" : 12,
+            "item" : "47.6417"
+          }, {
+            "count" : 11,
+            "item" : "47.52801"
+          }, {
+            "count" : 10,
+            "item" : "47.65915"
+          }, {
+            "count" : 9,
+            "item" : "47.71986"
+          }, {
+            "count" : 8,
+            "item" : "47.6875"
+          }, {
+            "count" : 7,
+            "item" : "47.62291"
+          }, {
+            "count" : 6,
+            "item" : "47.66984"
+          }, {
+            "count" : 5,
+            "item" : "47.57805"
+          }, {
+            "count" : 4,
+            "item" : "47.723"
+          }, {
+            "count" : 3,
+            "item" : "47.6762"
+          }, {
+            "count" : 2,
+            "item" : "47.59058"
+          }, {
+            "count" : 1,
+            "item" : "47.64959"
+          } ]
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "owner" : {
+        "id" : "pfbu-yuv5",
+        "displayName" : "Department of Information Technology",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/3184/7575/Logo_thumb_large.gif",
+        "profileImageUrlMedium" : "/images/profile/3184/7575/Logo_thumb_thumb.gif",
+        "profileImageUrlSmall" : "/images/profile/3184/7575/Logo_thumb_tiny.gif",
+        "roleName" : "administrator",
+        "screenName" : "Department of Information Technology",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 156899819,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "Public Art"
+            } ]
+          } ]
+        }
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "pfbu-yuv5",
+        "displayName" : "Department of Information Technology",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/3184/7575/Logo_thumb_large.gif",
+        "profileImageUrlMedium" : "/images/profile/3184/7575/Logo_thumb_thumb.gif",
+        "profileImageUrlSmall" : "/images/profile/3184/7575/Logo_thumb_tiny.gif",
+        "roleName" : "administrator",
+        "screenName" : "Department of Information Technology",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "public art" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "EQUALS",
+          "children" : [ {
+            "columnId" : 156899819,
+            "type" : "column"
+          }, {
+            "type" : "literal",
+            "value" : "Public Art"
+          } ]
+        } ]
+      }
+    }
+  },
+  "data" : [ [ 1778, "A17CC884-EDC0-41F6-95AE-3ED8F6D67649", 1778, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Woodland Park Zoo", "5500 Phinney Ave N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=1&item=8", null ], "-122.353686", "47.668532" ]
+, [ 1779, "64340F2A-688B-4C24-ADF9-84D528A2F90E", 1779, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Woodland Park Zoo", "5500 Phinney Ave N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=1&item=9", null ], "-122.353686", "47.668532" ]
+, [ 1780, "8AD3BBFE-85EA-49BF-B0B0-2241DC9C1E5C", 1780, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Center", "400 Broad St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=8&item=1", null ], "-122.349301", "47.620493" ]
+, [ 1781, "B21EAEF7-DA25-41A8-9C0C-A1930FA8A116", 1781, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Center", "200 2nd Ave N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=8&item=2", null ], "-122.351104", "47.619739" ]
+, [ 1782, "102E9BBD-33F5-47E6-8C1D-A95DDEBAC9EB", 1782, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Center", "321 Mercer St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=8&item=3", null ], "-122.351434", "47.623946" ]
+, [ 1783, "B99B62AB-A623-4527-990E-AD4189B6EC1B", 1783, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Alki Beach", "West Seattle Cultural Trail Alki Point to Duwamish Head", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=3&item=3", null ], "-122.395845", "47.58825" ]
+, [ 1784, "7BAC879C-E78B-43AA-8E5E-35DAA118FC05", 1784, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Terminal 107", "4700 W Marginal Wy S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=3&item=4", null ], "-122.3386", "47.558868" ]
+, [ 1785, "6F04EB47-173E-4D28-AB57-34D4DABE4CFA", 1785, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Belltown Neighborhood", "2nd Ave between Virginia St and Denny Wy", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=3&item=1", null ], "-122.346888", "47.614906" ]
+, [ 1786, "548B943E-32F2-4A64-8315-4F00E0A233C1", 1786, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "South Lake Union", "Westlake Avenue North from Galer Street to Crockett Street", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=3&item=2", null ], "-122.336574", "47.626365" ]
+, [ 1787, "AC2CB67D-3EBC-4EDE-946F-9A1EF1C95B37", 1787, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Public Utilities Operations Control Center", "2700 Airport Wy S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=6&item=2", null ], "-122.320745", "47.579185" ]
+, [ 1788, "346C3776-56BA-4C4D-9D47-DDA98321615F", 1788, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "81 Vine Street", "81 Vine St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=6&item=3", null ], "-122.350243", "47.614549" ]
+, [ 1789, "1F860459-2AA8-43B0-BD55-4F32CA7184A7", 1789, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle City Light North Service Center", "1300 N 97th Street", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=6&item=4", null ], "-122.341607", "47.699781" ]
+, [ 1790, "EBAA0CD3-51B7-41F4-8F2C-9F62A9A9CBBF", 1790, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Cal Anderson Park", "1635 11th Ave E", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=6&item=5", null ], "-122.318367", "47.615449" ]
+, [ 1791, "F8D96776-734B-424E-9D36-78EFB1914AAC", 1791, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Southwest Police Precinct", "2300 SW Webster", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=7&item=2", null ], "-122.362049", "47.53578" ]
+, [ 1792, "81524ECF-A8B2-48DB-B42D-CA5FE84B4A11", 1792, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Southwest Police Precinct", "2300 SW Webster", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=7&item=3", null ], "-122.362049", "47.53578" ]
+, [ 1793, "81585D80-1178-4F20-86E6-EA58CC20134C", 1793, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Pratt Park", "1800 S Main St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=1&item=10", null ], "-122.307197", "47.600925" ]
+, [ 1794, "67E4664B-1B4D-4DAD-8763-B444FA7140EF", 1794, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Douglass-Truth Branch Library", "2300 E Yesler Wy", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=5&item=10", null ], "-122.301833", "47.601905" ]
+, [ 1795, "856E3C3E-E436-48AD-9125-335B8D77B0A5", 1795, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle City Hall", "600 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=1", null ], "-122.329706", "47.603773" ]
+, [ 1796, "3444A94A-CAE7-4416-ADD8-BE55B4F56C4A", 1796, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle City Hall", "600 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=3", null ], "-122.329706", "47.603773" ]
+, [ 1797, "12E8585D-EDE1-47F8-BB97-7FCEDA11AFB0", 1797, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle City Hall", "600 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=4", null ], "-122.329706", "47.603773" ]
+, [ 1798, "9A90EE6E-9E29-4A2B-BE65-8EF68FE7916A", 1798, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle City Hall", "600 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=5", null ], "-122.329706", "47.603773" ]
+, [ 1799, "9C2FEAB1-684A-420E-8F32-E04451C28E79", 1799, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Justice Center", "600 5th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=7", null ], "-122.329188", "47.604205" ]
+, [ 1800, "8F711AA8-F273-445E-A3B8-4AD5D646703F", 1800, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Justice Center", "600 5th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=8", null ], "-122.329188", "47.604205" ]
+, [ 1801, "885D9CAA-EE98-4053-BB52-64B116A408A0", 1801, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Justice Center", "600 5th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=11", null ], "-122.329188", "47.604205" ]
+, [ 1802, "7DE2B5E8-4FFA-44F4-816C-A422D9871041", 1802, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Justice Center", "600 5th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=12", null ], "-122.329188", "47.604205" ]
+, [ 1803, "62A4EE66-25E4-482E-844F-D7AECF2769C8", 1803, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Justice Center", "600 5th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=13", null ], "-122.329188", "47.604205" ]
+, [ 1804, "2863AC12-B3D2-4F12-8415-79CD3ABCDAA4", 1804, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Justice Center", "610 5th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=16", null ], "-122.329188", "47.604205" ]
+, [ 1805, "4E2E62CB-C58C-4882-AC22-38E687BB3730", 1805, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Justice Center", "600 5th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=10", null ], "-122.329188", "47.604205" ]
+, [ 1806, "40D9F868-C132-428E-B6C5-E79D33DC3179", 1806, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Justice Center", "600 5th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=15", null ], "-122.329188", "47.604205" ]
+, [ 1807, "FAC207C7-AAE9-41CE-A01E-79B66E8F7234", 1807, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Delridge Community Center", "4501 Delridge Wy SW", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=2&item=4", null ], "-122.364111", "47.56309" ]
+, [ 1808, "68CD75C7-A3D6-4410-84C5-FFF08BFB3222", 1808, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Delridge Community Center", "4501 Delridge Wy SW", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=2&item=5", null ], "-122.364111", "47.56309" ]
+, [ 1809, "0AF977B3-88ED-4427-8DC5-7E053A113B46", 1809, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Delridge Community Center", "4501 Delridge Wy SW", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=2&item=6", null ], "-122.364111", "47.56309" ]
+, [ 1810, "A92CF50C-6058-4CF2-A953-57F2B28762A1", 1810, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "High Point Community Center", "6920 34th Ave SW", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=2&item=1", null ], "-122.374414", "47.540669" ]
+, [ 1811, "16F99111-477B-4F8A-BCAD-7924CBB32E5F", 1811, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "International District - Chinatown Community Center", "719 8th Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=2&item=2", null ], "-122.322834", "47.596249" ]
+, [ 1812, "05A169F9-DC03-4167-90D9-83F8FEF22BEC", 1812, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Central Library", "1000 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=5&item=3", null ], "-122.332967", "47.606486" ]
+, [ 1813, "6B3F6A6E-D3DB-43E7-A5D7-AD987FAAC5A0", 1813, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Central Library", "1000 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=5&item=5", null ], "-122.332967", "47.606486" ]
+, [ 1814, "6922F1A0-B18C-42F9-8D9D-73D8F9A1990C", 1814, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Central Library", "1000 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=5&item=6", null ], "-122.332967", "47.606486" ]
+, [ 1815, "1C817FFB-481F-462A-9272-D78D3E828F0B", 1815, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Central Library", "1000 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=5&item=8", null ], "-122.332967", "47.606486" ]
+, [ 1816, "0C5988A4-2E84-4EF4-9B5F-E28094F95FBC", 1816, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Central Library", "1000 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=5&item=9", null ], "-122.332967", "47.606486" ]
+, [ 1817, "F5D34F50-8718-4240-A761-D49EEFEFDE40", 1817, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Meadowbrook Pond", "107th St NE & 35th Ave NE", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=6&view=2&img=0&item=17", null ], "-122.37597", "47.50729" ]
+, [ 1818, "75921558-28DF-4F3B-9552-6BD48DD1F3A5", 1818, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Bitter Lake Community Center", "13035 Linden Ave N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=15", null ], "-122.34863", "47.72406" ]
+, [ 1819, "28118397-2F84-427F-B39B-46A735975C6F", 1819, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Garfield Community Center", "2323 E Cherry St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=17", null ], "-122.30225", "47.60775" ]
+, [ 1820, "5FCF1632-C089-4F21-B0E2-F20907B9BFA6", 1820, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Center", "305 Harrison St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=8&view=2&img=0&item=4", null ], "-122.35398", "47.62208" ]
+, [ 1821, "CDAEE293-B04F-49C7-BE57-B380E0154C48", 1821, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Fire Station #10", "400 S Washington St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=7&view=2&img=0&item=6", null ], "-122.32873", "47.60102" ]
+, [ 1822, "0FC09865-E14C-4838-9BDD-6117512FD100", 1822, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Columbia City Branch Library", "4721 Rainier Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=20", null ], "-122.28688", "47.55995" ]
+, [ 1823, "4AB43F76-FA55-4C17-84C7-51D62AD42A09", 1823, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Northgate Branch Library", "10548 5th Ave NE", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=23", null ], "-122.32266", "47.7062" ]
+, [ 1824, "1EF0378F-F188-4E1A-BD8B-B33BC7E6A6F9", 1824, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Beacon Hill Branch Library", "2821 Beacon Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=17", null ], "-122.31141", "47.57805" ]
+, [ 1825, "C9E6BB51-CCC5-4CE9-B4AA-841C41415FFF", 1825, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "I-5 Colonnade Park", "Beneath I-5 at E Howe St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=1&view=2&img=0&item=13", null ], "-122.323", "47.636" ]
+, [ 1826, "D9AA4D77-683C-43F3-ABD7-1BDAC0D2E92A", 1826, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Myrtle Edwards Park", "3130 Alaskan Way", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=1&item=1", null ], "-122.357267", "47.617337" ]
+, [ 1827, "16C3F231-028F-45AC-BAC7-F60B011C6D23", 1827, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Volunteer Park", "1400 E Galer St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=1&item=5", null ], "-122.31574", "47.632281" ]
+, [ 1828, "684987B9-0302-4EEB-A57D-14F8E451BEEB", 1828, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Fauntleroy Creek", "Fauntleroy Wy SW and SW Henderson St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=6&item=1", null ], "-122.392431", "47.522441" ]
+, [ 1829, "93DD6728-89A0-4AAD-AE60-4F602EA08066", 1829, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Southwest Police Precinct", "2300 SW Webster", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=7&item=1", null ], "-122.362049", "47.53578" ]
+, [ 1830, "62D95FD1-0782-447D-832B-3124796353C0", 1830, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Southwest Police Precinct", "2300 SW Webster", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=7&item=4", null ], "-122.362049", "47.53578" ]
+, [ 1831, "CF5BEC7A-1FE6-45DC-A1CC-571368B20A60", 1831, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle City Hall", "600 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=2", null ], "-122.329706", "47.603773" ]
+, [ 1832, "28DD072F-89A5-458A-96A0-B5F1DF37A53B", 1832, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle City Hall", "600 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=6", null ], "-122.329706", "47.603773" ]
+, [ 1833, "D0E8E58A-4725-4625-90BD-CF88CD910E56", 1833, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Justice Center", "600 5th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=9", null ], "-122.329188", "47.604205" ]
+, [ 1834, "D304C2F9-06EB-45EE-9682-3B7E7B39B63E", 1834, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Justice Center", "600 5th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=4&item=14", null ], "-122.329188", "47.604205" ]
+, [ 1835, "51DFD355-257E-4F28-8B14-ACD6507E926F", 1835, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Delridge Community Center", "4501 Delridge Wy SW", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=2&item=3", null ], "-122.364111", "47.56309" ]
+, [ 1836, "1CE6998E-ED26-41AE-A249-159A6ABA8A22", 1836, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Delridge Community Center", "4501 Delridge Wy SW", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=2&item=7", null ], "-122.364111", "47.56309" ]
+, [ 1837, "3C90B20C-D1B9-4CF0-8EC7-00F9F190698E", 1837, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Central Library", "1000 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=5&item=4", null ], "-122.332967", "47.606486" ]
+, [ 1838, "3FDE2F86-32A5-4493-8985-4C094D5FC548", 1838, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Central Library", "1000 4th Ave", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=5&item=7", null ], "-122.332967", "47.606486" ]
+, [ 1839, "3D1217FE-F4A2-4A55-BD39-AAA9BB32C488", 1839, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Southpart Branch Library", "8604 8th Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=5&item=2", null ], "-122.322595", "47.526265" ]
+, [ 1840, "82F8547A-24F7-4FF6-81C0-F3B58BE9F330", 1840, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Green Lake Community Center", "7201 E Green Lake Dr N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=52", null ], "-122.326117", "47.68036" ]
+, [ 1841, "8A4B0C88-C3C9-4DBE-829E-0AF71FD442B3", 1841, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Yesler Community Center", "917 E Yesler Wy", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=30", null ], "-122.31986", "47.60153" ]
+, [ 1842, "BF43EE80-CAF5-4493-8E2F-1DC662F6920D", 1842, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Rainier Community Center", "4600 38th Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=31", null ], "-122.28435", "47.56154" ]
+, [ 1843, "D6318D3F-DBC4-4944-AD43-29B90933CA13", 1843, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Rainier Community Center", "4600 38th Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=32", null ], "-122.28435", "47.56154" ]
+, [ 1844, "186AF1F7-AF08-46F0-BF5C-742A492ADE0E", 1844, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Rainier Community Center", "4600 38th Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=33", null ], "-122.28435", "47.56154" ]
+, [ 1845, "5CE79083-390E-420E-9DF6-3E692EDCEA70", 1845, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Kreielsheimer Promenade At Mccaw Hall", "321 Mercer St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=8&view=2&img=0&item=4", null ], "-122.35143", "47.62395" ]
+, [ 1846, "D4CEE58A-28E5-4124-80ED-27977645FA62", 1846, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Lake City", "12301 Lake City Wy NE", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=9&view=2&img=0&item=4", null ], "-122.29621", "47.71806" ]
+, [ 1847, "E5A3C27B-4E5A-4D8E-BCFA-E16B72266F15", 1847, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "International District Branch Library", "713 8th Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=12", null ], "-122.32283", "47.59625" ]
+, [ 1848, "73742427-56D0-4160-A854-FC9BDE10C4DC", 1848, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Columbia Public Health Center", "4400 37th Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=4&view=2&img=0&item=17", null ], "-122.28572", "47.56364" ]
+, [ 1849, "92946D41-226C-4C26-AD89-562C6F9A5B9C", 1849, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Fire Station #10", "400 S Washington St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=7&view=2&img=0&item=5", null ], "-122.32873", "47.60102" ]
+, [ 1850, "E7A90A79-3006-4677-B12B-DD664BCB8EC3", 1850, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Fire Station #10", "400 S Washington St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=7&view=2&img=0&item=7", null ], "-122.32873", "47.60102" ]
+, [ 1851, "D09940E0-B3DE-43E9-9E68-DE397DC70E0A", 1851, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Montlake Community Center", "1618 E Calhoun St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=10", null ], "-122.30995", "47.6417" ]
+, [ 1852, "8623F69F-B53B-4BF0-B728-CFC3030A66EF", 1852, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Southwest Community Center", "2801 SW Thistle St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=9", null ], "-122.36918", "47.52801" ]
+, [ 1853, "FB912E8A-D08A-4ED4-982A-B4B1824CCC4A", 1853, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Laurelhurst Community Center", "4554 NE 41st St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=8", null ], "-122.27793", "47.65915" ]
+, [ 1854, "65A7A304-8507-4145-B19C-7435FCEB2670", 1854, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Lake City Branch Library", "12501 28th Ave NE", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=22", null ], "-122.29809", "47.71986" ]
+, [ 1855, "011516A4-A548-4BBD-86E0-4504EAD91B13", 1855, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Greenwood Branch Library", "8016 Greenwood Ave N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=21", null ], "-122.35496", "47.6875" ]
+, [ 1856, "FB780C05-FDDD-4BA9-93ED-29EC1F65861F", 1856, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Capitol Hill Branch Library", "425 Harvard Ave E", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=13", null ], "-122.32245", "47.62291" ]
+, [ 1857, "1208B9D9-E532-4271-9E49-312166CA1764", 1857, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Ballard Branch Library", "5614 22nd Ave NW", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=14", null ], "-122.3842", "47.66984" ]
+, [ 1858, "BCC1B496-855D-474D-AB73-4753E277FC88", 1858, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Ballard Branch Library", "5614 22nd Ave NW", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=17", null ], "-122.3842", "47.66984" ]
+, [ 1859, "02E00171-8ACF-44A6-9092-B1D4BC3B1239", 1859, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Beacon Hill Branch Library", "2821 Beacon Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=16", null ], "-122.31141", "47.57805" ]
+, [ 1860, "D39CF2F8-E281-4A70-A93E-200BA3705746", 1860, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Broadview Branch Library", "12755 Greenwood Ave N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=18", null ], "-122.35603", "47.723" ]
+, [ 1861, "0CE9D2C8-0419-40BE-985C-BDF3E61C2739", 1861, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Broadview Branch Library", "12755 Greenwood Ave N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=19", null ], "-122.35603", "47.723" ]
+, [ 1862, "2EE475D0-46F6-43AE-B28E-BF7266359D4E", 1862, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Warren G. Magnuson Park", "6550 Sand Point Wy NE", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=1&view=2&img=0&item=11", null ], "-122.26355", "47.6762" ]
+, [ 1863, "BFCC59D2-EC3B-4E2A-AAE7-BC648DABAD26", 1863, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Sam Smith Park", "1400 K L King JR WAY S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=1&view=2&img=0&item=12", null ], "-122.29672", "47.59058" ]
+, [ 1864, "A276141F-0D6F-4324-9DF5-6E6768F49035", 1864, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Fremont Ave N & N 34th St", "Fremont Ave N & N 34th St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=3&view=2&img=0&item=9", null ], "-122.34975", "47.64959" ]
+, [ 1865, "D9733E74-52A9-435E-A3F3-84852BA1EAE1", 1865, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Bitter Lake Community Center", "13035 Linden Ave N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=11", null ], "-122.34863", "47.72406" ]
+, [ 1866, "2C3B512F-495B-4AA0-ABDA-DFFF3C46BB35", 1866, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Bitter Lake Community Center", "13035 Linden Ave N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=13", null ], "-122.34863", "47.72406" ]
+, [ 1867, "FFA15C97-EA71-4E7A-9E36-569936779DB2", 1867, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Bitter Lake Community Center", "13035 Linden Ave N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=14", null ], "-122.34863", "47.72406" ]
+, [ 1868, "A86268F1-FC77-401F-AEE7-6ECE92E943A7", 1868, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Longfellow Creek Trail", "26th Ave SW & SW Genesee St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=3&view=2&img=0&item=10", null ], "-122.36546", "47.56473" ]
+, [ 1869, "A88D2068-8E0A-44B8-B516-83389C38288F", 1869, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "High Point Branch Library", "3411 SW Raymond St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=5&view=2&img=0&item=11", null ], "-122.37581", "47.54804" ]
+, [ 1870, "9227F264-6332-445C-A71B-3CB8E0B6B40E", 1870, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Garfield Community Center", "2323 E Cherry St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=16", null ], "-122.30225", "47.60775" ]
+, [ 1871, "04F63A26-E788-40F0-AEB1-9255919CA46A", 1871, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Garfield Community Center", "2323 E Cherry St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=18", null ], "-122.30225", "47.60775" ]
+, [ 1872, "9A8C07F1-D54F-44EE-9A04-0ACB4D82F806", 1872, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Meadowbrook Community Center", "10517 35th Ave NE", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=20", null ], "-122.2918", "47.70544" ]
+, [ 1873, "6E90E213-C4EF-4B15-B15E-0501F5659C39", 1873, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Meadowbrook Community Center", "10517 35th Ave NE", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=22", null ], "-122.2918", "47.70544" ]
+, [ 1874, "C91281D5-D8FE-497D-9C2A-E1B21DB8E460", 1874, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Meadowbrook Community Center", "10517 35th Ave NE", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=23", null ], "-122.2918", "47.70544" ]
+, [ 1875, "2EF38887-BBF0-44DA-A545-4F1CFB40876D", 1875, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Miller Community Center", "330 19th Ave E", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=24", null ], "-122.30689", "47.62176" ]
+, [ 1876, "21FCFC10-AE37-4E50-A8AA-AA488A079F61", 1876, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Miller Community Center", "330 19th Ave E", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=25", null ], "-122.30689", "47.62176" ]
+, [ 1877, "1E22AC5B-E603-4277-B29A-31DCB157F54B", 1877, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Miller Community Center", "330 19th Ave E", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=26", null ], "-122.30689", "47.62176" ]
+, [ 1878, "7A3F83BE-69E6-474E-BF9D-CA45BC2776A0", 1878, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Northgate Community Center", "10510 5th Ave NE", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=27", null ], "-122.32265", "47.70533" ]
+, [ 1879, "14BEF6C9-E14E-4C0C-91E0-B9044F9EE9D5", 1879, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "South Park Community Center", "8319 8th Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=28", null ], "-122.32431", "47.52832" ]
+, [ 1880, "6D6C0574-3837-4FEC-A6F8-BA8E9B1CD07F", 1880, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Van Asselt Community Center", "2820 S Myrtle St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?cat=2&view=2&img=0&item=29", null ], "-122.29536", "47.53939" ]
+, [ 1881, "6DA13536-BBE0-4CFC-9A24-4E8C93B81C35", 1881, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Montlake Branch Library", "2401 24th Ave E", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=5&item=1", null ], "-122.302393", "47.640565" ]
+, [ 1882, "0F0C8DA5-532E-4827-8C81-B1BC9AAE76D0", 1882, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Seattle Art Museum", "100 University St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=9&item=1", null ], "-122.33777", "47.607402" ]
+, [ 1883, "7586A383-61DE-4276-8EB2-1E07C4EA0C6D", 1883, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Benaroya Hall", "200 University St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=9&item=2", null ], "-122.337173", "47.607939" ]
+, [ 1884, "C19C5E51-E585-4CF5-AFDE-74CA68971668", 1884, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Sixth Ave And Seneca St", "6th Ave and Seneca St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=9&item=3", null ], "-122.331945", "47.608578" ]
+, [ 1885, "87D6F268-3917-4800-B6E1-80DEAC7F6622", 1885, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Bergen Place Park", "5420 22nd Ave NW", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=1&item=2", null ], "-122.384436", "47.668408" ]
+, [ 1886, "66D02CBA-0C67-4B0F-AAD5-71363ED238F4", 1886, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Sturgus Park", "904 Sturgus Ave S", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=1&item=3", null ], "-122.314212", "47.594141" ]
+, [ 1887, "9EB6B813-7545-41A7-82BA-625036337121", 1887, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Mineral Springs Park", "1500 N 105th St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=1&item=4", null ], "-122.337812", "47.705211" ]
+, [ 1888, "265A171B-CB9B-4EDA-872E-B5F011CD9555", 1888, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Occidental Park", "Occidental Ave S and S Main St", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=1&item=6", null ], "-122.333128", "47.600268" ]
+, [ 1889, "C97E7023-0314-499C-A3CE-CECC67885264", 1889, 1263313296, "386118", 1263313296, "386118", null, "Public Art", "Woodland Park Zoo", "5500 Phinney Ave N", [ "http://www.seattle.gov/arts/publicart/permanent.asp?view=2&img=0&cat=1&item=7", null ], "-122.353686", "47.668532" ]
+ ]
+}
