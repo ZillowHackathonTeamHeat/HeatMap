@@ -44,7 +44,6 @@ $("#test").ionRangeSlider({
     prefix: "Priority ",
     onChange: function (data) {
         safety = data['from'];
-        console.log(safety);
     }
 });
 $("#test2").ionRangeSlider({
@@ -54,7 +53,7 @@ $("#test2").ionRangeSlider({
     from: 3,
     prefix: "Priority ",
     onUpdate: function (data) {
-        education = data;
+        education = data['from'];
     }
 });
 $("#test3").ionRangeSlider({
@@ -64,8 +63,7 @@ $("#test3").ionRangeSlider({
     from: 3,
     prefix: "Priority ",
     onUpdate: function (data) {
-        transportation = data;
-        console.log(transportation);
+        transportation = data['from'];
     }
 });
 /////////////////////////////////////////////////////////////////
