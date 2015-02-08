@@ -28,10 +28,12 @@ var populateCrime = function (includedCrimes) {
         })
     }
 }
-
 console.log(includedCrimes);
 populateCrime(includedCrimes);
 
+$("#test").ionRangeSlider();
+$("#test2").ionRangeSlider();
+$("#test3").ionRangeSlider();
 /////////////////////////////////////////////////////////////////
 
 var includedSchoolTypes = ["public", "private"];
