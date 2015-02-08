@@ -26,9 +26,9 @@ setTimeout(function () {
     // should remove 1 (or none if not possible) nearest LatLng from the spot
     for (var i = 0; i < crimeList.length; i++) {
         // need a function to remove a nearby LatLng given a nearest LatLng
-        removeNearestLatLngToHere(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
+        //removeNearestLatLngToHere(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
 
-        //testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
+        testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
     }
 }, 1000);
 setTimeout(function () {
@@ -44,14 +44,14 @@ function removeNearestLatLngToHere(latLng) {
 
     var timesToRemove = safetyPriority;
 
-    for (var i = 0; i < testData.length && timesToRemove > 0; i++) {
+    for (var i = 0;
+        (i < testData.length) && (timesToRemove > 0); i++) {
         // just set it to null to remove
         // then whereever you use it, check if not null
         if ((Math.abs(testData[i].lat - lat) < oneMileInDegrees) && (Math.abs(testData[i].long - long) < oneMileInDegrees)) {
             testData[i] = null;
             timesToRemove--;
         }
-
     }
 }
 
