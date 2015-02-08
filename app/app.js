@@ -1,7 +1,6 @@
-setTimeout(function(){
+$("#overlaybutton").click(function () {
     $("#mainmenu").show(1000);
-}, 4000);
-
-setTimeout(function(){
     $("#panel").show(1000);
-}, 4000);
+    $("#overlay").hide(1000);
+    $("#overlaybutton").hide(1000);
+});
