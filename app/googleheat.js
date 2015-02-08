@@ -33,7 +33,7 @@ setTimeout(function () {
 }, 1000);
 setTimeout(function () {
     console.log(testData);
-    initialize();
+    setHeatMap();
 }, 3000);
 
 // remove nearest LatLng for weighting
@@ -64,7 +64,9 @@ function initialize() {
 
     map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
+}
 
+function setHeatMap(){
     // need to remove the null references
     var cleanedTestData = [];
     for (var i = 0; i < testData.length; i++) {
@@ -115,4 +117,4 @@ function changeOpacity() {
     heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
 }
 
-//google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'load', initialize);
