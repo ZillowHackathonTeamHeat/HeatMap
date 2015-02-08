@@ -7,6 +7,11 @@ setTimeout(function () {
     }
 }, 100);
 setTimeout(function () {
+    for (var i = 0; i < schoolList.length; i++) {
+        testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
+    }
+}, 100);
+setTimeout(function () {
     console.log(testData);
     initialize();
 }, 3000);
@@ -50,7 +55,7 @@ function changeGradient() {
     'rgba(127, 0, 63, 1)',
     'rgba(191, 0, 31, 1)',
     'rgba(255, 0, 0, 1)'
-  ]
+  ];
     heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
 }
 
