@@ -3,6 +3,7 @@
 
 # Contributors
 #   Alexander Ngo ()
+#   Zane Brant ()
 #   Diana Grigging ()
 #   Shrinivas Kapparam Ramanath ()
 #   Duc Tan Ngo (https://www.linkedin.com/in/softwareengineerduc | Facebook: dngo@live.com)
