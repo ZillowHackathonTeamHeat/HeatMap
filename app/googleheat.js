@@ -1,9 +1,28 @@
 var map, pointarray, heatmap;
+var seattleLatLng = new google.maps.LatLng(47.6097, -122.331);
+var seattleLat = 47.6097;
+var seattleLng = -122.331;
 
+// testData needs to contain everything from schoolList and crimeList
 var testData = [];
 setTimeout(function () {
+    <!-- this anonymous function adds a point in the intersections of a grid centered around a location -->
+    for (var xoffset = -0.0001; xoffset < 0.0001; xoffset += 0.0001) {
+        for (var yoffset = -0.0001; yoffset < 0.0001; yoffset += 0.0001) {
+            testData.push(new google.maps.LatLng(seattleLat + xoffset, seattleLng + yoffset));
+        }
+    }
+
     for (var i = 0; i < crimeList.length; i++) {
         testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
+    }
+
+    for (var i = 0; i < schoolList.length; i++) {
+        testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
+        testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
+        testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
+        testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
+        testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
     }
 }, 1000);
 setTimeout(function () {
@@ -14,7 +33,7 @@ setTimeout(function () {
 function initialize() {
     var mapOptions = {
         zoom: 12,
-        center: new google.maps.LatLng(47.6097, -122.331),
+        center: seattleLatLng,
         mapTypeId: google.maps.MapTypeId.SATELLITE
     };
 
@@ -33,7 +52,7 @@ function initialize() {
 function toggleHeatmap() {
     heatmap.setMap(heatmap.getMap() ? null : map);
 }
-//plz
+
 function changeGradient() {
     var gradient = [
     'rgba(0, 255, 255, 0)',

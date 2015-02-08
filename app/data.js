@@ -42,7 +42,7 @@ $("#test").ionRangeSlider({
     max: 10,
     from: 3,
     prefix: "Priority ",
-    onChange: function (data){
+    onChange: function (data) {
         safety = data['from'];
         console.log(safety);
     }
@@ -53,7 +53,7 @@ $("#test2").ionRangeSlider({
     max: 10,
     from: 3,
     prefix: "Priority ",
-    onUpdate: function (data){
+    onUpdate: function (data) {
         education = data;
     }
 });
@@ -63,7 +63,7 @@ $("#test3").ionRangeSlider({
     max: 10,
     from: 3,
     prefix: "Priority ",
-    onUpdate: function (data){
+    onUpdate: function (data) {
         transportation = data;
         console.log(transportation);
     }
@@ -76,8 +76,9 @@ var populateSchools = function () {
     $.ajax({
         type: "GET",
         //url: "http://api.greatschools.org/schools/nearby?key=qjprfbqvcj6wh3k5ugcwywxx&state=WA&zip=98101&radius=200&limit=1000",
-        url:"./datasets/nearbySchools.xml",
+        url: "./datasets/nearbySchools.xml",
         dataType: "xml",
+        // it calls parseXml and adds it to var lst
         success: parseXml
     });
 }
