@@ -18,8 +18,12 @@ setTimeout(function () {
     }
 
     for (var i = 0; i < schoolList.length; i++) {
-        for (var j = 0; j < educationPriority; j++) {
-            testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
+        for (var j = 0; j < educationPriority * 2; j++) {
+            // school list is broken
+            // could be strings? no, i just checked, javascript automatically casts strings to ints when it needs
+            // there are many more crimes than schools, so you need to change the weighting for schools * 10? and crimes * 1
+            testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]);
+            }
         }
     }
 
@@ -28,6 +32,7 @@ setTimeout(function () {
         // need a function to remove a nearby LatLng given a nearest LatLng
         //removeNearestLatLngToHere(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
 
+        // if i comment this out, the heatmap breaks
         testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
     }
 }, 1000);
