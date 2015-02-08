@@ -21,8 +21,8 @@
     <div id="map-canvas"></div>
     <div class="todo" id="mainmenu">
             <h4 id="menuheader">What'cha lookin for?</h4>
-            <ul>
-              <li>
+            <ul id="criteria">
+              <div class="item">
                 <div class="todo-icon fui-lock"></div>
                 <div class="todo-content">
 <!--                    <span>Low Priority</span><span id="high">High Priority</span>--><div class="slide">
@@ -32,8 +32,8 @@
                     <strong>Safety</strong>
                   </h4>
                 </div>
-              </li>
-              <li>
+              </div>
+              <div class="item">
                 <div class="todo-icon fui-star-2"></div>
                 <div class="todo-content">
 <!--                    <span>Low Priority</span><span id="high">High Priority</span>--><div class="slide">
@@ -43,18 +43,20 @@
                     <strong>Education</strong>
                   </h4>
                 </div>
-              </li>
-              <li>
+              </div>
+              <div class="item">
                 <div class="todo-icon fui-play"></div>
                 <div class="todo-content">
-<!--                    <span>Low Priority</span><span id="high">High Priority</span>--><div class="slide">
+                    <span>Low Priority</span><span id="high">High Priority</span>
+                    <div class="slide">
                     <input type="text" id="test3" name="example_name" value="" />
                     </div>
                   <h4 class="todo-name">
                     <strong>Transportation</strong>
                   </h4>
                 </div>
-              </li>
+              </div>
+
             </ul>
           </div>
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
