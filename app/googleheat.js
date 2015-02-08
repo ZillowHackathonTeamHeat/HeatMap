@@ -5,11 +5,11 @@ setTimeout(function () {
     for (var i = 0; i < crimeList.length; i++) {
         testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
     }
-}, 100);
+}, 1000);
 setTimeout(function () {
     console.log(testData);
     initialize();
-}, 3000);
+}, 5000);
 
 function initialize() {
     var mapOptions = {
