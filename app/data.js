@@ -50,7 +50,6 @@ function parseXml(xml) {
     var lst = [];
     $(xml).find("school").each(function () {
         var schools = {};
-        var curObj = data[i];
 
         schools["gsID"] = $(this).find("gsId").text();
         schools["name"] = $(this).find("name").text();
@@ -59,13 +58,11 @@ function parseXml(xml) {
         schools["lat"] = $(this).find("lon").text();
 
         lst.push(schools);
-        console.log(schools);
     })
     schoolList = lst;
-    console.log(lst);
 }
 
-parseXml();
+populateSchools();
 setTimeout(function(){
 console.log(schoolList);
-}, 2000);
+}, 1000);

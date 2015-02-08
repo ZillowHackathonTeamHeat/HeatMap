@@ -9,7 +9,7 @@ setTimeout(function () {
 setTimeout(function () {
     console.log(testData);
     initialize();
-}, 2000);
+}, 3000);
 
 function initialize() {
     var mapOptions = {
