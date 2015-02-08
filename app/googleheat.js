@@ -5,7 +5,7 @@ setTimeout(function () {
     for (var i = 0; i < crimeList.length; i++) {
         testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
     }
-}, 100);
+}, 1000);
 setTimeout(function () {
     console.log(testData);
     initialize();
@@ -33,7 +33,7 @@ function initialize() {
 function toggleHeatmap() {
     heatmap.setMap(heatmap.getMap() ? null : map);
 }
-
+//plz
 function changeGradient() {
     var gradient = [
     'rgba(0, 255, 255, 0)',
@@ -50,7 +50,7 @@ function changeGradient() {
     'rgba(127, 0, 63, 1)',
     'rgba(191, 0, 31, 1)',
     'rgba(255, 0, 0, 1)'
-  ]
+  ];
     heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
 }
 
