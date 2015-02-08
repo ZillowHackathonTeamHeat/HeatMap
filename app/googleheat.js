@@ -38,7 +38,7 @@ function initialize() {
 function toggleHeatmap() {
     heatmap.setMap(heatmap.getMap() ? null : map);
 }
-
+//plz
 function changeGradient() {
     var gradient = [
     'rgba(0, 255, 255, 0)',
