@@ -31,18 +31,52 @@ var populateCrime = function (includedCrimes) {
 console.log(includedCrimes);
 populateCrime(includedCrimes);
 
-$("#test").ionRangeSlider();
-$("#test2").ionRangeSlider();
-$("#test3").ionRangeSlider();
+////////////////////////////////
+/////////////////////////
+var safety;
+var education;
+var transportation;
+$("#test").ionRangeSlider({
+    grid: true,
+    min: 1,
+    max: 10,
+    from: 3,
+    prefix: "Priority ",
+    onChange: function (data){
+        safety = data['from'];
+        console.log(safety);
+    }
+});
+$("#test2").ionRangeSlider({
+    grid: true,
+    min: 1,
+    max: 10,
+    from: 3,
+    prefix: "Priority ",
+    onUpdate: function (data){
+        education = data;
+    }
+});
+$("#test3").ionRangeSlider({
+    grid: true,
+    min: 1,
+    max: 10,
+    from: 3,
+    prefix: "Priority ",
+    onUpdate: function (data){
+        transportation = data;
+        console.log(transportation);
+    }
+});
 /////////////////////////////////////////////////////////////////
 
 var includedSchoolTypes = ["public", "private"];
 var includedSchoolLevels = ["elementary", "middle"];
 var populateSchools = function () {
-        $.ajax({
+    $.ajax({
         type: "GET",
         //url: "http://api.greatschools.org/schools/nearby?key=qjprfbqvcj6wh3k5ugcwywxx&state=WA&zip=98101&radius=200&limit=1000",
-        url:"./nearbySchools.xml",
+        url: "./nearbySchools.xml",
         dataType: "xml",
         success: parseXml
     });
@@ -65,6 +99,6 @@ function parseXml(xml) {
 }
 
 populateSchools();
-setTimeout(function(){
-console.log(schoolList);
+setTimeout(function () {
+    console.log(schoolList);
 }, 1000);
