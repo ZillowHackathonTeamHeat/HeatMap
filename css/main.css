@@ -25,7 +25,6 @@ body,
     width: 20em;
     background-color: #247571;
     color: white;
-/*    height: 10em;*/
 }
 #high{
     text-align: right;
@@ -34,7 +33,13 @@ body,
     padding-left: 0.5em;
 }
 .slide{
-    width: 17em;
+    width: 15em;
 }
-
-
+#criteria{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+}
+.item{
+    padding-bottom: 1.2em;
+}
