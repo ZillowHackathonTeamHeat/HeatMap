@@ -6,7 +6,7 @@ var crimeList = [];
 var schoolList = [];
 
 //which crimes are included
-var includedCrimes = ["ASSAULTS", "BURGLARY"];
+var includedCrimes = ["ASSAULTS", "BURGLARY", "ROBBERY"];
 
 var populateCrime = function (includedCrimes) {
     var lst = [];
@@ -100,4 +100,4 @@ function parseXml(xml) {
 populateSchools();
 setTimeout(function () {
     console.log(schoolList);
-}, 1000);
+}, 3000);
