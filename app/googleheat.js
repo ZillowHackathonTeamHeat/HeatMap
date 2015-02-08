@@ -56,7 +56,7 @@ setTimeout(function () {
 setTimeout(function () {
     console.log(testData);
     setHeatMap();
-}, 3000);
+}, 3500);
 
 // remove nearest LatLng for weighting
 function removeNearestLatLngToHere(latLng) {
