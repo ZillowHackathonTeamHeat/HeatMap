@@ -6,29 +6,54 @@ var seattleLng = -122.331;
 // testData needs to contain everything from schoolList and crimeList
 var testData = [];
 setTimeout(function () {
-    //this anonymous function adds a point in the intersections of a grid centered around a location
+    // number of LatLngs at the intersections of a grid centered around a location (Seattle)
+    var initialCount = 2;
+    // add a point in the intersections of a grid centered around a location (Seattle)
     for (var xoffset = -0.0001; xoffset < 0.0001; xoffset += 0.0001) {
         for (var yoffset = -0.0001; yoffset < 0.0001; yoffset += 0.0001) {
-            testData.push(new google.maps.LatLng(seattleLat + xoffset, seattleLng + yoffset));
+            for (var i = 0; i < initialCount; i++) {
+                testData.push(new google.maps.LatLng(seattleLat + xoffset, seattleLng + yoffset));
+            }
         }
     }
 
-    for (var i = 0; i < crimeList.length; i++) {
-        testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
+    for (var i = 0; i < schoolList.length; i++) {
+        for (var j = 0; j < educationPriority; j++) {
+            testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
+        }
     }
 
-    for (var i = 0; i < schoolList.length; i++) {
-        testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
-        testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
-        testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
-        testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
-        testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
+    // should remove 1 (or none if not possible) nearest LatLng from the spot
+    for (var i = 0; i < crimeList.length; i++) {
+        // need a function to remove a nearby LatLng given a nearest LatLng
+        //removeNearestLatLngToHere(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
+
+        testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
     }
 }, 1000);
 setTimeout(function () {
     console.log(testData);
     initialize();
 }, 3000);
+
+// remove nearest LatLng for weighting
+function removeNearestLatLngToHere(latLng) {
+    var lat = latLng.lat;
+    var long = latLng.long;
+    var oneMileInDegrees = 0.01449275362;
+
+    var timesToRemove = safetyPriority;
+
+    for (var i = 0;
+        (i < testData.length) && (timesToRemove > 0); i++) {
+        // just set it to null to remove
+        // then whereever you use it, check if not null
+        if ((Math.abs(testData[i].lat - lat) < oneMileInDegrees) && (Math.abs(testData[i].long - long) < oneMileInDegrees)) {
+            testData[i] = null;
+            timesToRemove--;
+        }
+    }
+}
 
 function initialize() {
     var mapOptions = {
@@ -40,7 +65,16 @@ function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
 
-    var pointArray = new google.maps.MVCArray(testData);
+    // need to remove the null references
+    var cleanedTestData = [];
+    for (var i = 0; i < testData.length; i++) {
+        if (testData[i] != null) {
+            cleanedTestData.push(testData[i]);
+        }
+    }
+
+    var pointArray = new google.maps.MVCArray(cleanedTestData);
+
 
     heatmap = new google.maps.visualization.HeatmapLayer({
         data: pointArray
