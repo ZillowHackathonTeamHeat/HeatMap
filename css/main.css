@@ -15,14 +15,13 @@ body,
     z-index: 5;
     background-color: transparent;
     padding: 5px;
-    border: 1px solid #999;
 }
 
 #mainmenu {
     position: absolute;
     top: 10vh;
     left: 3vw;
-    width: 20em;
+    width: 21em;
     background-color: #247571;
     color: white;
     display: none;
@@ -37,7 +36,9 @@ body,
 }
 
 .slide {
-    width: 15em;
+    width: 14em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #criteria {
@@ -67,8 +68,22 @@ body,
     margin-bottom: 0.8em;
     opacity: 0.5;
 }
-#overlaybutton{
+
+#overlaybutton {
+    display: none;
     position: absolute;
     bottom: 10vh;
     left: 45vw;
+}
+
+#newmap {
+    position: relative;
+    left: 14em;
+    margin-bottom: 0.75em;
+    margin-top: none;
+    padding-top: none;
+}
+
+#transportation {
+    padding: 0.12em;
 }
