@@ -4,3 +4,5 @@ $("#overlaybutton").click(function () {
     $("#overlay").hide(1000);
     $("#overlaybutton").hide(1000);
 });
+
+$("#overlaybutton").show(800);
