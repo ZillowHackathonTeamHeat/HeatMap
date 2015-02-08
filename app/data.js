@@ -4,6 +4,16 @@ var crimeBaseURL = "https://data.seattle.gov/resource/3k2p-39jp.json?initial_typ
 var crimeList = [];
 //list of school objects
 var schoolList = [];
+//list of food bank objects
+var foodBankList = [];
+//list of historic building objects
+var historicBuildingsList = [];
+//list of publicArt
+var publicArtList = [];
+//list of public park objects
+var publicParkList = [];
+//list of public pool objects
+var publicPoolList = [];
 
 //which crimes are included
 var includedCrimes = ["ASSAULTS", "BURGLARY", "ROBBERY"];
@@ -101,3 +111,124 @@ populateSchools();
 setTimeout(function () {
     console.log(schoolList);
 }, 3000);
+
+var populateFoodBanks = function () {
+    $.ajax({
+        type: "GET",
+        url: "./datasets/foodBanksXML.xml",
+        dataType: "xml",
+        // it calls parseXml and adds it to var lst
+        success: parseXmlFoodBank()
+    });
+}
+
+function parseXmlFoodBank(xml) {
+    var lst = [];
+    $(xml).find("row").each(function () {
+        var amenity = {};
+
+        amenity["amenityType"] = $(this).find("city_feature").text();
+        amenity["lat"] = $(this).find("latitude").text();
+        amenity["long"] = $(this).find("longitude").text();
+
+        lst.push(amenity);
+    })
+    foodBankList = lst;
+}
+
+var populateHistoricBuildings = function () {
+    $.ajax({
+        type: "GET",
+        url: "./datasets/historicBuildingsXML.xml",
+        dataType: "xml",
+        // it calls parseXml and adds it to var lst
+        success: parseXmlHistoricBuildings()
+    });
+}
+
+function parseXmlHistoricBuildings(xml) {
+    var lst = [];
+    $(xml).find("row").each(function () {
+        var amenity = {};
+
+        amenity["amenityType"] = $(this).find("city_feature").text();
+        amenity["lat"] = $(this).find("latitude").text();
+        amenity["long"] = $(this).find("longitude").text();
+
+        lst.push(amenity);
+    })
+    historicBuildingsList = lst;
+}
+
+var populatePublicArt = function () {
+    $.ajax({
+        type: "GET",
+        url: "./datasets/PublicArtXML.xml",
+        dataType: "xml",
+        // it calls parseXml and adds it to var lst
+        success: parseXmlPublicArt()
+    });
+}
+
+function parseXmlPublicArt(xml) {
+    var lst = [];
+    $(xml).find("row").each(function () {
+        var amenity = {};
+
+        amenity["amenityType"] = $(this).find("city_feature").text();
+        amenity["lat"] = $(this).find("latitude").text();
+        amenity["long"] = $(this).find("longitude").text();
+
+        lst.push(amenity);
+    })
+    publicArtList = lst;
+}
+
+
+var populatePublicParks = function () {
+    $.ajax({
+        type: "GET",
+        url: "./datasets/PublicParksXML.xml",
+        dataType: "xml",
+        // it calls parseXml and adds it to var lst
+        success: parseXmlPublicParks()
+    });
+}
+
+function parseXmlPublicParks(xml) {
+    var lst = [];
+    $(xml).find("row").each(function () {
+        var amenity = {};
+
+        amenity["amenityType"] = $(this).find("city_feature").text();
+        amenity["lat"] = $(this).find("latitude").text();
+        amenity["long"] = $(this).find("longitude").text();
+
+        lst.push(amenity);
+    })
+    publicParkList = lst;
+}
+
+var populatePublicPools = function () {
+    $.ajax({
+        type: "GET",
+        url: "./datasets/PublicPoolsXML.xml",
+        dataType: "xml",
+        // it calls parseXml and adds it to var lst
+        success: parseXmlPublicPools()
+    });
+}
+
+function parseXmlPublicPools(xml) {
+    var lst = [];
+    $(xml).find("row").each(function () {
+        var amenity = {};
+
+        amenity["amenityType"] = $(this).find("city_feature").text();
+        amenity["lat"] = $(this).find("latitude").text();
+        amenity["long"] = $(this).find("longitude").text();
+
+        lst.push(amenity);
+    })
+    publicPoolList = lst;
+}
