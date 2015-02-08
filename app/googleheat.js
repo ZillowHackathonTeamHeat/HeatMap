@@ -6,7 +6,7 @@ var seattleLng = -122.331;
 // testData needs to contain everything from schoolList and crimeList
 var testData = [];
 setTimeout(function () {
-    <!-- this anonymous function adds a point in the intersections of a grid centered around a location -->
+    //this anonymous function adds a point in the intersections of a grid centered around a location
     for (var xoffset = -0.0001; xoffset < 0.0001; xoffset += 0.0001) {
         for (var yoffset = -0.0001; yoffset < 0.0001; yoffset += 0.0001) {
             testData.push(new google.maps.LatLng(seattleLat + xoffset, seattleLng + yoffset));

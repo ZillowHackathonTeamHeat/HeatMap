@@ -40,7 +40,7 @@ $("#test").ionRangeSlider({
     grid: true,
     min: 1,
     max: 10,
-    from: 3,
+    from: 1,
     prefix: "Priority ",
     onChange: function (data) {
         safetyPriority = data['from'];
@@ -50,7 +50,7 @@ $("#test2").ionRangeSlider({
     grid: true,
     min: 1,
     max: 10,
-    from: 3,
+    from: 5,
     prefix: "Priority ",
     onUpdate: function (data) {
         educationPriority = data['from'];

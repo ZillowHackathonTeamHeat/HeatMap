@@ -13,14 +13,14 @@ body,
     left: 50%;
     margin-left: -180px;
     z-index: 5;
-    background-color: #fff;
+    background-color: transparent;
     padding: 5px;
     border: 1px solid #999;
 }
 
 #mainmenu {
     position: absolute;
-    top: 5vh;
+    top: 10vh;
     left: 3vw;
     width: 20em;
     background-color: #247571;
