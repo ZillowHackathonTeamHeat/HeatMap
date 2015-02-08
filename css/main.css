@@ -7,6 +7,7 @@ body,
 }
 
 #panel {
+    display:none;
     position: absolute;
     top: 5px;
     left: 50%;
@@ -17,6 +18,17 @@ body,
     border: 1px solid #999;
 }
 
-#hi {
-    position: relative;
+#mainmenu {
+    position: absolute;
+    top: 5vh;
+    left: 3vw;
+    width: 20em;
+    background-color: #247571;
+    color: white;
+/*    height: 10em;*/
 }
+#high{
+    text-align: right;
+}
+
+
