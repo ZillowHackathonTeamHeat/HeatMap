@@ -25,7 +25,6 @@
             <div class="item">
                 <div class="todo-icon fui-lock"></div>
                 <div class="todo-content">
-                    <!--                    <span>Low Priority</span><span id="high">High Priority</span>-->
                     <div class="slide">
                         <input type="text" id="test" name="example_name" value="" />
                     </div>
@@ -48,17 +47,18 @@
                 </div>
             </div>
             <div class="line-separator"></div>
-            <div class="item">
+            <div class="item" id="transportation">
                 <div class="todo-icon fui-play"></div>
                 <div class="todo-content">
                     <div class="slide">
                         <input type="text" id="test3" name="example_name" value="" />
                     </div>
                     <h4 class="todo-name">
-                    <strong>Transportation</strong>
+                    <strong>Amenities</strong>
                   </h4>
                 </div>
             </div>
+            <button type="button" id="newmap" class="btn btn-primary">Update Map</button>
         </ul>
     </div>
     <div id="overlay">
@@ -70,7 +70,6 @@
     <script src="css/flat-ui/dist/js/flat-ui.min.js"></script>
     <script src="css/ionrangeslider/js/ion.rangeSlider.js"></script>
     <script src="css/flat-ui/docs/assets/js/application.js"></script>
-
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=visualization"></script>
     <script src="app/data.js"></script>
     <script src="app/app.js"></script>
