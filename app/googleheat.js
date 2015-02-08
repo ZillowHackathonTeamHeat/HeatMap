@@ -24,6 +24,23 @@ setTimeout(function () {
         testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
         testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
     }
+    
+    //rest of the amenities
+    for (var i = 0; i < foodBankList.length; i++) {
+        testData.push(new google.maps.LatLng(foodBankList[i]["lat"], foodBankList[i]["long"]));
+    }
+    for (var i = 0; i < historicBuildingsList.length; i++) {
+        testData.push(new google.maps.LatLng(historicBuildingsList[i]["lat"], historicBuildingsList[i]["long"]));
+    }
+    for (var i = 0; i < publicArtList.length; i++) {
+        testData.push(new google.maps.LatLng(publicArtList[i]["lat"], publicArtList[i]["long"]));
+    }
+    for (var i = 0; i < publicParkList.length; i++) {
+        testData.push(new google.maps.LatLng(publicParkList[i]["lat"], publicParkList[i]["long"]));
+    }
+    for (var i = 0; i < publicPoolList.length; i++) {
+        testData.push(new google.maps.LatLng(publicPoolList[i]["lat"], publicPoolList[i]["long"]));
+    }
 }, 1000);
 setTimeout(function () {
     console.log(testData);
