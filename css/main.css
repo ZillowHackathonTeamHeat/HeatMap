@@ -30,5 +30,11 @@ body,
 #high{
     text-align: right;
 }
+#menuheader{
+    padding-left: 0.5em;
+}
+.slide{
+    width: 17em;
+}
 
 
