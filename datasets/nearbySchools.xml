@@ -9,7 +9,7 @@
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>1013 8th Avenue, 
+        <address>1013 8th Avenue,
 Seattle, WA  98104</address>
         <phone>(206) 259-5831</phone>
         <fax></fax>
@@ -31,7 +31,7 @@ Seattle, WA  98104</address>
         <parentRating>3</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>1215 Fourth Avenue, Ste 1500 (Administration), 
+        <address>1215 Fourth Avenue, Ste 1500 (Administration),
 Seattle, WA  98110</address>
         <phone>(855) 550-2547</phone>
         <fax>(206) 381-5601</fax>
@@ -54,7 +54,7 @@ Seattle, WA  98110</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>802 Terry Avenue, 
+        <address>802 Terry Avenue,
 Seattle, WA  98104</address>
         <phone>(206) 622-6596</phone>
         <fax></fax>
@@ -77,7 +77,7 @@ Seattle, WA  98104</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>914 Virginia Street, 
+        <address>914 Virginia Street,
 Seattle, WA  98101</address>
         <phone>(206) 624-2832</phone>
         <fax>(206) 624-2832</fax>
@@ -100,7 +100,7 @@ Seattle, WA  98101</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>901 Lenora Street, 
+        <address>901 Lenora Street,
 Seattle, WA  98121</address>
         <phone>(206) 709-9500</phone>
         <fax>(206) 709-4611</fax>
@@ -123,7 +123,7 @@ Seattle, WA  98121</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>1415 Summit Avenue, 
+        <address>1415 Summit Avenue,
 Seattle, WA  98122</address>
         <phone>(206) 682-7309</phone>
         <fax></fax>
@@ -148,7 +148,7 @@ Seattle, WA  98122</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2445 3rd Av, 
+        <address>2445 3rd Av,
 Seattle, WA  98124</address>
         <phone>(206) 252-0805</phone>
         <fax></fax>
@@ -174,7 +174,7 @@ Seattle, WA  98124</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>302 Broadway Av, 
+        <address>302 Broadway Av,
 Seattle, WA  98122</address>
         <phone>(206) 252-0838</phone>
         <fax></fax>
@@ -197,7 +197,7 @@ Seattle, WA  98122</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>1201 East Union Street, 
+        <address>1201 East Union Street,
 Seattle, WA  98122</address>
         <phone>(206) 676-6858</phone>
         <fax></fax>
@@ -222,7 +222,7 @@ Seattle, WA  98122</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1211 East Alder Ms 1-F, 
+        <address>1211 East Alder Ms 1-F,
 Seattle, WA  98122</address>
         <phone>(206) 205-9422</phone>
         <fax></fax>
@@ -245,7 +245,7 @@ Seattle, WA  98122</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>660 S Dearborn St, 
+        <address>660 S Dearborn St,
 Seattle, WA  98134</address>
         <phone>(206) 324-4350</phone>
         <fax></fax>
@@ -271,7 +271,7 @@ Seattle, WA  98134</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>527 Minor Av North, 
+        <address>527 Minor Av North,
 Seattle, WA  98109</address>
         <phone>(206) 252-0832</phone>
         <fax>(206) 667-1444</fax>
@@ -298,7 +298,7 @@ Seattle, WA  98109</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>305 Harrison St, 
+        <address>305 Harrison St,
 Seattle, WA  98109</address>
         <phone>(206) 252-9850</phone>
         <fax></fax>
@@ -325,7 +325,7 @@ Seattle, WA  98109</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1301 East Yesler Wy, 
+        <address>1301 East Yesler Wy,
 Seattle, WA  98122</address>
         <phone>(206) 252-2810</phone>
         <fax></fax>
@@ -347,7 +347,7 @@ Seattle, WA  98122</address>
         <enrollment>259</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>1432 15th Ave Temple Bldg, 
+        <address>1432 15th Ave Temple Bldg,
 Seattle, WA  98122</address>
         <phone></phone>
         <fax></fax>
@@ -369,7 +369,7 @@ Seattle, WA  98122</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>1122 East John St, 
+        <address>1122 East John St,
 Seattle, WA  98102</address>
         <phone>(206) 322-4329</phone>
         <fax></fax>
@@ -392,7 +392,7 @@ Seattle, WA  98102</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>550 Mercer St, 
+        <address>550 Mercer St,
 Seattle, WA  98109</address>
         <phone>(206) 282-2997</phone>
         <fax></fax>
@@ -415,7 +415,7 @@ Seattle, WA  98109</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>557 Roy Street #110, 
+        <address>557 Roy Street #110,
 Seattle, WA  98109</address>
         <phone>(206) 282-7132</phone>
         <fax></fax>
@@ -438,7 +438,7 @@ Seattle, WA  98109</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>810 18th Ave 2nd Floor, 
+        <address>810 18th Ave 2nd Floor,
 Seattle, WA  98122</address>
         <phone>(206) 709-3800</phone>
         <fax>(206) 323-9860</fax>
@@ -461,7 +461,7 @@ Seattle, WA  98122</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>1700 East Union Street, 
+        <address>1700 East Union Street,
 Seattle, WA  98122</address>
         <phone>(206) 763-1167</phone>
         <fax>(206) 763-7149</fax>
@@ -488,7 +488,7 @@ Seattle, WA  98122</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1058 East Mercer St, 
+        <address>1058 East Mercer St,
 Seattle, WA  98102</address>
         <phone>(206) 252-3020</phone>
         <fax></fax>
@@ -515,7 +515,7 @@ Seattle, WA  98102</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2410 East Cherry St, 
+        <address>2410 East Cherry St,
 Seattle, WA  98122</address>
         <phone>(206) 252-3500</phone>
         <fax></fax>
@@ -538,7 +538,7 @@ Seattle, WA  98122</address>
         <parentRating>3</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>172 20th Ave, 
+        <address>172 20th Ave,
 Seattle, WA  98122</address>
         <phone>(206) 323-6715</phone>
         <fax></fax>
@@ -565,7 +565,7 @@ Seattle, WA  98122</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>400 23 Ave, 
+        <address>400 23 Ave,
 Seattle, WA  98122</address>
         <phone>(206) 252-2270</phone>
         <fax></fax>
@@ -588,7 +588,7 @@ Seattle, WA  98122</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>620 - 20th Ave S, 
+        <address>620 - 20th Ave S,
 Seattle, WA  98144</address>
         <phone>(206) 324-4847</phone>
         <fax>(206) 322-0923</fax>
@@ -615,7 +615,7 @@ Seattle, WA  98144</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2101 South Jackson St, 
+        <address>2101 South Jackson St,
 Seattle, WA  98144</address>
         <phone>(206) 252-2600</phone>
         <fax></fax>
@@ -641,7 +641,7 @@ Seattle, WA  98144</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>411 Boston St, 
+        <address>411 Boston St,
 Seattle, WA  98109</address>
         <phone>(206) 252-2200</phone>
         <fax></fax>
@@ -664,7 +664,7 @@ Seattle, WA  98109</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>700 18th Avenue East, 
+        <address>700 18th Avenue East,
 Seattle, WA  98112</address>
         <phone>(206) 329-3260</phone>
         <fax></fax>
@@ -687,7 +687,7 @@ Seattle, WA  98112</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>1501 10th Avenue East, 
+        <address>1501 10th Avenue East,
 Seattle, WA  98102</address>
         <phone>(206) 624-6176</phone>
         <fax>(206) 322-7893</fax>
@@ -714,7 +714,7 @@ Seattle, WA  98102</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>201 Garfield St, 
+        <address>201 Garfield St,
 Seattle, WA  98109</address>
         <phone>(206) 252-2100</phone>
         <fax></fax>
@@ -737,7 +737,7 @@ Seattle, WA  98109</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>101 West Lee Street, 
+        <address>101 West Lee Street,
 Seattle, WA  98119</address>
         <phone>(206) 282-3538</phone>
         <fax></fax>
@@ -762,7 +762,7 @@ Seattle, WA  98119</address>
         <districtId>257</districtId>
         <district>Sultan School District</district>
         <districtNCESId>5308550</districtNCESId>
-        <address>33 Design Street, 
+        <address>33 Design Street,
 Seattle, WA  98102</address>
         <phone>(206) 777-5555</phone>
         <fax></fax>
@@ -788,7 +788,7 @@ Seattle, WA  98102</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3100 South Alaska St, 
+        <address>3100 South Alaska St,
 Seattle, WA  98134</address>
         <phone>(206) 252-6816</phone>
         <fax></fax>
@@ -815,7 +815,7 @@ Seattle, WA  98134</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2025 14 Av South, 
+        <address>2025 14 Av South,
 Seattle, WA  98144</address>
         <phone>(206) 252-2700</phone>
         <fax></fax>
@@ -838,7 +838,7 @@ Seattle, WA  98144</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>728 21st Avenue East, 
+        <address>728 21st Avenue East,
 Seattle, WA  98112</address>
         <phone>(206) 323-4272</phone>
         <fax></fax>
@@ -861,7 +861,7 @@ Seattle, WA  98112</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>2706 S Jackson Street, 
+        <address>2706 S Jackson Street,
 Seattle, WA  98144</address>
         <phone>(206) 709-2228</phone>
         <fax></fax>
@@ -888,7 +888,7 @@ Seattle, WA  98144</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1242 18 Av East, 
+        <address>1242 18 Av East,
 Seattle, WA  98112</address>
         <phone>(206) 252-3400</phone>
         <fax></fax>
@@ -915,7 +915,7 @@ Seattle, WA  98112</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2401 South Irving St, 
+        <address>2401 South Irving St,
 Seattle, WA  98144</address>
         <phone>(206) 252-2800</phone>
         <fax></fax>
@@ -942,7 +942,7 @@ Seattle, WA  98144</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>411 Boston Street, 
+        <address>411 Boston Street,
 Seattle, WA  98109</address>
         <phone>(206) 252-2480</phone>
         <fax></fax>
@@ -969,7 +969,7 @@ Seattle, WA  98109</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>135 32 Av, 
+        <address>135 32 Av,
 Seattle, WA  98122</address>
         <phone>(206) 252-2950</phone>
         <fax></fax>
@@ -996,7 +996,7 @@ Seattle, WA  98122</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1121 33 Av, 
+        <address>1121 33 Av,
 Seattle, WA  98122</address>
         <phone>(206) 252-3100</phone>
         <fax></fax>
@@ -1023,7 +1023,7 @@ Seattle, WA  98122</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1915 1 Av West, 
+        <address>1915 1 Av West,
 Seattle, WA  98119</address>
         <phone>(206) 252-1900</phone>
         <fax></fax>
@@ -1046,7 +1046,7 @@ Seattle, WA  98119</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>1617 Interlaken Drive East, 
+        <address>1617 Interlaken Drive East,
 Seattle, WA  98112</address>
         <phone>(206) 323-5750</phone>
         <fax></fax>
@@ -1069,7 +1069,7 @@ Seattle, WA  98112</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>309 31st Avenue East, 
+        <address>309 31st Avenue East,
 Seattle, WA  98112</address>
         <phone>(206) 328-4475</phone>
         <fax></fax>
@@ -1092,7 +1092,7 @@ Seattle, WA  98112</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>309 31st Ave E, 
+        <address>309 31st Ave E,
 Seattle, WA  98112</address>
         <phone>(206) 328-4475</phone>
         <fax></fax>
@@ -1115,7 +1115,7 @@ Seattle, WA  98112</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>2227 10th Avenue East, 
+        <address>2227 10th Avenue East,
 Seattle, WA  98102</address>
         <phone>(206) 324-5476</phone>
         <fax></fax>
@@ -1138,7 +1138,7 @@ Seattle, WA  98102</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>900 35th Avenue, 
+        <address>900 35th Avenue,
 Seattle, WA  98122</address>
         <phone>(206) 324-0460</phone>
         <fax>(206) 324-8464</fax>
@@ -1161,7 +1161,7 @@ Seattle, WA  98122</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>3611 East Denny Way, 
+        <address>3611 East Denny Way,
 Seattle, WA  98122</address>
         <phone>(206) 323-9011</phone>
         <fax></fax>
@@ -1188,7 +1188,7 @@ Seattle, WA  98122</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2500 Franklin Av East, 
+        <address>2500 Franklin Av East,
 Seattle, WA  98102</address>
         <phone>(206) 252-3510</phone>
         <fax></fax>
@@ -1211,7 +1211,7 @@ Seattle, WA  98102</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>3400 East Harrison Street, 
+        <address>3400 East Harrison Street,
 Seattle, WA  98112</address>
         <phone>(206) 322-7978</phone>
         <fax></fax>
@@ -1234,7 +1234,7 @@ Seattle, WA  98112</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>2400 11th Ave E, 
+        <address>2400 11th Ave E,
 Seattle, WA  98102</address>
         <phone>(206) 577-2105</phone>
         <fax></fax>
@@ -1257,7 +1257,7 @@ Seattle, WA  98102</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>2619 4th Avenue North, 
+        <address>2619 4th Avenue North,
 Seattle, WA  98109</address>
         <phone>(206) 691-2631</phone>
         <fax></fax>
@@ -1282,7 +1282,7 @@ Seattle, WA  98109</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2142 10 Av West, 
+        <address>2142 10 Av West,
 Seattle, WA  98119</address>
         <phone>(206) 252-0883</phone>
         <fax></fax>
@@ -1309,7 +1309,7 @@ Seattle, WA  98119</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2424 7 Av West, 
+        <address>2424 7 Av West,
 Seattle, WA  98119</address>
         <phone>(206) 252-2000</phone>
         <fax></fax>
@@ -1336,7 +1336,7 @@ Seattle, WA  98119</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2409 22 Av East, 
+        <address>2409 22 Av East,
 Seattle, WA  98112</address>
         <phone>(206) 252-3300</phone>
         <fax></fax>
@@ -1363,7 +1363,7 @@ Seattle, WA  98112</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3200 23 Av South, 
+        <address>3200 23 Av South,
 Seattle, WA  98144</address>
         <phone>(206) 252-7280</phone>
         <fax></fax>
@@ -1390,7 +1390,7 @@ Seattle, WA  98144</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1617 38 Avenue East, 
+        <address>1617 38 Avenue East,
 Seattle, WA  98112</address>
         <phone>(206) 252-3160</phone>
         <fax>(206) 252-3161</fax>
@@ -1413,7 +1413,7 @@ Seattle, WA  98112</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>2141 45th Avenue Southwest, 
+        <address>2141 45th Avenue Southwest,
 Seattle, WA  98116</address>
         <phone>(206) 938-4628</phone>
         <fax></fax>
@@ -1440,7 +1440,7 @@ Seattle, WA  98116</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3013 South Mt Baker Bv, 
+        <address>3013 South Mt Baker Bv,
 Seattle, WA  98144</address>
         <phone>(206) 252-6150</phone>
         <fax></fax>
@@ -1467,7 +1467,7 @@ Seattle, WA  98144</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2645 California Av SW, 
+        <address>2645 California Av SW,
 Seattle, WA  98116</address>
         <phone>(206) 252-9500</phone>
         <fax></fax>
@@ -1494,7 +1494,7 @@ Seattle, WA  98116</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3000 California Av SW, 
+        <address>3000 California Av SW,
 Seattle, WA  98116</address>
         <phone>(206) 252-8800</phone>
         <fax></fax>
@@ -1521,7 +1521,7 @@ Seattle, WA  98116</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3301 South Horton St, 
+        <address>3301 South Horton St,
 Seattle, WA  98144</address>
         <phone>(206) 252-7400</phone>
         <fax></fax>
@@ -1548,7 +1548,7 @@ Seattle, WA  98144</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3921 Linden Av North, 
+        <address>3921 Linden Av North,
 Seattle, WA  98103</address>
         <phone>(206) 252-6010</phone>
         <fax></fax>
@@ -1575,7 +1575,7 @@ Seattle, WA  98103</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1600 South Columbian Wy, 
+        <address>1600 South Columbian Wy,
 Seattle, WA  98108</address>
         <phone>(206) 252-8000</phone>
         <fax></fax>
@@ -1597,7 +1597,7 @@ Seattle, WA  98108</address>
         <enrollment>61</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>3201 Hunter Boulevard South, 
+        <address>3201 Hunter Boulevard South,
 Seattle, WA  98144</address>
         <phone>(206) 721-3480</phone>
         <fax></fax>
@@ -1624,7 +1624,7 @@ Seattle, WA  98144</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>4400 Interlake Ave North, 
+        <address>4400 Interlake Ave North,
 Seattle, WA  98103</address>
         <phone>(206) 252-5810</phone>
         <fax></fax>
@@ -1651,7 +1651,7 @@ Seattle, WA  98103</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>4057 5 Av NE, 
+        <address>4057 5 Av NE,
 Seattle, WA  98105</address>
         <phone>(206) 252-6080</phone>
         <fax></fax>
@@ -1678,7 +1678,7 @@ Seattle, WA  98105</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3429 45th Ave SW, 
+        <address>3429 45th Ave SW,
 Seattle, WA  98116</address>
         <phone>(206) 252-9200</phone>
         <fax></fax>
@@ -1705,7 +1705,7 @@ Seattle, WA  98116</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>4925 Corson Av South, 
+        <address>4925 Corson Av South,
 Seattle, WA  98108</address>
         <phone>(206) 252-8310</phone>
         <fax></fax>
@@ -1730,7 +1730,7 @@ Seattle, WA  98108</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>4400 Interlake Ave North, 
+        <address>4400 Interlake Ave North,
 Seattle, WA  98103</address>
         <phone>(206) 252-4680</phone>
         <fax></fax>
@@ -1757,7 +1757,7 @@ Seattle, WA  98103</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>144 NE 54th Street, 
+        <address>144 NE 54th Street,
 Seattle, WA  98103</address>
         <phone>(206) 252-5325</phone>
         <fax></fax>
@@ -1780,7 +1780,7 @@ Seattle, WA  98103</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4142 42nd Ave SW, 
+        <address>4142 42nd Ave SW,
 Seattle, WA  98116</address>
         <phone>(206) 937-7255</phone>
         <fax></fax>
@@ -1807,7 +1807,7 @@ Seattle, WA  98116</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>5000 SW Spokane St, 
+        <address>5000 SW Spokane St,
 Seattle, WA  98116</address>
         <phone>(206) 252-9700</phone>
         <fax></fax>
@@ -1830,7 +1830,7 @@ Seattle, WA  98116</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4105 California Ave SW, 
+        <address>4105 California Ave SW,
 Seattle, WA  98116</address>
         <phone>(206) 938-4628</phone>
         <fax></fax>
@@ -1853,7 +1853,7 @@ Seattle, WA  98116</address>
         <parentRating>3</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>5117 13th Avenue South, 
+        <address>5117 13th Avenue South,
 Seattle, WA  98108</address>
         <phone>(206) 762-0656</phone>
         <fax>(206) 763-3220</fax>
@@ -1876,7 +1876,7 @@ Seattle, WA  98108</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4100 Southwest Genesee Street, 
+        <address>4100 Southwest Genesee Street,
 Seattle, WA  98116</address>
         <phone>(206) 937-6397</phone>
         <fax></fax>
@@ -1899,7 +1899,7 @@ Seattle, WA  98116</address>
         <parentRating>1</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4100 Southwest Genesee Street, 
+        <address>4100 Southwest Genesee Street,
 Seattle, WA  98116</address>
         <phone>(206) 246-9751</phone>
         <fax></fax>
@@ -1922,7 +1922,7 @@ Seattle, WA  98116</address>
         <parentRating>3</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>600 NW Bright St, 
+        <address>600 NW Bright St,
 Seattle, WA  98107</address>
         <phone>(206) 789-7889</phone>
         <fax></fax>
@@ -1944,7 +1944,7 @@ Seattle, WA  98107</address>
         <enrollment>22</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>600 Northwest Bright Street, 
+        <address>600 Northwest Bright Street,
 Seattle, WA  98107</address>
         <phone>(206) 789-7889</phone>
         <fax></fax>
@@ -1971,7 +1971,7 @@ Seattle, WA  98107</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2550 34 Av West, 
+        <address>2550 34 Av West,
 Seattle, WA  98199</address>
         <phone>(206) 252-1920</phone>
         <fax></fax>
@@ -1994,7 +1994,7 @@ Seattle, WA  98199</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4811 Wallingford Avenue North, 
+        <address>4811 Wallingford Avenue North,
 Seattle, WA  98103</address>
         <phone>(206) 633-3375</phone>
         <fax></fax>
@@ -2017,7 +2017,7 @@ Seattle, WA  98103</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4649 Sunnyside Avenue North, 
+        <address>4649 Sunnyside Avenue North,
 Seattle, WA  98103</address>
         <phone>(206) 632-7154</phone>
         <fax></fax>
@@ -2044,7 +2044,7 @@ Seattle, WA  98103</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>4100 39 Av South, 
+        <address>4100 39 Av South,
 Seattle, WA  98118</address>
         <phone>(206) 252-7210</phone>
         <fax></fax>
@@ -2067,7 +2067,7 @@ Seattle, WA  98118</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4446 42nd Ave SW, 
+        <address>4446 42nd Ave SW,
 Seattle, WA  98116</address>
         <phone>(206) 935-8500</phone>
         <fax>(206) 937-9332</fax>
@@ -2090,7 +2090,7 @@ Seattle, WA  98116</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>510 N 49th Street, 
+        <address>510 N 49th Street,
 Seattle, WA  98103</address>
         <phone>(206) 522-0350</phone>
         <fax></fax>
@@ -2113,7 +2113,7 @@ Seattle, WA  98103</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4730 32nd Ave S, 
+        <address>4730 32nd Ave S,
 Seattle, WA  98118</address>
         <phone>(206) 723-0580</phone>
         <fax></fax>
@@ -2136,7 +2136,7 @@ Seattle, WA  98118</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>3019 S Angeline St, 
+        <address>3019 S Angeline St,
 Seattle, WA  98118</address>
         <phone>(206) 721-2446</phone>
         <fax></fax>
@@ -2159,7 +2159,7 @@ Seattle, WA  98118</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4910 Phinney Ave N, 
+        <address>4910 Phinney Ave N,
 Seattle, WA  98103</address>
         <phone>(206) 524-4244</phone>
         <fax></fax>
@@ -2181,7 +2181,7 @@ Seattle, WA  98103</address>
         <enrollment>193</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4910 Phinney Ave N, 
+        <address>4910 Phinney Ave N,
 Seattle, WA  98103</address>
         <phone></phone>
         <fax></fax>
@@ -2208,7 +2208,7 @@ Seattle, WA  98103</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3010 59 Av SW, 
+        <address>3010 59 Av SW,
 Seattle, WA  98116</address>
         <phone>(206) 252-9050</phone>
         <fax></fax>
@@ -2235,7 +2235,7 @@ Seattle, WA  98116</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>5511 15 Ave South, 
+        <address>5511 15 Ave South,
 Seattle, WA  98108</address>
         <phone>(206) 252-7800</phone>
         <fax></fax>
@@ -2258,7 +2258,7 @@ Seattle, WA  98108</address>
         <parentRating>3</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>3301 West Dravus Street, 
+        <address>3301 West Dravus Street,
 Seattle, WA  98199</address>
         <phone>(206) 283-7031</phone>
         <fax>(206) 352-4588</fax>
@@ -2285,7 +2285,7 @@ Seattle, WA  98199</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>5012 SW Genesee St, 
+        <address>5012 SW Genesee St,
 Seattle, WA  98106</address>
         <phone>(206) 252-9710</phone>
         <fax></fax>
@@ -2308,7 +2308,7 @@ Seattle, WA  98106</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>5062 9th Avenue Northeast, 
+        <address>5062 9th Avenue Northeast,
 Seattle, WA  98105</address>
         <phone>(206) 547-8237</phone>
         <fax></fax>
@@ -2330,7 +2330,7 @@ Seattle, WA  98105</address>
         <enrollment>90</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>5031 University Way NE, 
+        <address>5031 University Way NE,
 Seattle, WA  98105</address>
         <phone>(206) 427-0115</phone>
         <fax></fax>
@@ -2352,7 +2352,7 @@ Seattle, WA  98105</address>
         <enrollment>7</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>3528 South Ferdinand Street, 
+        <address>3528 South Ferdinand Street,
 Seattle, WA  98118</address>
         <phone>(206) 722-1200</phone>
         <fax></fax>
@@ -2379,7 +2379,7 @@ Seattle, WA  98118</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>4000 27 Av West, 
+        <address>4000 27 Av West,
 Seattle, WA  98199</address>
         <phone>(206) 252-2130</phone>
         <fax></fax>
@@ -2405,7 +2405,7 @@ Seattle, WA  98199</address>
         <districtId>108</districtId>
         <district>Highline School District</district>
         <districtNCESId>5303540</districtNCESId>
-        <address>6000 16th Ave SW, 
+        <address>6000 16th Ave SW,
 Seattle, WA  98106</address>
         <phone>(206) 433-2361</phone>
         <fax></fax>
@@ -2427,7 +2427,7 @@ Seattle, WA  98106</address>
         <gsRating>5</gsRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>5950 Delridge way, 
+        <address>5950 Delridge way,
 Seattle, WA  </address>
         <phone></phone>
         <fax></fax>
@@ -2454,7 +2454,7 @@ Seattle, WA  </address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2820 South Orcas St, 
+        <address>2820 South Orcas St,
 Seattle, WA  98108</address>
         <phone>(206) 252-6930</phone>
         <fax></fax>
@@ -2477,7 +2477,7 @@ Seattle, WA  98108</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>5601 University Way Northeast, 
+        <address>5601 University Way Northeast,
 Seattle, WA  98105</address>
         <phone>(206) 584-0653</phone>
         <fax></fax>
@@ -2503,7 +2503,7 @@ Seattle, WA  98105</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3800 SW Findlay St, 
+        <address>3800 SW Findlay St,
 Seattle, WA  98126</address>
         <phone>(206) 252-9300</phone>
         <fax></fax>
@@ -2530,7 +2530,7 @@ Seattle, WA  98126</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>5601 4 Av NW, 
+        <address>5601 4 Av NW,
 Seattle, WA  98107</address>
         <phone>(206) 252-1600</phone>
         <fax></fax>
@@ -2557,7 +2557,7 @@ Seattle, WA  98107</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>4530 46 Av NE, 
+        <address>4530 46 Av NE,
 Seattle, WA  98105</address>
         <phone>(206) 252-5400</phone>
         <fax></fax>
@@ -2578,7 +2578,7 @@ Seattle, WA  98105</address>
         <gradeRange>10-11</gradeRange>
         <city>Seattle</city>
         <state>WA</state>
-        <address>6414 Latona Avenue NE, 
+        <address>6414 Latona Avenue NE,
 Seattle, WA  98115</address>
         <phone>(206) 528-8124</phone>
         <fax></fax>
@@ -2600,7 +2600,7 @@ Seattle, WA  98115</address>
         <enrollment>41</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>3613 S Juneau St, 
+        <address>3613 S Juneau St,
 Seattle, WA  98118</address>
         <phone>(206) 722-1200</phone>
         <fax></fax>
@@ -2627,7 +2627,7 @@ Seattle, WA  98118</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>5215 46 Ave South, 
+        <address>5215 46 Ave South,
 Seattle, WA  98118</address>
         <phone>(206) 252-6900</phone>
         <fax></fax>
@@ -2654,7 +2654,7 @@ Seattle, WA  98118</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2400 North 65 St, 
+        <address>2400 North 65 St,
 Seattle, WA  98103</address>
         <phone>(206) 252-5320</phone>
         <fax></fax>
@@ -2677,7 +2677,7 @@ Seattle, WA  98103</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>5816 15th Ave NW, 
+        <address>5816 15th Ave NW,
 Seattle, WA  98107</address>
         <phone>(206) 782-4363</phone>
         <fax></fax>
@@ -2700,7 +2700,7 @@ Seattle, WA  98107</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4200 South Mead Street, 
+        <address>4200 South Mead Street,
 Seattle, WA  98118</address>
         <phone>(206) 725-1774</phone>
         <fax></fax>
@@ -2722,7 +2722,7 @@ Seattle, WA  98118</address>
         <enrollment>4</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>520 Northeast Ravenna Boulevard, 
+        <address>520 Northeast Ravenna Boulevard,
 Seattle, WA  98115</address>
         <phone>(206) 442-2023</phone>
         <fax></fax>
@@ -2745,7 +2745,7 @@ Seattle, WA  98115</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>6532 Phinney Ave N, 
+        <address>6532 Phinney Ave N,
 Seattle, WA  98103</address>
         <phone>(206) 979-2347</phone>
         <fax></fax>
@@ -2768,7 +2768,7 @@ Seattle, WA  98103</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>5001 Northeast 50th Street, 
+        <address>5001 Northeast 50th Street,
 Seattle, WA  98105</address>
         <phone>(206) 524-8885</phone>
         <fax></fax>
@@ -2795,7 +2795,7 @@ Seattle, WA  98105</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3311 NE 60 St, 
+        <address>3311 NE 60 St,
 Seattle, WA  98115</address>
         <phone>(206) 252-5200</phone>
         <fax></fax>
@@ -2822,7 +2822,7 @@ Seattle, WA  98115</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1812 SW Myrtle St, 
+        <address>1812 SW Myrtle St,
 Seattle, WA  98106</address>
         <phone>(206) 252-8380</phone>
         <fax></fax>
@@ -2849,7 +2849,7 @@ Seattle, WA  98106</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1410 NE 66 St, 
+        <address>1410 NE 66 St,
 Seattle, WA  98115</address>
         <phone>(206) 252-4810</phone>
         <fax></fax>
@@ -2872,7 +2872,7 @@ Seattle, WA  98115</address>
         <parentRating>4</parentRating>
         <city>Medina</city>
         <state>WA</state>
-        <address>8300 NE 12th St, 
+        <address>8300 NE 12th St,
 Medina, WA  98039</address>
         <phone>(425) 454-5880</phone>
         <fax>(425) 454-1921</fax>
@@ -2899,7 +2899,7 @@ Medina, WA  98039</address>
         <districtId>22</districtId>
         <district>Bellevue School District</district>
         <districtNCESId>5300390</districtNCESId>
-        <address>301 151st Place NE (Temp Addr), 
+        <address>301 151st Place NE (Temp Addr),
 Medina, WA  98039</address>
         <phone>(425) 456-5400</phone>
         <fax>(425) 456-5404</fax>
@@ -2926,7 +2926,7 @@ Medina, WA  98039</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>6760 34 Av SW, 
+        <address>6760 34 Av SW,
 Seattle, WA  98126</address>
         <phone>(206) 252-9450</phone>
         <fax></fax>
@@ -2953,7 +2953,7 @@ Seattle, WA  98126</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3928 South Graham St, 
+        <address>3928 South Graham St,
 Seattle, WA  98118</address>
         <phone>(206) 252-7700</phone>
         <fax></fax>
@@ -2976,7 +2976,7 @@ Seattle, WA  98118</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>6220 32nd Avenue Northeast, 
+        <address>6220 32nd Avenue Northeast,
 Seattle, WA  98115</address>
         <phone>(206) 524-7452</phone>
         <fax></fax>
@@ -2999,7 +2999,7 @@ Seattle, WA  98115</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>7217 Woodlawn Avenue Northeast, 
+        <address>7217 Woodlawn Avenue Northeast,
 Seattle, WA  98115</address>
         <phone>(206) 547-4614</phone>
         <fax></fax>
@@ -3022,7 +3022,7 @@ Seattle, WA  98115</address>
         <parentRating>2</parentRating>
         <city>Medina</city>
         <state>WA</state>
-        <address>7800 NE 28th St, 
+        <address>7800 NE 28th St,
 Medina, WA  98039</address>
         <phone>(425) 454-3977</phone>
         <fax></fax>
@@ -3049,7 +3049,7 @@ Medina, WA  98039</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1418 NW 65 St, 
+        <address>1418 NW 65 St,
 Seattle, WA  98117</address>
         <phone>(206) 252-1000</phone>
         <fax></fax>
@@ -3072,7 +3072,7 @@ Seattle, WA  98117</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>3401 SW Myrtle St, 
+        <address>3401 SW Myrtle St,
 Seattle, WA  98126</address>
         <phone>(206) 935-0651</phone>
         <fax>(206) 938-3695</fax>
@@ -3099,7 +3099,7 @@ Seattle, WA  98126</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1810 NW 65 St, 
+        <address>1810 NW 65 St,
 Seattle, WA  98117</address>
         <phone>(206) 252-1720</phone>
         <fax></fax>
@@ -3126,7 +3126,7 @@ Seattle, WA  98117</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>6110 28 Av NW, 
+        <address>6110 28 Av NW,
 Seattle, WA  98107</address>
         <phone>(206) 252-1300</phone>
         <fax></fax>
@@ -3149,7 +3149,7 @@ Seattle, WA  98107</address>
         <parentRating>5</parentRating>
         <city>Mercer Island</city>
         <state>WA</state>
-        <address>7834 SE 32nd Street, 
+        <address>7834 SE 32nd Street,
 Mercer Island, WA  98040</address>
         <phone>(206) 230-5672</phone>
         <fax></fax>
@@ -3171,7 +3171,7 @@ Mercer Island, WA  98040</address>
         <enrollment>8</enrollment>
         <city>Mercer Island</city>
         <state>WA</state>
-        <address>7834 Southeast 32nd Street, 
+        <address>7834 Southeast 32nd Street,
 Mercer Island, WA  98040</address>
         <phone>(206) 230-5672</phone>
         <fax></fax>
@@ -3198,7 +3198,7 @@ Mercer Island, WA  98040</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>7201 Beacon Av South, 
+        <address>7201 Beacon Av South,
 Seattle, WA  98108</address>
         <phone>(206) 252-7500</phone>
         <fax></fax>
@@ -3221,7 +3221,7 @@ Seattle, WA  98108</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>2205 Northwest 67th Street, 
+        <address>2205 Northwest 67th Street,
 Seattle, WA  98117</address>
         <phone>(206) 283-1828</phone>
         <fax></fax>
@@ -3248,7 +3248,7 @@ Seattle, WA  98117</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>4320 SW Myrtle St, 
+        <address>4320 SW Myrtle St,
 Seattle, WA  98136</address>
         <phone>(206) 252-9400</phone>
         <fax></fax>
@@ -3271,7 +3271,7 @@ Seattle, WA  98136</address>
         <parentRating>3</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>7400 25th Avenue Northeast, 
+        <address>7400 25th Avenue Northeast,
 Seattle, WA  98115</address>
         <phone>(206) 524-4244</phone>
         <fax></fax>
@@ -3298,7 +3298,7 @@ Seattle, WA  98115</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>5149 South Graham St, 
+        <address>5149 South Graham St,
 Seattle, WA  98118</address>
         <phone>(206) 225-7140</phone>
         <fax></fax>
@@ -3325,7 +3325,7 @@ Seattle, WA  98118</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>7821 Stone Av North, 
+        <address>7821 Stone Av North,
 Seattle, WA  98103</address>
         <phone>(206) 252-5110</phone>
         <fax></fax>
@@ -3352,7 +3352,7 @@ Seattle, WA  98103</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>6725 45th Ave S., 
+        <address>6725 45th Ave S.,
 Seattle, WA  98126</address>
         <phone>(206) 252-6770</phone>
         <fax></fax>
@@ -3375,7 +3375,7 @@ Seattle, WA  98126</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>844 Northeast 78th Street, 
+        <address>844 Northeast 78th Street,
 Seattle, WA  98115</address>
         <phone>(206) 526-0762</phone>
         <fax>(206) 526-0763</fax>
@@ -3397,7 +3397,7 @@ Seattle, WA  98115</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>4316 SW Othello St, 
+        <address>4316 SW Othello St,
 Seattle, WA  98136</address>
         <phone>(206) 932-0648</phone>
         <fax></fax>
@@ -3424,7 +3424,7 @@ Seattle, WA  98136</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3003 NE 75 St, 
+        <address>3003 NE 75 St,
 Seattle, WA  98115</address>
         <phone>(206) 252-5010</phone>
         <fax></fax>
@@ -3447,7 +3447,7 @@ Seattle, WA  98115</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>3800 South Othello Street, 
+        <address>3800 South Othello Street,
 Seattle, WA  98118</address>
         <phone>(206) 723-0333</phone>
         <fax></fax>
@@ -3470,7 +3470,7 @@ Seattle, WA  98118</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>120 N 79th St, 
+        <address>120 N 79th St,
 Seattle, WA  98103</address>
         <phone>(206) 783-0337</phone>
         <fax>(206) 706-2704</fax>
@@ -3493,7 +3493,7 @@ Seattle, WA  98103</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>7040 36th Avenue Northeast, 
+        <address>7040 36th Avenue Northeast,
 Seattle, WA  98115</address>
         <phone>(206) 525-7407</phone>
         <fax></fax>
@@ -3520,7 +3520,7 @@ Seattle, WA  98115</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1320 NW 75 St, 
+        <address>1320 NW 75 St,
 Seattle, WA  98117</address>
         <phone>(206) 252-1650</phone>
         <fax></fax>
@@ -3543,7 +3543,7 @@ Seattle, WA  98117</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>7740 34th Avenue SW, 
+        <address>7740 34th Avenue SW,
 Seattle, WA  98126</address>
         <phone>(206) 932-2511</phone>
         <fax></fax>
@@ -3570,7 +3570,7 @@ Seattle, WA  98126</address>
         <districtId>147</districtId>
         <district>Mercer Island School District</district>
         <districtNCESId>5304980</districtNCESId>
-        <address>4141 81st Ave SE, 
+        <address>4141 81st Ave SE,
 Mercer Island, WA  98040</address>
         <phone>(206) 236-3433</phone>
         <fax></fax>
@@ -3597,7 +3597,7 @@ Mercer Island, WA  98040</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>144 NW 80 St, 
+        <address>144 NW 80 St,
 Seattle, WA  98117</address>
         <phone>(206) 252-1400</phone>
         <fax></fax>
@@ -3619,7 +3619,7 @@ Seattle, WA  98117</address>
         <enrollment>3</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>Po Box 51241, 
+        <address>Po Box 51241,
 Seattle, WA  98115</address>
         <phone>(206) 427-0115</phone>
         <fax></fax>
@@ -3642,7 +3642,7 @@ Seattle, WA  98115</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>8200 Wallingford Avenue North, 
+        <address>8200 Wallingford Avenue North,
 Seattle, WA  98103</address>
         <phone>(206) 527-7731</phone>
         <fax></fax>
@@ -3663,7 +3663,7 @@ Seattle, WA  98103</address>
         <gradeRange>6-12</gradeRange>
         <city>Seattle</city>
         <state>WA</state>
-        <address>7317 26th Ave NW, 
+        <address>7317 26th Ave NW,
 Seattle, WA  98117</address>
         <phone>(206) 706-3379</phone>
         <fax></fax>
@@ -3690,7 +3690,7 @@ Seattle, WA  98117</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>6208 60 Ave NE, 
+        <address>6208 60 Ave NE,
 Seattle, WA  98115</address>
         <phone>(206) 252-2100</phone>
         <fax></fax>
@@ -3713,7 +3713,7 @@ Seattle, WA  98115</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>8000 25th Avenue Northeast, 
+        <address>8000 25th Avenue Northeast,
 Seattle, WA  98115</address>
         <phone>(206) 525-2714</phone>
         <fax>(206) 525-9659</fax>
@@ -3740,7 +3740,7 @@ Seattle, WA  98115</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2600 SW Thistle Street, 
+        <address>2600 SW Thistle Street,
 Seattle, WA  98106</address>
         <phone>(206) 252-8550</phone>
         <fax></fax>
@@ -3767,7 +3767,7 @@ Seattle, WA  98106</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>7047 50 Av NE, 
+        <address>7047 50 Av NE,
 Seattle, WA  98115</address>
         <phone>(206) 252-5600</phone>
         <fax></fax>
@@ -3794,7 +3794,7 @@ Seattle, WA  98115</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1012 SW Trenton St, 
+        <address>1012 SW Trenton St,
 Seattle, WA  98106</address>
         <phone>(206) 252-8240</phone>
         <fax></fax>
@@ -3817,7 +3817,7 @@ Seattle, WA  98106</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>8524 8th Avenue Northeast, 
+        <address>8524 8th Avenue Northeast,
 Seattle, WA  98115</address>
         <phone>(206) 525-0581</phone>
         <fax></fax>
@@ -3840,7 +3840,7 @@ Seattle, WA  98115</address>
         <parentRating>3</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>8511 15th Avenue Northeast, 
+        <address>8511 15th Avenue Northeast,
 Seattle, WA  98115</address>
         <phone>(206) 523-9766</phone>
         <fax></fax>
@@ -3863,7 +3863,7 @@ Seattle, WA  98115</address>
         <parentRating>4</parentRating>
         <city>Mercer Island</city>
         <state>WA</state>
-        <address>4030 86th Avenue Southeast, 
+        <address>4030 86th Avenue Southeast,
 Mercer Island, WA  98040</address>
         <phone>(206) 232-8680</phone>
         <fax></fax>
@@ -3886,7 +3886,7 @@ Mercer Island, WA  98040</address>
         <parentRating>5</parentRating>
         <city>Clyde Hill</city>
         <state>WA</state>
-        <address>9450 Northeast 14th Street, 
+        <address>9450 Northeast 14th Street,
 Clyde Hill, WA  98004</address>
         <phone>(425) 451-1773</phone>
         <fax></fax>
@@ -3913,7 +3913,7 @@ Clyde Hill, WA  98004</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2601 SW Kenyon St, 
+        <address>2601 SW Kenyon St,
 Seattle, WA  98126</address>
         <phone>(206) 252-9000</phone>
         <fax></fax>
@@ -3940,7 +3940,7 @@ Seattle, WA  98126</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>7711 43 Av NE, 
+        <address>7711 43 Av NE,
 Seattle, WA  98115</address>
         <phone>(206) 252-5300</phone>
         <fax></fax>
@@ -3967,7 +3967,7 @@ Seattle, WA  98115</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3701 South Kenyon St, 
+        <address>3701 South Kenyon St,
 Seattle, WA  98118</address>
         <phone>(206) 252-7630</phone>
         <fax></fax>
@@ -3994,7 +3994,7 @@ Seattle, WA  98118</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>723 South Concord St, 
+        <address>723 South Concord St,
 Seattle, WA  98108</address>
         <phone>(206) 252-2815</phone>
         <fax></fax>
@@ -4021,7 +4021,7 @@ Seattle, WA  98108</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2511 NW 80 St, 
+        <address>2511 NW 80 St,
 Seattle, WA  98117</address>
         <phone>(206) 252-1500</phone>
         <fax></fax>
@@ -4047,7 +4047,7 @@ Seattle, WA  98117</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>401 NE Northgate Wy, 
+        <address>401 NE Northgate Wy,
 Seattle, WA  98125</address>
         <phone>(206) 252-4785</phone>
         <fax></fax>
@@ -4072,7 +4072,7 @@ Seattle, WA  98125</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3100 South Alaska St, 
+        <address>3100 South Alaska St,
 Seattle, WA  98108</address>
         <phone>(206) 252-6816</phone>
         <fax></fax>
@@ -4099,7 +4099,7 @@ Seattle, WA  98108</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>9250 14 Av NW, 
+        <address>9250 14 Av NW,
 Seattle, WA  98117</address>
         <phone>(206) 252-4720</phone>
         <fax></fax>
@@ -4126,7 +4126,7 @@ Seattle, WA  98117</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>2720 NE 85 St, 
+        <address>2720 NE 85 St,
 Seattle, WA  98115</address>
         <phone>(206) 252-5670</phone>
         <fax></fax>
@@ -4149,7 +4149,7 @@ Seattle, WA  98115</address>
         <parentRating>5</parentRating>
         <city>Mercer Island</city>
         <state>WA</state>
-        <address>4320 87th Ave SE, 
+        <address>4320 87th Ave SE,
 Mercer Island, WA  98040</address>
         <phone>(206) 232-5432</phone>
         <fax></fax>
@@ -4172,7 +4172,7 @@ Mercer Island, WA  98040</address>
         <parentRating>4</parentRating>
         <city>Bellevue</city>
         <state>WA</state>
-        <address>1601 98th Avenue Northeast, 
+        <address>1601 98th Avenue Northeast,
 Bellevue, WA  98004</address>
         <phone>(425) 454-4402</phone>
         <fax></fax>
@@ -4197,7 +4197,7 @@ Bellevue, WA  98004</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>1330 North 90 St, 
+        <address>1330 North 90 St,
 Seattle, WA  98103</address>
         <phone>(206) 252-0838</phone>
         <fax></fax>
@@ -4220,7 +4220,7 @@ Seattle, WA  98103</address>
         <parentRating>4</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>9005 Roosevelt Way NE, 
+        <address>9005 Roosevelt Way NE,
 Seattle, WA  98115</address>
         <phone>(206) 526-8217</phone>
         <fax>(206) 525-6239</fax>
@@ -4247,7 +4247,7 @@ Seattle, WA  98115</address>
         <districtId>22</districtId>
         <district>Bellevue School District</district>
         <districtNCESId>5300390</districtNCESId>
-        <address>2001 98th Ave NE, 
+        <address>2001 98th Ave NE,
 Bellevue, WA  98004</address>
         <phone>(425) 456-6300</phone>
         <fax></fax>
@@ -4274,7 +4274,7 @@ Bellevue, WA  98004</address>
         <districtId>147</districtId>
         <district>Mercer Island School District</district>
         <districtNCESId>5304980</districtNCESId>
-        <address>9100 SE 42nd, 
+        <address>9100 SE 42nd,
 Mercer Island, WA  98040</address>
         <phone>(206) 236-3394</phone>
         <fax></fax>
@@ -4301,7 +4301,7 @@ Mercer Island, WA  98040</address>
         <districtId>22</districtId>
         <district>Bellevue School District</district>
         <districtNCESId>5300390</districtNCESId>
-        <address>9601 NE 24th St, 
+        <address>9601 NE 24th St,
 Bellevue, WA  98004</address>
         <phone>(425) 456-5000</phone>
         <fax></fax>
@@ -4323,7 +4323,7 @@ Bellevue, WA  98004</address>
         <enrollment>1</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>9205 3rd Avenue Southwest, 
+        <address>9205 3rd Avenue Southwest,
 Seattle, WA  98106</address>
         <phone>(206) 214-1011</phone>
         <fax></fax>
@@ -4345,7 +4345,7 @@ Seattle, WA  98106</address>
         <enrollment>1</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>9205 3rd Avenue Southwest, 
+        <address>9205 3rd Avenue Southwest,
 Seattle, WA  98106</address>
         <phone>(206) 214-1011</phone>
         <fax></fax>
@@ -4368,7 +4368,7 @@ Seattle, WA  98106</address>
         <parentRating>4</parentRating>
         <city>Mercer Island</city>
         <state>WA</state>
-        <address>9311 SE 36th St, 
+        <address>9311 SE 36th St,
 Mercer Island, WA  98040</address>
         <phone>(206) 232-0059</phone>
         <fax></fax>
@@ -4390,7 +4390,7 @@ Mercer Island, WA  98040</address>
         <enrollment>25</enrollment>
         <city>Bellevue</city>
         <state>WA</state>
-        <address>1720 100th Ave NE, 
+        <address>1720 100th Ave NE,
 Bellevue, WA  98004</address>
         <phone>(425) 452-9920</phone>
         <fax></fax>
@@ -4411,7 +4411,7 @@ Bellevue, WA  98004</address>
         <gradeRange>PK-5</gradeRange>
         <city>Seattle</city>
         <state>WA</state>
-        <address>7930 Rainier Ave S, 
+        <address>7930 Rainier Ave S,
 Seattle, WA  98118</address>
         <phone>(206) 760-9410</phone>
         <fax></fax>
@@ -4434,7 +4434,7 @@ Seattle, WA  98118</address>
         <parentRating>5</parentRating>
         <city>Bellevue</city>
         <state>WA</state>
-        <address>1717 Bellevue Way Northeast, 
+        <address>1717 Bellevue Way Northeast,
 Bellevue, WA  98004</address>
         <phone>(425) 452-9920</phone>
         <fax></fax>
@@ -4457,7 +4457,7 @@ Bellevue, WA  98004</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>3520 Northeast 89th Street, 
+        <address>3520 Northeast 89th Street,
 Seattle, WA  98115</address>
         <phone>(206) 525-9980</phone>
         <fax></fax>
@@ -4484,7 +4484,7 @@ Seattle, WA  98115</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>504 NE 95 St, 
+        <address>504 NE 95 St,
 Seattle, WA  98115</address>
         <phone>(206) 252-5500</phone>
         <fax></fax>
@@ -4507,7 +4507,7 @@ Seattle, WA  98115</address>
         <parentRating>4</parentRating>
         <city>Mercer Island</city>
         <state>WA</state>
-        <address>9655 SE 36th St Ste 101, 
+        <address>9655 SE 36th St Ste 101,
 Mercer Island, WA  98040</address>
         <phone>(206) 236-1095</phone>
         <fax></fax>
@@ -4529,7 +4529,7 @@ Mercer Island, WA  98040</address>
         <enrollment>3</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>9618 Roosevelt Way Northeast, 
+        <address>9618 Roosevelt Way Northeast,
 Seattle, WA  98115</address>
         <phone>(206) 522-2379</phone>
         <fax></fax>
@@ -4551,7 +4551,7 @@ Seattle, WA  98115</address>
         <enrollment>15</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>9725 3rd Ave NE Suite 125, 
+        <address>9725 3rd Ave NE Suite 125,
 Seattle, WA  98125</address>
         <phone>(206) 363-3600</phone>
         <fax></fax>
@@ -4578,7 +4578,7 @@ Seattle, WA  98125</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>9501 20 Av NE, 
+        <address>9501 20 Av NE,
 Seattle, WA  98115</address>
         <phone>(206) 252-5550</phone>
         <fax></fax>
@@ -4600,7 +4600,7 @@ Seattle, WA  98115</address>
         <enrollment>8</enrollment>
         <city>Seattle</city>
         <state>WA</state>
-        <address>9450 22nd Avenue Southwest, 
+        <address>9450 22nd Avenue Southwest,
 Seattle, WA  98106</address>
         <phone>(206) 763-2081</phone>
         <fax></fax>
@@ -4623,7 +4623,7 @@ Seattle, WA  98106</address>
         <parentRating>5</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>9750 3rd Ave NE Ste 102, 
+        <address>9750 3rd Ave NE Ste 102,
 Seattle, WA  98115</address>
         <phone>(206) 284-2300</phone>
         <fax>(206) 285-2804</fax>
@@ -4650,7 +4650,7 @@ Seattle, WA  98115</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>9018 24 Av NW, 
+        <address>9018 24 Av NW,
 Seattle, WA  98117</address>
         <phone>(206) 252-1510</phone>
         <fax></fax>
@@ -4673,7 +4673,7 @@ Seattle, WA  98117</address>
         <parentRating>3</parentRating>
         <city>Seattle</city>
         <state>WA</state>
-        <address>9615 20th Avenue Southwest, 
+        <address>9615 20th Avenue Southwest,
 Seattle, WA  98106</address>
         <phone>(206) 767-6640</phone>
         <fax></fax>
@@ -4700,7 +4700,7 @@ Seattle, WA  98106</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>9201 15 Av NW, 
+        <address>9201 15 Av NW,
 Seattle, WA  98117</address>
         <phone>(206) 252-1200</phone>
         <fax></fax>
@@ -4727,7 +4727,7 @@ Seattle, WA  98117</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>4525 South Cloverdale St, 
+        <address>4525 South Cloverdale St,
 Seattle, WA  98118</address>
         <phone>(206) 252-7000</phone>
         <fax></fax>
@@ -4754,7 +4754,7 @@ Seattle, WA  98118</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>9430 30 Av SW, 
+        <address>9430 30 Av SW,
 Seattle, WA  98126</address>
         <phone>(206) 252-9570</phone>
         <fax></fax>
@@ -4777,7 +4777,7 @@ Seattle, WA  98126</address>
         <parentRating>5</parentRating>
         <city>Mercer Island</city>
         <state>WA</state>
-        <address>5017 90th Avenue Southeast, 
+        <address>5017 90th Avenue Southeast,
 Mercer Island, WA  98040</address>
         <phone>(206) 232-5272</phone>
         <fax></fax>
@@ -4804,7 +4804,7 @@ Mercer Island, WA  98040</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>8601 Rainier Ave South, 
+        <address>8601 Rainier Ave South,
 Seattle, WA  98118</address>
         <phone>(206) 252-6600</phone>
         <fax></fax>
@@ -4827,7 +4827,7 @@ Seattle, WA  98118</address>
         <parentRating>4</parentRating>
         <city>Mercer Island</city>
         <state>WA</state>
-        <address>3795 E Mercer Way, 
+        <address>3795 E Mercer Way,
 Mercer Island, WA  98040</address>
         <phone>(206) 275-3533</phone>
         <fax></fax>
@@ -4854,7 +4854,7 @@ Mercer Island, WA  98040</address>
         <districtId>22</districtId>
         <district>Bellevue School District</district>
         <districtNCESId>5300390</districtNCESId>
-        <address>10416 Wolverine Way, 
+        <address>10416 Wolverine Way,
 Bellevue, WA  98004</address>
         <phone>(425) 456-7000</phone>
         <fax></fax>
@@ -4881,7 +4881,7 @@ Bellevue, WA  98004</address>
         <districtId>147</districtId>
         <district>Mercer Island School District</district>
         <districtNCESId>5304980</districtNCESId>
-        <address>5437 Island Crest Way, 
+        <address>5437 Island Crest Way,
 Mercer Island, WA  98040</address>
         <phone>(206) 230-6280</phone>
         <fax></fax>
@@ -4908,7 +4908,7 @@ Mercer Island, WA  98040</address>
         <districtId>22</districtId>
         <district>Bellevue School District</district>
         <districtNCESId>5300390</districtNCESId>
-        <address>10615 SE 23rd St, 
+        <address>10615 SE 23rd St,
 Bellevue, WA  98004</address>
         <phone>(425) 456-5200</phone>
         <fax></fax>
@@ -4935,7 +4935,7 @@ Bellevue, WA  98004</address>
         <districtId>229</districtId>
         <district>Seattle Public Schools</district>
         <districtNCESId>5307710</districtNCESId>
-        <address>3528 South Ferdinand St, 
+        <address>3528 South Ferdinand St,
 Seattle, WA  98118</address>
         <phone>(206) 252-7600</phone>
         <fax></fax>

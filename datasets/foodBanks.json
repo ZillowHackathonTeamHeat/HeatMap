@@ -1,0 +1,667 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "ryz5-i54h",
+      "name" : "Food Banks",
+      "attribution" : "City of Seattle, My Neighborhood Map program",
+      "attributionLink" : "http://www.seattle.gov/mnm",
+      "averageRating" : 0,
+      "category" : "Community",
+      "createdAt" : 1260481626,
+      "description" : "Food banks in Seattle.",
+      "downloadCount" : 751,
+      "indexUpdatedAt" : 1414470665,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 8408886,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1405119574,
+      "publicationGroup" : 215057,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1370642145,
+      "rowsUpdatedBy" : "pfbu-yuv5",
+      "tableId" : 905463,
+      "totalTimesRated" : 0,
+      "viewCount" : 2269,
+      "viewLastModified" : 1281650707,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 156900075,
+        "name" : "City Feature",
+        "dataTypeName" : "text",
+        "description" : "Type of City of Seattle feature, such as traffic cameras, parks, playfields, Neighborhood Service Centers, etc. ",
+        "fieldName" : "city_feature",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283205,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 36,
+          "smallest" : "Food Banks",
+          "null" : 0,
+          "largest" : "Food Banks",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Food Banks"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156900076,
+        "name" : "Common Name",
+        "dataTypeName" : "text",
+        "description" : "This is the commonly referred name of the feature. It may be a name of a building, a park, or a location",
+        "fieldName" : "common_name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283206,
+        "width" : 270,
+        "cachedContents" : {
+          "non_null" : 36,
+          "smallest" : "Asian Counseling And Referral Services",
+          "null" : 0,
+          "largest" : "West Seattle Food Bank",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Beacon Avenue Food Bank"
+          }, {
+            "count" : 19,
+            "item" : "Bo Da Dao Trang"
+          }, {
+            "count" : 18,
+            "item" : "Central Area Motivation Program"
+          }, {
+            "count" : 17,
+            "item" : "Emergency Feeding Program"
+          }, {
+            "count" : 16,
+            "item" : "Indo-China Chinese Elderly Association"
+          }, {
+            "count" : 15,
+            "item" : "Lake City Food Bank"
+          }, {
+            "count" : 14,
+            "item" : "Phinney Ridge Food Bank"
+          }, {
+            "count" : 13,
+            "item" : "Salvation Army Food Bank"
+          }, {
+            "count" : 12,
+            "item" : "Seattle Indian Center"
+          }, {
+            "count" : 11,
+            "item" : "Tahanan Filipino Services"
+          }, {
+            "count" : 10,
+            "item" : "Volunteers Of America-Greenwood"
+          }, {
+            "count" : 9,
+            "item" : "Spiritual Miracles Food Bank"
+          }, {
+            "count" : 8,
+            "item" : "Asian Counseling And Referral Services"
+          }, {
+            "count" : 7,
+            "item" : "Ballard Food Bank"
+          }, {
+            "count" : 6,
+            "item" : "Blessed Sacrament Food Bank"
+          }, {
+            "count" : 5,
+            "item" : "Cambodian Senior Club"
+          }, {
+            "count" : 4,
+            "item" : "Cascade Immanuel Food Bank"
+          }, {
+            "count" : 3,
+            "item" : "Chicken Soup Brigade"
+          }, {
+            "count" : 2,
+            "item" : "Downtown Food Bank"
+          }, {
+            "count" : 1,
+            "item" : "El Centro De La Raza"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156900077,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "description" : "Address is the most specific location information for a feature. It ranges from a building on a campus (like Cunningham Hall on the University of Washington campus, to an intersection, to a specific street address.",
+        "fieldName" : "address",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283207,
+        "width" : 300,
+        "cachedContents" : {
+          "non_null" : 36,
+          "smallest" : "1002 E Seneca St",
+          "null" : 0,
+          "largest" : "9800 8th Ave SW",
+          "top" : [ {
+            "count" : 20,
+            "item" : "6230 Beacon Ave S"
+          }, {
+            "count" : 19,
+            "item" : "3909 S Sunny View Dr"
+          }, {
+            "count" : 18,
+            "item" : "722 18th Ave E"
+          }, {
+            "count" : 17,
+            "item" : "2615 S Jackson St"
+          }, {
+            "count" : 16,
+            "item" : "409 Maynard Ave S"
+          }, {
+            "count" : 15,
+            "item" : "12707 30th Ave NE"
+          }, {
+            "count" : 14,
+            "item" : "7500 Greenwood Ave N"
+          }, {
+            "count" : 13,
+            "item" : "1101 Pike St"
+          }, {
+            "count" : 12,
+            "item" : "611 12th Ave S #300"
+          }, {
+            "count" : 11,
+            "item" : "5740 M L King Jr Way S"
+          }, {
+            "count" : 10,
+            "item" : "9747 Greenwood Ave N"
+          }, {
+            "count" : 9,
+            "item" : "7422 South 126th Street"
+          }, {
+            "count" : 8,
+            "item" : "720 8th Ave S"
+          }, {
+            "count" : 7,
+            "item" : "7005 24th Ave NW"
+          }, {
+            "count" : 6,
+            "item" : "5050 8th Ave NE"
+          }, {
+            "count" : 5,
+            "item" : "9800 8th Ave SW"
+          }, {
+            "count" : 4,
+            "item" : "1215 Thomas St"
+          }, {
+            "count" : 3,
+            "item" : "1002 E Seneca St"
+          }, {
+            "count" : 2,
+            "item" : "1531 Western Ave 5th floor"
+          }, {
+            "count" : 1,
+            "item" : "2524 16th Ave S"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156900078,
+        "name" : "Website",
+        "dataTypeName" : "url",
+        "description" : "This is the most recent known correct website address for the given feature. ",
+        "fieldName" : "website",
+        "position" : 5,
+        "renderTypeName" : "url",
+        "tableColumnId" : 1283208,
+        "width" : 415,
+        "cachedContents" : {
+          "non_null" : 34,
+          "smallest" : {
+            "url" : "http://acrs.org/programs/nutrition.htm"
+          },
+          "null" : 2,
+          "largest" : {
+            "url" : "http://www.westseattlefoodbank.org/"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "url" : "http://acrs.org/programs/nutrition.htm"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "url" : "http://www.campseattle.org/Home/Food+Bank/default.aspx"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "url" : "http://www.emergencyfeeding.org/"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "url" : "http://www.northhelpline.org/"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "url" : "http://www.prlc.org/foodbank.htm"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "url" : "http://salvationarmynw.org/volunteer/foodbank.asp"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "url" : "http://www.seattleindiancenter.org/"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "url" : "http://www.filcomseattle.org/index.htm"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "url" : "http://www.voaww.org/voa3f.cfm?SectionGroupsID=11&SectionListsID=11&PageID=234"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "url" : "http://www.seattle.gov/humanservices/emergencyservices/FoodBanksSeattleKingCounty.pdf"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "url" : "http://www.ballardfoodbank.org"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "url" : "http://www.blessed-sacrament.org/foodbank.html"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "url" : "http://www.scn.org/frnf/immanuel.htm"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "url" : "http://www.lifelongaidsalliance.org/csb"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "url" : "http://www.pikemarketseniorcenter.org/"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "url" : "http://www.elcentrodelaraza.com/programs/foodbank.htm"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "url" : "http://www.familyworksseattle.org/food_bank.htm"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "url" : "http://www.jfsseattle.org/services/emergency.html"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "url" : "http://www.oecagency.org/services.php"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "url" : "http://www.providence.org/washington/regina_house/default.htm"
+            }
+          } ]
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 156900079,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "description" : "This is the longitude value. Lines of longitude run perpendicular to lines of latitude, and all pass through both poles.",
+        "fieldName" : "longitude",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1283209,
+        "width" : 82,
+        "cachedContents" : {
+          "non_null" : 36,
+          "smallest" : "-122.387661",
+          "sum" : "-4403.505254",
+          "null" : 0,
+          "average" : "-122.3195903888889",
+          "largest" : "-122.24084",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-122.300331"
+          }, {
+            "count" : 19,
+            "item" : "-122.284441"
+          }, {
+            "count" : 18,
+            "item" : "-122.308541"
+          }, {
+            "count" : 17,
+            "item" : "-122.298464"
+          }, {
+            "count" : 16,
+            "item" : "-122.325177"
+          }, {
+            "count" : 15,
+            "item" : "-122.296462"
+          }, {
+            "count" : 14,
+            "item" : "-122.355178"
+          }, {
+            "count" : 13,
+            "item" : "-122.328816"
+          }, {
+            "count" : 12,
+            "item" : "-122.317349"
+          }, {
+            "count" : 11,
+            "item" : "-122.28778"
+          }, {
+            "count" : 10,
+            "item" : "-122.355521"
+          }, {
+            "count" : 9,
+            "item" : "-122.24084"
+          }, {
+            "count" : 8,
+            "item" : "-122.322334"
+          }, {
+            "count" : 7,
+            "item" : "-122.387661"
+          }, {
+            "count" : 6,
+            "item" : "-122.319416"
+          }, {
+            "count" : 5,
+            "item" : "-122.345149"
+          }, {
+            "count" : 4,
+            "item" : "-122.332595"
+          }, {
+            "count" : 3,
+            "item" : "-122.319318"
+          }, {
+            "count" : 2,
+            "item" : "-122.341519"
+          }, {
+            "count" : 1,
+            "item" : "-122.31198"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 156900080,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "description" : "This is the latitude value. Lines of latitude are parallel to the equator.",
+        "fieldName" : "latitude",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1283210,
+        "width" : 82,
+        "cachedContents" : {
+          "non_null" : 36,
+          "smallest" : "47.49142",
+          "sum" : "1713.375050",
+          "null" : 0,
+          "average" : "47.59375138888889",
+          "largest" : "47.721181",
+          "top" : [ {
+            "count" : 20,
+            "item" : "47.546769"
+          }, {
+            "count" : 19,
+            "item" : "47.515561"
+          }, {
+            "count" : 18,
+            "item" : "47.625456"
+          }, {
+            "count" : 17,
+            "item" : "47.599165"
+          }, {
+            "count" : 16,
+            "item" : "47.5991"
+          }, {
+            "count" : 15,
+            "item" : "47.721181"
+          }, {
+            "count" : 14,
+            "item" : "47.683311"
+          }, {
+            "count" : 13,
+            "item" : "47.613412"
+          }, {
+            "count" : 12,
+            "item" : "47.597396"
+          }, {
+            "count" : 11,
+            "item" : "47.550936"
+          }, {
+            "count" : 10,
+            "item" : "47.699736"
+          }, {
+            "count" : 9,
+            "item" : "47.49142"
+          }, {
+            "count" : 8,
+            "item" : "47.596483"
+          }, {
+            "count" : 7,
+            "item" : "47.679582"
+          }, {
+            "count" : 6,
+            "item" : "47.665359"
+          }, {
+            "count" : 5,
+            "item" : "47.515155"
+          }, {
+            "count" : 4,
+            "item" : "47.620733"
+          }, {
+            "count" : 3,
+            "item" : "47.612259"
+          }, {
+            "count" : 2,
+            "item" : "47.60863"
+          }, {
+            "count" : 1,
+            "item" : "47.580786"
+          } ]
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "owner" : {
+        "id" : "pfbu-yuv5",
+        "displayName" : "Department of Information Technology",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/3184/7575/Logo_thumb_large.gif",
+        "profileImageUrlMedium" : "/images/profile/3184/7575/Logo_thumb_thumb.gif",
+        "profileImageUrlSmall" : "/images/profile/3184/7575/Logo_thumb_tiny.gif",
+        "roleName" : "administrator",
+        "screenName" : "Department of Information Technology",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 156900075,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "Food Banks"
+            } ]
+          } ]
+        }
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "pfbu-yuv5",
+        "displayName" : "Department of Information Technology",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/3184/7575/Logo_thumb_large.gif",
+        "profileImageUrlMedium" : "/images/profile/3184/7575/Logo_thumb_thumb.gif",
+        "profileImageUrlSmall" : "/images/profile/3184/7575/Logo_thumb_tiny.gif",
+        "roleName" : "administrator",
+        "screenName" : "Department of Information Technology",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "food banks", "public services", "social services" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "EQUALS",
+          "children" : [ {
+            "columnId" : 156900075,
+            "type" : "column"
+          }, {
+            "type" : "literal",
+            "value" : "Food Banks"
+          } ]
+        } ]
+      }
+    }
+  },
+  "data" : [ [ 1890, "BA89C044-12CA-4C5E-82F2-2BF8AF0E23FE", 1890, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Beacon Avenue Food Bank", "6230 Beacon Ave S", [ null, null ], "-122.300331", "47.546769" ]
+, [ 1891, "C2F52F85-E99D-4EE9-A449-4AD39A3AC699", 1891, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Bo Da Dao Trang", "3909 S Sunny View Dr", [ "http://acrs.org/programs/nutrition.htm", null ], "-122.284441", "47.515561" ]
+, [ 1892, "1D976B12-739F-4DC2-B0C5-CC7A82D30413", 1892, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Central Area Motivation Program", "722 18th Ave E", [ "http://www.campseattle.org/Home/Food+Bank/default.aspx", null ], "-122.308541", "47.625456" ]
+, [ 1893, "B321BC93-9D77-4837-AC53-F828E0A5D975", 1893, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Emergency Feeding Program", "2615 S Jackson St", [ "http://www.emergencyfeeding.org/", null ], "-122.298464", "47.599165" ]
+, [ 1894, "F9924CA2-4E22-4EF9-A468-683DAB17C73B", 1894, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Indo-China Chinese Elderly Association", "409 Maynard Ave S", [ "http://acrs.org/programs/nutrition.htm", null ], "-122.325177", "47.5991" ]
+, [ 1895, "485495EE-1FE7-4566-9DD5-DC1B074268E1", 1895, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Lake City Food Bank", "12707 30th Ave NE", [ "http://www.northhelpline.org/", null ], "-122.296462", "47.721181" ]
+, [ 1896, "4F0944EE-5B57-470B-9FC1-4FB7DD998EB9", 1896, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Phinney Ridge Food Bank", "7500 Greenwood Ave N", [ "http://www.prlc.org/foodbank.htm", null ], "-122.355178", "47.683311" ]
+, [ 1897, "B27A8E61-9CC3-4401-A825-2BADFABA9B85", 1897, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Salvation Army Food Bank", "1101 Pike St", [ "http://salvationarmynw.org/volunteer/foodbank.asp", null ], "-122.328816", "47.613412" ]
+, [ 1898, "0285785B-4A89-4EE4-8840-EB319ED55A9E", 1898, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Seattle Indian Center", "611 12th Ave S #300", [ "http://www.seattleindiancenter.org/", null ], "-122.317349", "47.597396" ]
+, [ 1899, "B78061CA-5ACC-4177-B9BD-3296E1D97C3F", 1899, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Tahanan Filipino Services", "5740 M L King Jr Way S", [ "http://www.filcomseattle.org/index.htm", null ], "-122.28778", "47.550936" ]
+, [ 1900, "59F1C621-8D1E-4756-8C7B-093374B95DF7", 1900, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Volunteers Of America-Greenwood", "9747 Greenwood Ave N", [ "http://www.voaww.org/voa3f.cfm?SectionGroupsID=11&SectionListsID=11&PageID=234", null ], "-122.355521", "47.699736" ]
+, [ 1901, "B3DDCEEA-0204-408D-89F9-9EC5E5403415", 1901, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Spiritual Miracles Food Bank", "7422 South 126th Street", [ "http://www.seattle.gov/humanservices/emergencyservices/FoodBanksSeattleKingCounty.pdf", null ], "-122.24084", "47.49142" ]
+, [ 1902, "1776E511-AADA-4010-B8D4-121CC2FF106B", 1902, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Asian Counseling And Referral Services", "720 8th Ave S", [ "http://acrs.org/programs/nutrition.htm", null ], "-122.322334", "47.596483" ]
+, [ 1903, "48444BAE-DF7C-4E53-BF04-2FB1C60D9489", 1903, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Ballard Food Bank", "7005 24th Ave NW", [ "http://www.ballardfoodbank.org", null ], "-122.387661", "47.679582" ]
+, [ 1904, "712B1805-CD7C-4499-AB37-868F6BEA799F", 1904, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Blessed Sacrament Food Bank", "5050 8th Ave NE", [ "http://www.blessed-sacrament.org/foodbank.html", null ], "-122.319416", "47.665359" ]
+, [ 1905, "CB8414E7-FF4B-4C91-AC49-9FD0DABBB594", 1905, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Cambodian Senior Club", "9800 8th Ave SW", [ "http://acrs.org/programs/nutrition.htm", null ], "-122.345149", "47.515155" ]
+, [ 1906, "267C4230-C971-4380-BAB9-B1DCCD40175A", 1906, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Cascade Immanuel Food Bank", "1215 Thomas St", [ "http://www.scn.org/frnf/immanuel.htm", null ], "-122.332595", "47.620733" ]
+, [ 1907, "4529C8CB-FA8E-4D8A-B44D-75607E247202", 1907, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Chicken Soup Brigade", "1002 E Seneca St", [ "http://www.lifelongaidsalliance.org/csb", null ], "-122.319318", "47.612259" ]
+, [ 1908, "17E31618-B46A-440B-9579-F88F0B6828A2", 1908, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Downtown Food Bank", "1531 Western Ave 5th floor", [ "http://www.pikemarketseniorcenter.org/", null ], "-122.341519", "47.60863" ]
+, [ 1909, "6A23AFDA-BE45-48C9-A78E-562E0C5CFC4B", 1909, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "El Centro De La Raza", "2524 16th Ave S", [ "http://www.elcentrodelaraza.com/programs/foodbank.htm", null ], "-122.31198", "47.580786" ]
+, [ 1910, "486297D7-813F-4001-B6C0-BA4DABC59F86", 1910, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Familyworks-Wallingford", "1501 N 45th St", [ "http://www.familyworksseattle.org/food_bank.htm", null ], "-122.339139", "47.661302" ]
+, [ 1911, "93960B06-DA8A-4F5C-9C86-6DD59474168C", 1911, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Friendly Island Of Tonga Seniors", "8319 8th Ave S", [ "http://acrs.org/programs/nutrition.htm", null ], "-122.322996", "47.528846" ]
+, [ 1912, "087B0BD8-9733-465B-A0BB-146DF93601E9", 1912, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Jewish Family Service Food Bank", "1601 16th Ave", [ "http://www.jfsseattle.org/services/emergency.html", null ], "-122.311587", "47.615313" ]
+, [ 1913, "D95D14D3-D537-4F80-96AE-6981DD0BC134", 1913, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Korean Senior Club Ii", "153 14th Ave S", [ "http://acrs.org/programs/nutrition.htm", null ], "-122.314268", "47.601242" ]
+, [ 1914, "3CB896D6-46E1-4FF0-90ED-F17C464705AD", 1914, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Northwest Community Services", "4205 Rainier Ave S", [ null, null ], "-122.288711", "47.565566" ]
+, [ 1915, "349BA8A5-5F46-456F-9848-DD5F96B6D040", 1915, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Operational Emergency Center", "11827 Renton Ave S", [ "http://www.oecagency.org/services.php", null ], "-122.245348", "47.496876" ]
+, [ 1916, "C05890C4-82A3-4FD2-9323-D1A15C7D1386", 1916, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Providence Regina House", "8201 10th Ave S", [ "http://www.providence.org/washington/regina_house/default.htm", null ], "-122.320351", "47.529771" ]
+, [ 1917, "AA7B2D2C-98ED-4162-A3DB-D48E06AF4DC1", 1917, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Puget Sound Labor Agency", "2800 1st Ave", [ "http://pslaonline.org/PSLA%20Preview/Our%20Services.htm", null ], "-122.351499", "47.616432" ]
+, [ 1918, "AF1915EF-DCD1-4A48-8985-4A7A15564936", 1918, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Salvation Army White Center", "9050 16th Ave SW", [ "http://salvationarmynw.org/volunteer/foodbank.asp", null ], "-122.354989", "47.522378" ]
+, [ 1919, "4F253593-AF61-49AE-9311-BE17F4E6D443", 1919, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Samoan Senior Club", "8319 8th Ave S", [ "http://acrs.org/programs/nutrition.htm", null ], "-122.322996", "47.528846" ]
+, [ 1920, "3B45724A-D1DE-4A78-8A7D-925756F93EA4", 1920, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Seattle Korean Elders Association", "104 17th Ave", [ "http://acrs.org/programs/nutrition.htm", null ], "-122.310136", "47.601781" ]
+, [ 1921, "460C5C0A-7B4A-49B0-B983-B61A00D61EAF", 1921, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Society Of St. Vincent De Paul-Georgetown Service Center", "5950 4th Ave S", [ "http://www.stvincentdepaul-seattle.org/index.html", null ], "-122.329456", "47.549814" ]
+, [ 1922, "D87028AE-8546-429F-AEB5-BB1BCD782ED1", 1922, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "The Food Bank At St. Marys", "611 20th Ave", [ "http://www.seniorservices.org/online/detail.asp?id=3249&case=1", null ], "-122.306445", "47.60728" ]
+, [ 1923, "30B0D6C2-2FED-40A4-BD59-CC19DC5EBDF8", 1923, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "University District Service League", "4731 15th Ave NE", [ "http://www.udistrictfoodbank.org/", null ], "-122.312083", "47.66331" ]
+, [ 1924, "8B739341-F910-4503-8B85-4319E5B0137E", 1924, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "Vietnamese Friendship Association", "1017 S Jackson St", [ "http://acrs.org/programs/nutrition.htm", null ], "-122.31938", "47.599102" ]
+, [ 1925, "6197A720-47C0-4450-BFEE-0BD21151EC75", 1925, 1263313296, "386118", 1263313296, "386118", null, "Food Banks", "West Seattle Food Bank", "3518 SW Genesee St.", [ "http://www.westseattlefoodbank.org/", null ], "-122.376998", "47.564761" ]
+ ]
+}

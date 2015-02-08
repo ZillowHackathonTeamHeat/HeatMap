@@ -30,7 +30,7 @@ var populateSchools = function () {
     $.ajax({
         type: "GET",
         //url: "http://api.greatschools.org/schools/nearby?key=qjprfbqvcj6wh3k5ugcwywxx&state=WA&zip=98101&radius=200&limit=1000",
-        url:"./nearbySchools.xml",
+        url:"./datasets/nearbySchools.xml",
         dataType: "xml",
         success: parseXml
     });
