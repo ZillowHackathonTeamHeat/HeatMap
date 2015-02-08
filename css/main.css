@@ -25,6 +25,7 @@ body,
     width: 20em;
     background-color: #247571;
     color: white;
+    display: none;
 }
 #high{
     text-align: right;
