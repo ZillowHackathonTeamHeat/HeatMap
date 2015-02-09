@@ -1,1 +1,74 @@
-<response><row><row _id="1349" _uuid="AB9C044B-96CD-489C-A6B2-4F1316F218F3" _position="1349" _address="http://data.seattle.gov/resource/fazd-6q45/1349"><city_feature>Pools</city_feature><common_name>Ballard Pool</common_name><address>1471 NW 67th St</address><website url="http://www.seattle.gov/parks/aquatics/ballardp.htm"/><longitude>-122.376162</longitude><latitude>47.67754</latitude></row><row _id="1350" _uuid="D25FD9EA-26C3-4607-885C-ECDE1180B621" _position="1350" _address="http://data.seattle.gov/resource/fazd-6q45/1350"><city_feature>Pools</city_feature><common_name>Helen Madison Pool</common_name><address>13401 Meridian N.</address><website url="http://www.seattle.gov/parks/aquatics/madisonpool.htm"/><longitude>-122.334656</longitude><latitude>47.725801</latitude></row><row _id="1351" _uuid="37B72385-F5E7-4B20-A63B-454CDB90A3A1" _position="1351" _address="http://data.seattle.gov/resource/fazd-6q45/1351"><city_feature>Pools</city_feature><common_name>Mounger Pool</common_name><address>2535 32nd Ave. W</address><website url="http://www.seattle.gov/parks/aquatics/mounger.htm"/><longitude>-122.39887</longitude><latitude>47.6429</latitude></row><row _id="1352" _uuid="89D2C4DE-FF5D-4333-9815-F4633809CF03" _position="1352" _address="http://data.seattle.gov/resource/fazd-6q45/1352"><city_feature>Pools</city_feature><common_name>Southwest Pool</common_name><address>2801 SW Thistle St</address><website url="http://www.seattle.gov/parks/aquatics/swpool.htm"/><longitude>-122.369162</longitude><latitude>47.528001</latitude></row><row _id="1353" _uuid="7589866E-7B8F-4141-95D1-71972529DA9B" _position="1353" _address="http://data.seattle.gov/resource/fazd-6q45/1353"><city_feature>Pools</city_feature><common_name>Colman Pool</common_name><address>8603 Fauntleroy Way SW</address><website url="http://www.seattle.gov/parks/aquatics/colman.htm"/><longitude>-122.400979</longitude><latitude>47.530453</latitude></row><row _id="1354" _uuid="9643BFBA-C6B9-403F-BD76-3F17D5A71090" _position="1354" _address="http://data.seattle.gov/resource/fazd-6q45/1354"><city_feature>Pools</city_feature><common_name>Evans Pool</common_name><address>7201 E Green Lake Dr. N</address><website url="http://www.seattle.gov/parks/aquatics/Evanspool.htm"/><longitude>-122.328438</longitude><latitude>47.680183</latitude></row><row _id="1355" _uuid="357B02FA-2F05-4A52-A23E-CF35D203B25C" _position="1355" _address="http://data.seattle.gov/resource/fazd-6q45/1355"><city_feature>Pools</city_feature><common_name>Meadowbrook Pool</common_name><address>10515 35th Ave NE</address><website url="http://www.seattle.gov/parks/aquatics/meadowbrookpool.htm"/><longitude>-122.291624</longitude><latitude>47.705342</latitude></row><row _id="1356" _uuid="95DAB6E6-7BA5-457D-AD06-83E92E8C8755" _position="1356" _address="http://data.seattle.gov/resource/fazd-6q45/1356"><city_feature>Pools</city_feature><common_name>Evers Pool</common_name><address>500 23rd Ave</address><website url="http://www.seattle.gov/parks/aquatics/everspool.htm"/><longitude>-122.302402</longitude><latitude>47.606888</latitude></row><row _id="1357" _uuid="92421BD8-3175-4692-9513-C6B131CCB8B5" _position="1357" _address="http://data.seattle.gov/resource/fazd-6q45/1357"><city_feature>Pools</city_feature><common_name>Queen Anne Pool</common_name><address>1901 1st Ave. W</address><website url="http://www.seattle.gov/parks/aquatics/queenannepool.htm"/><longitude>-122.35795</longitude><latitude>47.636263</latitude></row><row _id="1358" _uuid="CBCF9A82-7460-40D1-86B3-95D4D8D672E3" _position="1358" _address="http://data.seattle.gov/resource/fazd-6q45/1358"><city_feature>Pools</city_feature><common_name>Rainier Beach Pool</common_name><address>8825 Rainier Ave. S</address><website url="http://www.seattle.gov/parks/aquatics/rainierbeachpool.htm"/><longitude>-122.270338</longitude><latitude>47.524766</latitude></row></row></response>
+<response>
+    <row>
+        <row _id="1349" _uuid="AB9C044B-96CD-489C-A6B2-4F1316F218F3" _position="1349" _address="http://data.seattle.gov/resource/fazd-6q45/1349">
+            <city_feature>Pools</city_feature>
+            <common_name>Ballard Pool</common_name><address>1471 NW 67th St</address>
+            <website url="http://www.seattle.gov/parks/aquatics/ballardp.htm" />
+            <longitude>-122.376162</longitude>
+            <latitude>47.67754</latitude>
+        </row>
+        <row _id="1350" _uuid="D25FD9EA-26C3-4607-885C-ECDE1180B621" _position="1350" _address="http://data.seattle.gov/resource/fazd-6q45/1350">
+            <city_feature>Pools</city_feature>
+            <common_name>Helen Madison Pool</common_name><address>13401 Meridian N.</address>
+            <website url="http://www.seattle.gov/parks/aquatics/madisonpool.htm" />
+            <longitude>-122.334656</longitude>
+            <latitude>47.725801</latitude>
+        </row>
+        <row _id="1351" _uuid="37B72385-F5E7-4B20-A63B-454CDB90A3A1" _position="1351" _address="http://data.seattle.gov/resource/fazd-6q45/1351">
+            <city_feature>Pools</city_feature>
+            <common_name>Mounger Pool</common_name><address>2535 32nd Ave. W</address>
+            <website url="http://www.seattle.gov/parks/aquatics/mounger.htm" />
+            <longitude>-122.39887</longitude>
+            <latitude>47.6429</latitude>
+        </row>
+        <row _id="1352" _uuid="89D2C4DE-FF5D-4333-9815-F4633809CF03" _position="1352" _address="http://data.seattle.gov/resource/fazd-6q45/1352">
+            <city_feature>Pools</city_feature>
+            <common_name>Southwest Pool</common_name><address>2801 SW Thistle St</address>
+            <website url="http://www.seattle.gov/parks/aquatics/swpool.htm" />
+            <longitude>-122.369162</longitude>
+            <latitude>47.528001</latitude>
+        </row>
+        <row _id="1353" _uuid="7589866E-7B8F-4141-95D1-71972529DA9B" _position="1353" _address="http://data.seattle.gov/resource/fazd-6q45/1353">
+            <city_feature>Pools</city_feature>
+            <common_name>Colman Pool</common_name><address>8603 Fauntleroy Way SW</address>
+            <website url="http://www.seattle.gov/parks/aquatics/colman.htm" />
+            <longitude>-122.400979</longitude>
+            <latitude>47.530453</latitude>
+        </row>
+        <row _id="1354" _uuid="9643BFBA-C6B9-403F-BD76-3F17D5A71090" _position="1354" _address="http://data.seattle.gov/resource/fazd-6q45/1354">
+            <city_feature>Pools</city_feature>
+            <common_name>Evans Pool</common_name><address>7201 E Green Lake Dr. N</address>
+            <website url="http://www.seattle.gov/parks/aquatics/Evanspool.htm" />
+            <longitude>-122.328438</longitude>
+            <latitude>47.680183</latitude>
+        </row>
+        <row _id="1355" _uuid="357B02FA-2F05-4A52-A23E-CF35D203B25C" _position="1355" _address="http://data.seattle.gov/resource/fazd-6q45/1355">
+            <city_feature>Pools</city_feature>
+            <common_name>Meadowbrook Pool</common_name><address>10515 35th Ave NE</address>
+            <website url="http://www.seattle.gov/parks/aquatics/meadowbrookpool.htm" />
+            <longitude>-122.291624</longitude>
+            <latitude>47.705342</latitude>
+        </row>
+        <row _id="1356" _uuid="95DAB6E6-7BA5-457D-AD06-83E92E8C8755" _position="1356" _address="http://data.seattle.gov/resource/fazd-6q45/1356">
+            <city_feature>Pools</city_feature>
+            <common_name>Evers Pool</common_name><address>500 23rd Ave</address>
+            <website url="http://www.seattle.gov/parks/aquatics/everspool.htm" />
+            <longitude>-122.302402</longitude>
+            <latitude>47.606888</latitude>
+        </row>
+        <row _id="1357" _uuid="92421BD8-3175-4692-9513-C6B131CCB8B5" _position="1357" _address="http://data.seattle.gov/resource/fazd-6q45/1357">
+            <city_feature>Pools</city_feature>
+            <common_name>Queen Anne Pool</common_name><address>1901 1st Ave. W</address>
+            <website url="http://www.seattle.gov/parks/aquatics/queenannepool.htm" />
+            <longitude>-122.35795</longitude>
+            <latitude>47.636263</latitude>
+        </row>
+        <row _id="1358" _uuid="CBCF9A82-7460-40D1-86B3-95D4D8D672E3" _position="1358" _address="http://data.seattle.gov/resource/fazd-6q45/1358">
+            <city_feature>Pools</city_feature>
+            <common_name>Rainier Beach Pool</common_name><address>8825 Rainier Ave. S</address>
+            <website url="http://www.seattle.gov/parks/aquatics/rainierbeachpool.htm" />
+            <longitude>-122.270338</longitude>
+            <latitude>47.524766</latitude>
+        </row>
+    </row>
+</response>
