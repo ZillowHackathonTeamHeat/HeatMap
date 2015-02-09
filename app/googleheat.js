@@ -3,22 +3,22 @@ var seattleLatLng = new google.maps.LatLng(47.6097, -122.331);
 var seattleLat = 47.6097;
 var seattleLng = -122.331;
 
-// testData needs to contain everything from schoolList and crimeListz
+// testData needs to contain everything from schoolList and crimeList
 var testData = [];
 setTimeout(function () {
     // number of LatLngs at the intersections of a grid centered around a location (Seattle)
-    var initialCount = 15;
+    var initialCount = 1; // adjust this to make the grid show up visually (best left at 1)
     // add a point in the intersections of a grid centered around a location (Seattle)
-    for (var xoffset = -0.0001; xoffset < 0.0001; xoffset += 0.0001) {
-        for (var yoffset = -0.0001; yoffset < 0.0001; yoffset += 0.0001) {
+    for (var xoffset = -0.080; xoffset < 0.080; xoffset += 0.0075) {
+        for (var yoffset = -0.086; yoffset < 0.086; yoffset += 0.0075) {
             for (var i = 0; i < initialCount; i++) {
-                testData.push(new google.maps.LatLng(seattleLat + xoffset, seattleLng + yoffset));
+                testData.push(new google.maps.LatLng(seattleLat + yoffset, seattleLng + xoffset));
             }
         }
     }
 
     for (var i = 0; i < schoolList.length; i++) {
-        for (var j = 0; j < educationPriority * 2; j++) {
+        for (var j = 0; j < educationPriority * 20; j++) {
             // there are many more crimes than schools, so you need to change the weighting for schools * 10? and crimes * 1
             testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
         }
@@ -27,11 +27,15 @@ setTimeout(function () {
     // should remove 1 (or none if not possible) nearest LatLng from the spot
     for (var i = 0; i < crimeList.length; i++) {
         // need a function to remove a nearby LatLng given a nearest LatLng
+        // critical function here
         //removeNearestLatLngToHere(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
 
         // there are so many crimes
         // if i comment this out, the heatmap breaks
-        testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
+        // this will show a heat map of all the crimes, since it is a big dataset and will overpower everything else
+        for (var j = 0; j < 5; j++) {
+            testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
+        }
     }
     /*
 
@@ -68,18 +72,20 @@ setTimeout(function () {
 }, 3500);
 
 // remove nearest LatLng for weighting
+// currently broken, will fix
+// documentation: https://developers.google.com/maps/documentation/javascript/reference#LatLng
 function removeNearestLatLngToHere(latLng) {
     var lat = latLng.lat;
     var long = latLng.long;
     var oneMileInDegrees = 0.01449275362;
 
-    var timesToRemove = safetyPriority;
+    var timesToRemove = 1;
+    // = safetyPriority * 5;
 
-    for (var i = 0;
-        (i < testData.length) && (timesToRemove > 0); i++) {
+    for (var i = 0; (i < testData.length) && (timesToRemove > 0); i++) {
         // just set it to null to remove
         // then whereever you use it, check if not null
-        if ((Math.abs(testData[i].lat - lat) < oneMileInDegrees) && (Math.abs(testData[i].long - long) < oneMileInDegrees)) {
+        if ((Math.abs(testData[i].lat() - lat) < oneMileInDegrees) && (Math.abs(testData[i].lng() - long) < oneMileInDegrees)) {
             testData[i] = null;
             timesToRemove--;
         }
