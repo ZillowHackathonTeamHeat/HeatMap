@@ -25,3 +25,5 @@ Without a real estate agent (whom some of our users may be unable to to afford),
 (We used Javascript, HTML, and Google Maps Javascript API v3)
 
 HoodScout is a web application that points users towards neighborhoods in the Greater Seattle Area that would fit their criteria. HoodScout is a Heat Map with the locations of Seattle’s schools, parks, and other neighborhood amenities (which create positive ‘heat’) and the locations of crimes in the past five years (which creates negative ‘chill’), each controlled by their own priority bar, which enables our users to customize their family’s needs for safety, recreation, and education, and quickly find neighborhoods that cater to them.
+
+# Known issues: don't open more than two instances of the HeatMap; otherwise the HeatMap does not display correctly even though the data is correct

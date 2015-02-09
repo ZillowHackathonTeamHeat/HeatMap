@@ -3,11 +3,11 @@ var seattleLatLng = new google.maps.LatLng(47.6097, -122.331);
 var seattleLat = 47.6097;
 var seattleLng = -122.331;
 
-// testData needs to contain everything from schoolList and crimeList
+// testData needs to contain everything from schoolList and crimeListz
 var testData = [];
 setTimeout(function () {
     // number of LatLngs at the intersections of a grid centered around a location (Seattle)
-    var initialCount = 2;
+    var initialCount = 15;
     // add a point in the intersections of a grid centered around a location (Seattle)
     for (var xoffset = -0.0001; xoffset < 0.0001; xoffset += 0.0001) {
         for (var yoffset = -0.0001; yoffset < 0.0001; yoffset += 0.0001) {
@@ -19,22 +19,21 @@ setTimeout(function () {
 
     for (var i = 0; i < schoolList.length; i++) {
         for (var j = 0; j < educationPriority * 2; j++) {
-            // school list is broken
-            // could be strings? no, i just checked, javascript automatically casts strings to ints when it needs
             // there are many more crimes than schools, so you need to change the weighting for schools * 10? and crimes * 1
             testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
         }
     }
-
 
     // should remove 1 (or none if not possible) nearest LatLng from the spot
     for (var i = 0; i < crimeList.length; i++) {
         // need a function to remove a nearby LatLng given a nearest LatLng
         //removeNearestLatLngToHere(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
 
+        // there are so many crimes
         // if i comment this out, the heatmap breaks
-        //testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
+        testData.push(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
     }
+    /*
 
     //rest of the amenities
     for (var i = 0; i < foodBankList.length; i++) {
@@ -61,7 +60,7 @@ setTimeout(function () {
         for (var j = 0; j < 5; j++) {
             testData.push(new google.maps.LatLng(publicPoolList[i]["lat"], publicPoolList[i]["long"]));
         }
-    }
+    }*/
 }, 1000);
 setTimeout(function () {
     console.log(testData);
@@ -94,12 +93,11 @@ function initialize() {
         mapTypeId: google.maps.MapTypeId.SATELLITE
     };
 
-    map = new google.maps.Map(document.getElementById('map-canvas'),
-        mapOptions);
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 }
 
 function setHeatMap() {
-    // need to remove the null references
+    // remove null references
     var cleanedTestData = [];
     for (var i = 0; i < testData.length; i++) {
         if (testData[i] != null) {
@@ -108,7 +106,6 @@ function setHeatMap() {
     }
 
     var pointArray = new google.maps.MVCArray(cleanedTestData);
-
 
     heatmap = new google.maps.visualization.HeatmapLayer({
         data: pointArray
@@ -149,7 +146,4 @@ function changeOpacity() {
     heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
 }
 
-
 google.maps.event.addDomListener(window, 'load', initialize);
-
-//google.maps.event.addDomListener(window, 'load', initialize);
