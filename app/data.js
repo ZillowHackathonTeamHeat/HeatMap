@@ -38,45 +38,6 @@ var populateCrime = function (includedCrimes) {
         })
     }
 }
-console.log(includedCrimes);
-populateCrime(includedCrimes);
-
-////////////////////////////////
-/////////////////////////
-var safetyPriority;
-var educationPriority;
-var transportationPriority;
-$("#test").ionRangeSlider({
-    grid: true,
-    min: 1,
-    max: 10,
-    from: 1,
-    prefix: "Priority ",
-    onChange: function (data) {
-        safetyPriority = data['from'];
-    }
-});
-$("#test2").ionRangeSlider({
-    grid: true,
-    min: 1,
-    max: 10,
-    from: 5,
-    prefix: "Priority ",
-    onUpdate: function (data) {
-        educationPriority = data['from'];
-    }
-});
-$("#test3").ionRangeSlider({
-    grid: true,
-    min: 1,
-    max: 10,
-    from: 3,
-    prefix: "Priority ",
-    onUpdate: function (data) {
-        transportationPriority = data['from'];
-    }
-});
-/////////////////////////////////////////////////////////////////
 
 var includedSchoolTypes = ["public", "private"];
 var includedSchoolLevels = ["elementary", "middle"];
@@ -107,18 +68,13 @@ function parseXml(xml) {
     schoolList = lst;
 }
 
-populateSchools();
-setTimeout(function () {
-    console.log(schoolList);
-}, 3000);
-
 var populateFoodBanks = function () {
     $.ajax({
         type: "GET",
         url: "./datasets/foodBanksXML.xml",
         dataType: "xml",
         // it calls parseXml and adds it to var lst
-        success: parseXmlFoodBank()
+        success: parseXmlFoodBank
     });
 }
 
@@ -126,14 +82,13 @@ function parseXmlFoodBank(xml) {
     var lst = [];
     $(xml).find("row").each(function () {
         var amenity = {};
-
         amenity["amenityType"] = $(this).find("city_feature").text();
         amenity["lat"] = $(this).find("latitude").text();
         amenity["long"] = $(this).find("longitude").text();
-
         lst.push(amenity);
     })
     foodBankList = lst;
+    console.log(lst);
 }
 
 var populateHistoricBuildings = function () {
@@ -154,7 +109,6 @@ function parseXmlHistoricBuildings(xml) {
         amenity["amenityType"] = $(this).find("city_feature").text();
         amenity["lat"] = $(this).find("latitude").text();
         amenity["long"] = $(this).find("longitude").text();
-
         lst.push(amenity);
     })
     historicBuildingsList = lst;
@@ -232,3 +186,11 @@ function parseXmlPublicPools(xml) {
     })
     publicPoolList = lst;
 }
+populateCrime(includedCrimes);
+populateSchools();
+populateFoodBanks();
+populateHistoricBuildings();
+populatePublicArt();
+populatePublicParks();
+populatePublicPools();
+
