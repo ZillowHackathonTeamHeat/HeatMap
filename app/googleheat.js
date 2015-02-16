@@ -35,14 +35,32 @@ setTimeout(function () {
         var lat = schoolList[i]["lat"];
         var long = schoolList[i]["long"];
         //testData.push({location: new google.maps.LatLng(long, lat), weight: 50});
+    var initialCount = 1; // adjust this to make the grid show up visually (best left at 1)
+    // add a point in the intersections of a grid centered around a location (Seattle)
+    for (var xoffset = -0.080; xoffset < 0.080; xoffset += 0.0075) {
+        for (var yoffset = -0.086; yoffset < 0.086; yoffset += 0.0075) {
+            for (var i = 0; i < initialCount; i++) {
+                testData.push(new google.maps.LatLng(seattleLat + yoffset, seattleLng + xoffset));
+            }
+        }
+    }
+
+    for (var i = 0; i < schoolList.length; i++) {
+        for (var j = 0; j < educationPriority * 20; j++) {
+            // there are many more crimes than schools, so you need to change the weighting for schools * 10? and crimes * 1
+            testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
+        }
     }
 
     // should remove 1 (or none if not possible) nearest LatLng from the spot
     for (var i = 0; i < crimeList.length; i++) {
         // need a function to remove a nearby LatLng given a nearest LatLng
+        // critical function here
         //removeNearestLatLngToHere(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
         //testData.push({location:new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]), weight: 1});
     }
+
+
     for (var i = 0; i < foodBankList.length; i++) {
         testData.push(new google.maps.LatLng(parseFloat(foodBankList[i]["lat"]), parseFloat(foodBankList[i]["long"])));
     }
@@ -87,6 +105,29 @@ setTimeout(function () {
 //        }
 //    }
 //}
+}, 3500);
+
+// remove nearest LatLng for weighting
+// currently broken, will fix
+// documentation: https://developers.google.com/maps/documentation/javascript/reference#LatLng
+function removeNearestLatLngToHere(latLng) {
+    var lat = latLng.lat;
+    var long = latLng.long;
+    var oneMileInDegrees = 0.01449275362;
+
+    var timesToRemove = 1;
+    // = safetyPriority * 5;
+
+    for (var i = 0; (i < testData.length) && (timesToRemove > 0); i++) {
+        // just set it to null to remove
+        // then whereever you use it, check if not null
+        if ((Math.abs(testData[i].lat() - lat) < oneMileInDegrees) && (Math.abs(testData[i].lng() - long) < oneMileInDegrees)) {
+            testData[i] = null;
+            timesToRemove--;
+        }
+    }
+}
+>>>>>>> origin/master
 
 function initialize() {
     var mapOptions = {
@@ -95,12 +136,11 @@ function initialize() {
         mapTypeId: google.maps.MapTypeId.SATELLITE
     };
 
-    map = new google.maps.Map(document.getElementById('map-canvas'),
-        mapOptions);
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 }
 
 function setHeatMap() {
-    // need to remove the null references
+    // remove null references
     var cleanedTestData = [];
     for (var i = 0; i < testData.length; i++) {
         if (testData[i] != null) {
@@ -109,7 +149,6 @@ function setHeatMap() {
     }
 
     var pointArray = new google.maps.MVCArray(cleanedTestData);
-
 
     heatmap = new google.maps.visualization.HeatmapLayer({
         data: pointArray
@@ -149,5 +188,4 @@ function changeRadius() {
 function changeOpacity() {
     heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
 }
-
 google.maps.event.addDomListener(window, 'load', initialize);
