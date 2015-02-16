@@ -1,0 +1,29 @@
+/*
+ * Partial algorithm design for HeatMap
+ * Created by Duc Ngo on 2/9/2015
+ */
+
+Goal:
+find a square centered at Seattle
+	need width = length
+
+1 latDeg = 69 miles
+69 miles = k * (x miles)
+
+area of Seattle = 142.5 sq miles
+sqrt(142.5 sq miles) = 11.9 miles = x miles
+
+69 miles = k * 11.9 miles
+(69 miles / 11.9 miles) = k
+
+k = 5.8
+
+1 latDeg = k * (x miles)
+1 latDeg = 5.8 * 11.9 miles
+1 latDeg / 5.8 = 11.9 miles
+
+1 latDeg / 5.8 = 0.172 latDeg = 11.9 miles
+1 latDef / (5.8 * 2) = 0.086 latDeg = 5.95 miles
+
+Center the square at Seattle, go up 0.086 latDeg, then recenter and go back down
+Repeat for left and right
