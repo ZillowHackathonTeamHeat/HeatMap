@@ -33,6 +33,7 @@ body,
 
 #menuheader {
     padding-left: 0.5em;
+    cursor: move;
 }
 
 .slide {
@@ -86,4 +87,18 @@ body,
 
 #transportation {
     padding: 0.12em;
+}
+#amenitiesoptions{
+    height: 1.65em;
+    padding-top: 0.2em;
+}
+#options{
+    position: relative;
+    top: -0.1em;
+    font-size: 1em;
+}
+#aform{
+    position: relative;
+    top: -0.1em;
+    display: none;
 }
