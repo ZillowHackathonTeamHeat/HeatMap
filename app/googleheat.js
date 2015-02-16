@@ -4,6 +4,8 @@ var seattleLat = 47.6097;
 var seattleLng = -122.331;
 var crimeWeight = -5;
 var schoolWeight = 10;
+var includedAmen = ['foodbanks', 'historic', 'art', 'parks', 'pools'];
+
 // testData needs to contain everything from schoolList and crimeList
 var testData = [];
 setTimeout(function () {
@@ -27,30 +29,11 @@ setTimeout(function () {
     //            }
     //        }
     //    }
-
     for (var i = 0; i < schoolList.length; i++) {
-        // school list is broken
-        // could be strings? no, i just checked, javascript automatically casts strings to ints when it needs
         // there are many more crimes than schools, so you need to change the weighting for schools * 10? and crimes * 1
-        var lat = schoolList[i]["lat"];
-        var long = schoolList[i]["long"];
-        //testData.push({location: new google.maps.LatLng(long, lat), weight: 50});
-    var initialCount = 1; // adjust this to make the grid show up visually (best left at 1)
-    // add a point in the intersections of a grid centered around a location (Seattle)
-    for (var xoffset = -0.080; xoffset < 0.080; xoffset += 0.0075) {
-        for (var yoffset = -0.086; yoffset < 0.086; yoffset += 0.0075) {
-            for (var i = 0; i < initialCount; i++) {
-                testData.push(new google.maps.LatLng(seattleLat + yoffset, seattleLng + xoffset));
-            }
-        }
+        //testData.push(new google.maps.LatLng(schoolList[i]["long"], schoolList[i]["lat"]));
     }
 
-    for (var i = 0; i < schoolList.length; i++) {
-        for (var j = 0; j < educationPriority * 20; j++) {
-            // there are many more crimes than schools, so you need to change the weighting for schools * 10? and crimes * 1
-            testData.push(new google.maps.LatLng(schoolList[i]["lat"], schoolList[i]["long"]));
-        }
-    }
 
     // should remove 1 (or none if not possible) nearest LatLng from the spot
     for (var i = 0; i < crimeList.length; i++) {
@@ -60,11 +43,9 @@ setTimeout(function () {
         //testData.push({location:new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]), weight: 1});
     }
 
-
     for (var i = 0; i < foodBankList.length; i++) {
         testData.push(new google.maps.LatLng(parseFloat(foodBankList[i]["lat"]), parseFloat(foodBankList[i]["long"])));
     }
-    console.log(historicBuildingsList);
     for (var i = 0; i < historicBuildingsList.length; i++) {
         testData.push(new google.maps.LatLng(historicBuildingsList[i]["lat"], historicBuildingsList[i]["long"]));
     }
@@ -105,30 +86,27 @@ setTimeout(function () {
 //        }
 //    }
 //}
-}, 3500);
 
 // remove nearest LatLng for weighting
 // currently broken, will fix
 // documentation: https://developers.google.com/maps/documentation/javascript/reference#LatLng
-function removeNearestLatLngToHere(latLng) {
-    var lat = latLng.lat;
-    var long = latLng.long;
-    var oneMileInDegrees = 0.01449275362;
-
-    var timesToRemove = 1;
-    // = safetyPriority * 5;
-
-    for (var i = 0; (i < testData.length) && (timesToRemove > 0); i++) {
-        // just set it to null to remove
-        // then whereever you use it, check if not null
-        if ((Math.abs(testData[i].lat() - lat) < oneMileInDegrees) && (Math.abs(testData[i].lng() - long) < oneMileInDegrees)) {
-            testData[i] = null;
-            timesToRemove--;
-        }
-    }
-}
->>>>>>> origin/master
-
+//function removeNearestLatLngToHere(latLng) {
+//    var lat = latLng.lat;
+//    var long = latLng.long;
+//    var oneMileInDegrees = 0.01449275362;
+//
+//    var timesToRemove = 1;
+//    // = safetyPriority * 5;
+//
+//    for (var i = 0; (i < testData.length) && (timesToRemove > 0); i++) {
+//        // just set it to null to remove
+//        // then whereever you use it, check if not null
+//        if ((Math.abs(testData[i].lat() - lat) < oneMileInDegrees) && (Math.abs(testData[i].lng() - long) < oneMileInDegrees)) {
+//            testData[i] = null;
+//            timesToRemove--;
+//        }
+//    }
+//}
 function initialize() {
     var mapOptions = {
         zoom: 12,
@@ -147,7 +125,7 @@ function setHeatMap() {
             cleanedTestData.push(testData[i]);
         }
     }
-
+    console.log(cleanedTestData);
     var pointArray = new google.maps.MVCArray(cleanedTestData);
 
     heatmap = new google.maps.visualization.HeatmapLayer({
