@@ -56,6 +56,36 @@
                     <h4 class="todo-name">
                     <strong>Amenities</strong>
                   </h4>
+                    <button type="button" id="amenitiesoptions" class="btn btn-primary"><div id="options"><strong>Options</strong></div></button>
+                    <form id="aform" role="form">
+                        <div class="form-group">
+                            <div>
+                                <label class="checkbox" for="foodbanks">
+                                    <input type="checkbox" data-toggle="checkbox" checked="checked" value="" id="foodbanks" required> Food Banks
+                                </label>
+                            </div>
+                            <div>
+                                <label class="checkbox" for="historic">
+                                    <input type="checkbox" data-toggle="checkbox" checked="checked" value="" id="historic" checked=""> Historic Buildings
+                                </label>
+                            </div>
+                            <div>
+                                <label class="checkbox" for="art">
+                                    <input type="checkbox" data-toggle="checkbox" checked="checked" value="" id="art" required> Art
+                                </label>
+                            </div>
+                            <div>
+                                <label class="checkbox" for="parks">
+                                    <input type="checkbox" data-toggle="checkbox" checked="checked" value="" id="parks" checked=""> Parks
+                                </label>
+                            </div>
+                            <div>
+                                <label class="checkbox" for="pools">
+                                    <input type="checkbox" data-toggle="checkbox" value="" checked="checked" id="pools" required> Pools
+                                </label>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
             <button type="button" id="newmap" class="btn btn-primary">Update Map</button>
@@ -63,17 +93,18 @@
     </div>
     <div id="overlay">
     </div>
-     <button id="overlaybutton" type="button" class="btn btn-info">Close!</button>
+    <button id="overlaybutton" type="button" class="btn btn-info">Close!</button>
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="css/flat-ui/dist/js/vendor/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
     <script src="css/flat-ui/dist/js/flat-ui.min.js"></script>
     <script src="css/ionrangeslider/js/ion.rangeSlider.js"></script>
     <script src="css/flat-ui/docs/assets/js/application.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=visualization"></script>
     <script src="app/data.js"></script>
-    <script src="app/app.js"></script>
     <script src="./app/googleheat.js"></script>
+    <script src="app/app.js"></script>
 </body>
 
 </html>
