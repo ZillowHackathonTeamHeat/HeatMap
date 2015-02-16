@@ -39,7 +39,7 @@ $("#overlaybutton").click(function () {
 });
 
 $("#overlaybutton").show(800);
-$("#newmap").click(function(){
+$("#newmap").click(function () {
 
 });
 
@@ -47,11 +47,20 @@ $('#mainmenu').draggable({
     handle: "#menuheader"
 });
 
-$('#amenitiesoptions').click(function(){
-    if(($('#aform').is(':hidden'))){
+$('#amenitiesoptions').click(function () {
+    if (($('#aform').is(':hidden'))) {
         $('#aform').show(500);
-    }
-    else{
+    } else {
         $('#aform').hide(500);
     }
+});
+
+$('.amen').click(function () {
+    var amen = $(this).attr('id')
+    if (_.indexOf(includedAmen, amen) == -1) {
+        includedAmen.push(amen);
+    } else {
+        _.pull(includedAmen, amen);
+    }
+    console.log(includedAmen);
 });
