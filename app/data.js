@@ -1,5 +1,3 @@
-var crimeBaseURL = "https://data.seattle.gov/resource/3k2p-39jp.json?initial_type_subgroup="
-
 //list of crime objects
 var crimeList = [];
 //list of school objects
@@ -17,6 +15,7 @@ var publicPoolList = [];
 
 //which crimes are included
 var includedCrimes = ["ASSAULTS", "BURGLARY", "ROBBERY"];
+var crimeBaseURL = "https://data.seattle.gov/resource/3k2p-39jp.json?initial_type_subgroup="
 
 var populateCrime = function (includedCrimes) {
     var lst = [];
@@ -103,9 +102,10 @@ var populateHistoricBuildings = function () {
 
 function parseXmlHistoricBuildings(xml) {
     var lst = [];
+    console.log('1');
     $(xml).find("row").each(function () {
         var amenity = {};
-
+        console.log('2');
         amenity["amenityType"] = $(this).find("city_feature").text();
         amenity["lat"] = $(this).find("latitude").text();
         amenity["long"] = $(this).find("longitude").text();

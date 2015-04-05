@@ -40,11 +40,11 @@ setTimeout(function () {
         // need a function to remove a nearby LatLng given a nearest LatLng
         // critical function here
         //removeNearestLatLngToHere(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
-        //testData.push({location:new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]), weight: 1});
+        testData.push({location:new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]), weight: 1});
     }
 
     for (var i = 0; i < foodBankList.length; i++) {
-        testData.push(new google.maps.LatLng(parseFloat(foodBankList[i]["lat"]), parseFloat(foodBankList[i]["long"])));
+        //testData.push(new google.maps.LatLng(parseFloat(foodBankList[i]["lat"]), parseFloat(foodBankList[i]["long"])));
     }
     for (var i = 0; i < historicBuildingsList.length; i++) {
         testData.push(new google.maps.LatLng(historicBuildingsList[i]["lat"], historicBuildingsList[i]["long"]));
