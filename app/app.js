@@ -1,11 +1,8 @@
-var safetyPriority;
-var educationPriority;
-var amenPriority;
 $("#test").ionRangeSlider({
     grid: true,
     min: 0,
     max: 10,
-    from: 1,
+    from: crimeWeight,
     prefix: "Priority: ",
     onChange: function (data) {
         safetyPriority = data['from'];
@@ -15,7 +12,7 @@ $("#test2").ionRangeSlider({
     grid: true,
     min: 0,
     max: 10,
-    from: 5,
+    from: schoolWeight,
     prefix: "Priority: ",
     onUpdate: function (data) {
         educationPriority = data['from'];
@@ -25,7 +22,7 @@ $("#test3").ionRangeSlider({
     grid: true,
     min: 0,
     max: 10,
-    from: 3,
+    from: amenWeight,
     prefix: "Priority: ",
     onUpdate: function (data) {
         amenPriority = data['from'];
@@ -39,8 +36,8 @@ $("#overlaybutton").click(function () {
 });
 
 $("#overlaybutton").show(800);
-$("#newmap").click(function () {
-
+$("#newmapButton").click(function () {
+    setHeatMap();
 });
 
 $('#mainmenu').draggable({
