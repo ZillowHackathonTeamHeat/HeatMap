@@ -2,111 +2,67 @@ var map, pointarray, heatmap;
 var seattleLatLng = new google.maps.LatLng(47.6097, -122.331);
 var seattleLat = 47.6097;
 var seattleLng = -122.331;
-var crimeWeight = -5;
+var crimeWeight = 1;
 var schoolWeight = 10;
+var amenWeight = 1;
 var includedAmen = ['foodbanks', 'historic', 'art', 'parks', 'pools'];
 
 // testData needs to contain everything from schoolList and crimeList
 var testData = [];
-setTimeout(function () {
-    // number of LatLngs at the intersections of a grid centered around a location (Seattle)
-    //    var initialCount = 2;
-    //    // add a point in the intersections of a grid centered around a location (Seattle)
-    //    for (var xoffset = -0.0001; xoffset < 0.0001; xoffset += 0.0001) {
-    //        for (var yoffset = -0.0001; yoffset < 0.0001; yoffset += 0.0001) {
-    //            for (var i = 0; i < initialCount; i++) {
-    //                testData.push(new google.maps.LatLng(seattleLat + xoffset, seattleLng + yoffset));
-    //            }
-    //        }
-    //    }
-    //    // number of LatLngs at the intersections of a grid centered around a location (Seattle)
-    //    var initialCount = 2;
-    //    // add a point in the intersections of a grid centered around a location (Seattle)
-    //    for (var xoffset = -0.0001; xoffset < 0.0001; xoffset += 0.0001) {
-    //        for (var yoffset = -0.0001; yoffset < 0.0001; yoffset += 0.0001) {
-    //            for (var i = 0; i < initialCount; i++) {
-    //                testData.push(new google.maps.LatLng(seattleLat + xoffset, seattleLng + yoffset));
-    //            }
-    //        }
-    //    }
-    for (var i = 0; i < schoolList.length; i++) {
-        // there are many more crimes than schools, so you need to change the weighting for schools * 10? and crimes * 1
-        //testData.push(new google.maps.LatLng(schoolList[i]["long"], schoolList[i]["lat"]));
+var populatePoints = function () {
+
+    for (var i = 0; i < crimeList.length; i++) {
+        testData.push({
+            location: new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]),
+            weight: crimeWeight
+        });
     }
 
-
-    // should remove 1 (or none if not possible) nearest LatLng from the spot
-    for (var i = 0; i < crimeList.length; i++) {
-        // need a function to remove a nearby LatLng given a nearest LatLng
-        // critical function here
-        //removeNearestLatLngToHere(new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]));
-        testData.push({location:new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]), weight: 1});
+    for (var i = 0; i < schoolList.length; i++) {
+                console.log(schoolList[i]);
+        testData.push({
+            location: new google.maps.LatLng(schoolList[i]["long"], schoolList[i]["lat"]),
+            weight: schoolWeight
+        });
     }
 
     for (var i = 0; i < foodBankList.length; i++) {
-        //testData.push(new google.maps.LatLng(parseFloat(foodBankList[i]["lat"]), parseFloat(foodBankList[i]["long"])));
+        testData.push({
+            location: new google.maps.LatLng(parseFloat(foodBankList[i]["lat"]), parseFloat(foodBankList[i]["long"])),
+            weight: amenWeight
+        });
     }
-    for (var i = 0; i < historicBuildingsList.length; i++) {
-        testData.push(new google.maps.LatLng(historicBuildingsList[i]["lat"], historicBuildingsList[i]["long"]));
-    }
-    for (var i = 0; i < publicArtList.length; i++) {
-        testData.push(new google.maps.LatLng(publicArtList[i]["lat"], publicArtList[i]["long"]));
-    }
+//    for (var i = 0; i < publicArtList.length; i++) {
+//            testData.push({
+//                location: new google.maps.LatLng(publicArtList[i]["long"], publicArtList[i]["lat"]),
+//                weight: amenWeight
+//            });
+//        }
 
-    for (var i = 0; i < publicParkList.length; i++) {
-        testData.push(new google.maps.LatLng(publicParkList[i]["lat"], publicParkList[i]["long"]));
-    }
+//    for (var i = 0; i < publicParkList.length; i++) {
+//        console.log(publicParkList[i]);
+//            testData.push({
+//                location: new google.maps.LatLng(publicParkList[i]["long"], publicParkList[i]["lat"]),
+//                weight: amenWeight
+//            });
+//        }
 
-    for (var i = 0; i < publicPoolList.length; i++) {
-        testData.push(new google.maps.LatLng(publicPoolList[i]["lat"], publicPoolList[i]["long"]));
-    }
-}, 1000);
+//for (var i = 0; i < publicPoolList.length; i++) {
+//        console.log(publicPoolList[i]);
+//            testData.push({
+//                location: new google.maps.LatLng(publicPoolList[i]["long"], publicPoolList[i]["lat"]),
+//                weight: 5
+//            });
+//        }
+}
 
 setTimeout(function () {
+    populatePoints();
+console.log(testData);
     setHeatMap();
 }, 5000);
 
 
-//
-//// remove nearest LatLng for weighting
-//function removeNearestLatLngToHere(latLng) {
-//    var lat = latLng.lat;
-//    var long = latLng.long;
-//    var oneMileInDegrees = 0.01449275362;
-//
-//    var timesToRemove = safetyPriority;
-//
-//    for (var i = 0;
-//        (i < testData.length) && (timesToRemove > 0); i++) {
-//        // just set it to null to remove
-//        // then whereever you use it, check if not null
-//        if ((Math.abs(testData[i].lat - lat) < oneMileInDegrees) && (Math.abs(testData[i].long - long) < oneMileInDegrees)) {
-//            testData[i] = null;
-//            timesToRemove--;
-//        }
-//    }
-//}
-
-// remove nearest LatLng for weighting
-// currently broken, will fix
-// documentation: https://developers.google.com/maps/documentation/javascript/reference#LatLng
-//function removeNearestLatLngToHere(latLng) {
-//    var lat = latLng.lat;
-//    var long = latLng.long;
-//    var oneMileInDegrees = 0.01449275362;
-//
-//    var timesToRemove = 1;
-//    // = safetyPriority * 5;
-//
-//    for (var i = 0; (i < testData.length) && (timesToRemove > 0); i++) {
-//        // just set it to null to remove
-//        // then whereever you use it, check if not null
-//        if ((Math.abs(testData[i].lat() - lat) < oneMileInDegrees) && (Math.abs(testData[i].lng() - long) < oneMileInDegrees)) {
-//            testData[i] = null;
-//            timesToRemove--;
-//        }
-//    }
-//}
 function initialize() {
     var mapOptions = {
         zoom: 12,
@@ -118,20 +74,12 @@ function initialize() {
 }
 
 function setHeatMap() {
-    // remove null references
-    var cleanedTestData = [];
-    for (var i = 0; i < testData.length; i++) {
-        if (testData[i] != null) {
-            cleanedTestData.push(testData[i]);
-        }
-    }
-    console.log(cleanedTestData);
-    var pointArray = new google.maps.MVCArray(cleanedTestData);
+    var pointArray = new google.maps.MVCArray(testData);
+    console.log(pointArray);
 
     heatmap = new google.maps.visualization.HeatmapLayer({
         data: pointArray
     });
-
     heatmap.setMap(map);
 }
 
@@ -162,6 +110,7 @@ function changeGradient() {
 function changeRadius() {
     heatmap.set('radius', heatmap.get('radius') ? null : 20);
 }
+
 
 function changeOpacity() {
     heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
