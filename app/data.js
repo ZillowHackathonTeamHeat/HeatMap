@@ -78,119 +78,67 @@ var populateFoodBanks = function () {
 }
 
 function parseXmlFoodBank(xml) {
-    var lst = [];
+    var foodLst = [];
     $(xml).find("row").each(function () {
         var amenity = {};
         amenity["amenityType"] = $(this).find("city_feature").text();
         amenity["lat"] = $(this).find("latitude").text();
         amenity["long"] = $(this).find("longitude").text();
-        lst.push(amenity);
+        foodLst.push(amenity);
     })
-    foodBankList = lst;
-    console.log(lst);
+    foodBankList = foodLst;
 }
 
-var populateHistoricBuildings = function () {
-    $.ajax({
-        type: "GET",
-        url: "./datasets/historicBuildingsXML.xml",
-        dataType: "xml",
-        // it calls parseXml and adds it to var lst
-        success: parseXmlHistoricBuildings()
-    });
-}
-
-function parseXmlHistoricBuildings(xml) {
-    var lst = [];
-    console.log('1');
-    $(xml).find("row").each(function () {
-        var amenity = {};
-        console.log('2');
-        amenity["amenityType"] = $(this).find("city_feature").text();
-        amenity["lat"] = $(this).find("latitude").text();
-        amenity["long"] = $(this).find("longitude").text();
-        lst.push(amenity);
-    })
-    historicBuildingsList = lst;
-}
-
+var publicArtUrl = "https://data.seattle.gov/resource/82su-5fxf.json?City Feature='Public Art'"
 var populatePublicArt = function () {
-    $.ajax({
-        type: "GET",
-        url: "./datasets/PublicArtXML.xml",
-        dataType: "xml",
-        // it calls parseXml and adds it to var lst
-        success: parseXmlPublicArt()
-    });
-}
-
-function parseXmlPublicArt(xml) {
-    var lst = [];
-    $(xml).find("row").each(function () {
-        var amenity = {};
-
-        amenity["amenityType"] = $(this).find("city_feature").text();
-        amenity["lat"] = $(this).find("latitude").text();
-        amenity["long"] = $(this).find("longitude").text();
-
-        lst.push(amenity);
+    var artLst = [];
+    $.getJSON(publicArtUrl, function (data) {
+        for (var i = 0; i < Object.keys(data).length; i++) {
+            var art = {};
+            var curObj = data[i];
+            art["long"] = curObj["longitude"];
+            art["lat"] = curObj["latitude"];
+            artLst.push(art);
+        }
+    }).done(function () {
+        publicArtList = artLst;
     })
-    publicArtList = lst;
 }
 
-
+var publicParkUrl = "https://data.seattle.gov/resource/82su-5fxf.json?City Feature='Parks'"
 var populatePublicParks = function () {
-    $.ajax({
-        type: "GET",
-        url: "./datasets/PublicParksXML.xml",
-        dataType: "xml",
-        // it calls parseXml and adds it to var lst
-        success: parseXmlPublicParks()
-    });
-}
-
-function parseXmlPublicParks(xml) {
-    var lst = [];
-    $(xml).find("row").each(function () {
-        var amenity = {};
-
-        amenity["amenityType"] = $(this).find("city_feature").text();
-        amenity["lat"] = $(this).find("latitude").text();
-        amenity["long"] = $(this).find("longitude").text();
-
-        lst.push(amenity);
+    var parkLst = [];
+    $.getJSON(publicParkUrl, function (data) {
+        for (var i = 0; i < Object.keys(data).length; i++) {
+            var park = {};
+            var curObj = data[i];
+            park["long"] = curObj["longitude"];
+            park["lat"] = curObj["latitude"];
+            parkLst.push(park);
+        }
+    }).done(function () {
+        publicParkList = parkLst;
     })
-    publicParkList = lst;
 }
 
+var publicPoolUrl = "https://data.seattle.gov/resource/82su-5fxf.json?City Feature='Pools'"
 var populatePublicPools = function () {
-    $.ajax({
-        type: "GET",
-        url: "./datasets/PublicPoolsXML.xml",
-        dataType: "xml",
-        // it calls parseXml and adds it to var lst
-        success: parseXmlPublicPools()
-    });
-}
-
-function parseXmlPublicPools(xml) {
-    var lst = [];
-    $(xml).find("row").each(function () {
-        var amenity = {};
-
-        amenity["amenityType"] = $(this).find("city_feature").text();
-        amenity["lat"] = $(this).find("latitude").text();
-        amenity["long"] = $(this).find("longitude").text();
-
-        lst.push(amenity);
+    var poolLst = [];
+    $.getJSON(publicPoolUrl, function (data) {
+        for (var i = 0; i < Object.keys(data).length; i++) {
+            var pool = {};
+            var curObj = data[i];
+            pool["long"] = curObj["longitude"];
+            pool["lat"] = curObj["latitude"];
+            poolLst.push(pool);
+        }
+    }).done(function () {
+        publicPoolList = poolLst;
     })
-    publicPoolList = lst;
 }
 populateCrime(includedCrimes);
 populateSchools();
 populateFoodBanks();
-populateHistoricBuildings();
 populatePublicArt();
 populatePublicParks();
 populatePublicPools();
-
