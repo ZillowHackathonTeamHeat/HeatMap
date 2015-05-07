@@ -11,59 +11,70 @@ var done = 0;
 // testData needs to contain everything from schoolList and crimeList
 var testData = [];
 var populatePoints = function () {
-    done++;
-    if(done == 7){
-    for (var i = 0; i < crimeList.length; i++) {
-        testData.push({
-            location: new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]),
-            weight: crimeWeight
-        });
-    }
-
-    for (var i = 0; i < schoolList.length; i++) {
-        testData.push({
-            location: new google.maps.LatLng(schoolList[i]["long"], schoolList[i]["lat"]),
-            weight: schoolWeight
-        });
-    }
-
-    for (var i = 0; i < foodBankList.length; i++) {
-        testData.push({
-            location: new google.maps.LatLng(parseFloat(foodBankList[i]["lat"]), parseFloat(foodBankList[i]["long"])),
-            weight: amenWeight
-        });
-    }
-
-    for (var i = 0; i < publicArtList.length; i++) {
-            testData.push({
-                location: new google.maps.LatLng(publicArtList[i]["lat"], publicArtList[i]["long"]),
-                weight: amenWeight
-            });
+    if (done == 9) {
+        var start = moment(startDate.get());
+        var end = moment(endDate.get());
+        for (var i = 0; i < crimeList.length; i++) {
+            var crimeDate = moment(crimeList[i]["date"])
+            if (includedCrimes.indexOf(crimeList[i]["type"]) > -1 && crimeDate >= start && crimeDate <= end) {
+                testData.push({
+                    location: new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]),
+                    weight: crimeWeight
+                });
+            }
         }
 
-    for (var i = 0; i < publicParkList.length; i++) {
-            testData.push({
-                location: new google.maps.LatLng(publicParkList[i]["lat"], publicParkList[i]["long"]),
-                weight: amenWeight
-            });
+        for (var i = 0; i < schoolList.length; i++) {
+            if (includedSchoolTypes.indexOf(schoolList[i]["type"]) > -1) {
+                testData.push({
+                    location: new google.maps.LatLng(schoolList[i]["long"], schoolList[i]["lat"]),
+                    weight: schoolWeight
+                });
+            }
+        }
+        if (includedAmen.indexOf('foodbank') > -1) {
+            for (var i = 0; i < foodBankList.length; i++) {
+                testData.push({
+                    location: new google.maps.LatLng(parseFloat(foodBankList[i]["lat"]), parseFloat(foodBankList[i]["long"])),
+                    weight: amenWeight
+                });
+            }
         }
 
-        for (var i = 0; i < publicPoolList.length; i++) {
-            testData.push({
-                location: new google.maps.LatLng(publicPoolList[i]["lat"], publicPoolList[i]["long"]),
-                weight: amenWeight
-            });
+        if (includedAmen.indexOf('art') > -1) {
+
+            for (var i = 0; i < publicArtList.length; i++) {
+                testData.push({
+                    location: new google.maps.LatLng(publicArtList[i]["lat"], publicArtList[i]["long"]),
+                    weight: amenWeight
+                });
+            }
         }
+        if (includedAmen.indexOf('parks') > -1) {
+
+            for (var i = 0; i < publicParkList.length; i++) {
+                testData.push({
+                    location: new google.maps.LatLng(publicParkList[i]["lat"], publicParkList[i]["long"]),
+                    weight: amenWeight
+                });
+            }
+        }
+
+        if (includedAmen.indexOf('pools') > -1) {
+            for (var i = 0; i < publicPoolList.length; i++) {
+                testData.push({
+                    location: new google.maps.LatLng(publicPoolList[i]["lat"], publicPoolList[i]["long"]),
+                    weight: amenWeight
+                });
+            }
+        }
+        console.log(testData.length);
+        setTimeout(function () {
+            setHeatMap();
+            $('#ajax').hide(500);
+        }, 1200);
     }
 }
-
-setTimeout(function () {
-    populatePoints();
-    setHeatMap();
-    $('#ajax').hide(500);
-}, 5000);
-
-
 
 function initialize() {
     var mapOptions = {
@@ -75,8 +86,8 @@ function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 }
 
-function setHeatMap(){
-    if(heatmap){
+function setHeatMap() {
+    if (heatmap) {
         heatmap.setMap(null);
     }
     var pointArray = new google.maps.MVCArray(testData);
