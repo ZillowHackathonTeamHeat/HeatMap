@@ -4,8 +4,6 @@ var crimeList = [];
 var schoolList = [];
 //list of food bank objects
 var foodBankList = [];
-//list of historic building objects
-var historicBuildingsList = [];
 //list of publicArt
 var publicArtList = [];
 //list of public park objects
@@ -36,7 +34,7 @@ var populateCrime = function (includedCrimes) {
             crimeList = lst;
         })
     }
-}
+};
 
 var includedSchoolTypes = ["public", "private"];
 var includedSchoolLevels = ["elementary", "middle"];
@@ -49,7 +47,7 @@ var populateSchools = function () {
         // it calls parseXml and adds it to var lst
         success: parseXml
     });
-}
+};
 
 function parseXml(xml) {
     var lst = [];
@@ -63,7 +61,7 @@ function parseXml(xml) {
         schools["lat"] = $(this).find("lon").text();
 
         lst.push(schools);
-    })
+    });
     schoolList = lst;
 }
 
@@ -75,7 +73,7 @@ var populateFoodBanks = function () {
         // it calls parseXml and adds it to var lst
         success: parseXmlFoodBank
     });
-}
+};
 
 function parseXmlFoodBank(xml) {
     var foodLst = [];
@@ -85,7 +83,7 @@ function parseXmlFoodBank(xml) {
         amenity["lat"] = $(this).find("latitude").text();
         amenity["long"] = $(this).find("longitude").text();
         foodLst.push(amenity);
-    })
+    });
     foodBankList = foodLst;
 }
 
@@ -103,7 +101,7 @@ var populatePublicArt = function () {
     }).done(function () {
         publicArtList = artLst;
     })
-}
+};
 
 var publicParkUrl = "https://data.seattle.gov/resource/82su-5fxf.json?City Feature='Parks'"
 var populatePublicParks = function () {
@@ -119,7 +117,7 @@ var populatePublicParks = function () {
     }).done(function () {
         publicParkList = parkLst;
     })
-}
+};
 
 var publicPoolUrl = "https://data.seattle.gov/resource/82su-5fxf.json?City Feature='Pools'"
 var populatePublicPools = function () {
@@ -135,7 +133,7 @@ var populatePublicPools = function () {
     }).done(function () {
         publicPoolList = poolLst;
     })
-}
+};
 populateCrime(includedCrimes);
 populateSchools();
 populateFoodBanks();
