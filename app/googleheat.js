@@ -19,7 +19,6 @@ var populatePoints = function () {
     }
 
     for (var i = 0; i < schoolList.length; i++) {
-                console.log(schoolList[i]);
         testData.push({
             location: new google.maps.LatLng(schoolList[i]["long"], schoolList[i]["lat"]),
             weight: schoolWeight
@@ -32,35 +31,35 @@ var populatePoints = function () {
             weight: amenWeight
         });
     }
-//    for (var i = 0; i < publicArtList.length; i++) {
-//            testData.push({
-//                location: new google.maps.LatLng(publicArtList[i]["long"], publicArtList[i]["lat"]),
-//                weight: amenWeight
-//            });
-//        }
 
-//    for (var i = 0; i < publicParkList.length; i++) {
-//        console.log(publicParkList[i]);
-//            testData.push({
-//                location: new google.maps.LatLng(publicParkList[i]["long"], publicParkList[i]["lat"]),
-//                weight: amenWeight
-//            });
-//        }
+    for (var i = 0; i < publicArtList.length; i++) {
+            testData.push({
+                location: new google.maps.LatLng(publicArtList[i]["lat"], publicArtList[i]["long"]),
+                weight: amenWeight
+            });
+        }
 
-//for (var i = 0; i < publicPoolList.length; i++) {
-//        console.log(publicPoolList[i]);
-//            testData.push({
-//                location: new google.maps.LatLng(publicPoolList[i]["long"], publicPoolList[i]["lat"]),
-//                weight: 5
-//            });
-//        }
+    for (var i = 0; i < publicParkList.length; i++) {
+            testData.push({
+                location: new google.maps.LatLng(publicParkList[i]["lat"], publicParkList[i]["long"]),
+                weight: amenWeight
+            });
+        }
+
+for (var i = 0; i < publicPoolList.length; i++) {
+            testData.push({
+                location: new google.maps.LatLng(publicPoolList[i]["lat"], publicPoolList[i]["long"]),
+                weight: amenWeight
+            });
+        }
 }
 
 setTimeout(function () {
     populatePoints();
-console.log(testData);
     setHeatMap();
+    $('#ajax').hide(500);
 }, 5000);
+
 
 
 function initialize() {
@@ -73,7 +72,10 @@ function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 }
 
-function setHeatMap() {
+function setHeatMap(){
+    if(heatmap){
+        heatmap.setMap(null);
+    }
     var pointArray = new google.maps.MVCArray(testData);
     console.log(pointArray);
 
@@ -115,4 +117,5 @@ function changeRadius() {
 function changeOpacity() {
     heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
 }
+
 google.maps.event.addDomListener(window, 'load', initialize);
