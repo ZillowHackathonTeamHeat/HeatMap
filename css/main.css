@@ -1,15 +1,16 @@
 html,
 body,
 #map-canvas {
-    height: 100%;
+    height: 120%;
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+    /*overflow-y: hidden;*/
 }
 
 #panel {
     display: none;
     position: absolute;
-    top: 5px;
+    top: 2px;
     left: 50%;
     margin-left: -180px;
     z-index: 5;
@@ -19,10 +20,10 @@ body,
 
 #mainmenu {
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     left: 3vw;
-    width: 21em;
-    background-color: #247571;
+    width: 21.5em;
+    background-color: #1EB899;
     color: white;
     display: none;
 }
@@ -44,12 +45,12 @@ body,
 
 #criteria {
     padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.5em;
+    /*padding-right: 1em;*/
+    padding-top: 1em;
 }
 
 .item {
-    padding-bottom: 1.2em;
+    padding-bottom: 1em;
 }
 
 #overlay {
@@ -62,11 +63,20 @@ body,
     opacity: 0.6;
 }
 
+#ajax {
+    position: absolute;
+    top: 40vh;
+    left: 45vw;
+    opacity: 0.65;
+    display: none;
+}
+
 .line-separator {
     height: 1px;
     background: #1DA48D;
     border-bottom: 1px solid #1DA48D;
     margin-bottom: 0.8em;
+    margin-right: 1em;
     opacity: 0.5;
 }
 
@@ -88,17 +98,31 @@ body,
 #transportation {
     padding: 0.12em;
 }
-#amenitiesoptions{
-    height: 1.65em;
-    padding-top: 0.2em;
+.optionButton{
+    height: 2.35em;
+    width: 6.5em;
+    padding-bottom: 0.2em;
+    margin-bottom: 0.25em;
 }
-#options{
+.options{
     position: relative;
     top: -0.1em;
     font-size: 1em;
 }
-#aform{
+.optionform{
     position: relative;
     top: -0.1em;
     display: none;
+}
+#dateRange{
+    width: 15em;
+    display: none;
+}
+
+.date{
+    width:50%;
+    display: inline-block;
+}
+.to{
+    padding-left: 2em;
 }
