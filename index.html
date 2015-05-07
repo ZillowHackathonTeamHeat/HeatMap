@@ -39,18 +39,23 @@
                     <form class="optionform" id="sform" role="form">
                         <div class="form-group">
                             <div>
-                                <label class="checkbox" for="elementary">
-                                    <input class="amen" type="checkbox" data-toggle="checkbox" checked="checked" value="" id="Blah" required> Elementary Schools
+                                <label class="checkbox" for="assaults">
+                                    <input class="safety" type="checkbox" data-toggle="checkbox" checked="checked" value="" id="assaults" required> Assaults
                                 </label>
                             </div>
                             <div>
-                                <label class="checkbox" for="middle">
-                                    <input class="amen" type="checkbox" data-toggle="checkbox" checked="checked" value="" id="Blah2" checked=""> Middle Schools
+                                <label class="checkbox" for="burglary">
+                                    <input class="safety" type="checkbox" data-toggle="checkbox" checked="checked" value="" id="burglary" checked=""> Burglary
                                 </label>
                             </div>
                             <div>
-                                <label class="checkbox" for="high">
-                                    <input class="amen" type="checkbox" data-toggle="checkbox" value="" checked="checked" id="Blah3" required> High Schools
+                                <label class="checkbox" for="robbery">
+                                    <input class="safety" type="checkbox" data-toggle="checkbox" value="" checked="checked" id="robbery" required> Robbery
+                                </label>
+                            </div>
+                            <div>
+                                <label class="checkbox" for="suspicious">
+                                    <input class="safety" type="checkbox" data-toggle="checkbox" value="" checked="checked" id="suspicious" required> Suspicious Activity
                                 </label>
                             </div>
                         </div>
@@ -81,18 +86,13 @@
                     <form class="optionform" id="eform" role="form">
                         <div class="form-group">
                             <div>
-                                <label class="checkbox" for="elementary">
-                                    <input class="amen" type="checkbox" data-toggle="checkbox" checked="checked" value="" id="elementary" required> Elementary Schools
+                                <label class="checkbox" for="public">
+                                    <input class="school" type="checkbox" data-toggle="checkbox" checked="checked" value="" id="public" required> Public Schools
                                 </label>
                             </div>
                             <div>
-                                <label class="checkbox" for="middle">
-                                    <input class="amen" type="checkbox" data-toggle="checkbox" checked="checked" value="" id="middle" checked=""> Middle Schools
-                                </label>
-                            </div>
-                            <div>
-                                <label class="checkbox" for="high">
-                                    <input class="amen" type="checkbox" data-toggle="checkbox" value="" checked="checked" id="high" required> High Schools
+                                <label class="checkbox" for="private">
+                                    <input class="school" type="checkbox" data-toggle="checkbox" checked="checked" value="" id="private" checked=""> Private Schools
                                 </label>
                             </div>
                         </div>
@@ -150,6 +150,7 @@
     </div>
     <button id="overlaybutton" type="button" class="btn btn-info">Close!</button>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="css/flat-ui/dist/js/vendor/jquery.min.js"></script>
