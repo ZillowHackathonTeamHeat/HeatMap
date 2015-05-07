@@ -32,6 +32,7 @@ var populateCrime = function (includedCrimes) {
             idx++;
         }).done(function () {
             crimeList = lst;
+            populatePoints();
         })
     }
 };
@@ -63,6 +64,7 @@ function parseXml(xml) {
         lst.push(schools);
     });
     schoolList = lst;
+    populatePoints();
 }
 
 var populateFoodBanks = function () {
@@ -85,6 +87,7 @@ function parseXmlFoodBank(xml) {
         foodLst.push(amenity);
     });
     foodBankList = foodLst;
+    populatePoints();
 }
 
 var publicArtUrl = "https://data.seattle.gov/resource/82su-5fxf.json?City Feature='Public Art'"
@@ -100,6 +103,7 @@ var populatePublicArt = function () {
         }
     }).done(function () {
         publicArtList = artLst;
+        populatePoints();
     })
 };
 
@@ -116,6 +120,7 @@ var populatePublicParks = function () {
         }
     }).done(function () {
         publicParkList = parkLst;
+        populatePoints();
     })
 };
 
@@ -132,6 +137,7 @@ var populatePublicPools = function () {
         }
     }).done(function () {
         publicPoolList = poolLst;
+        populatePoints();
     })
 };
 populateCrime(includedCrimes);

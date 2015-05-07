@@ -6,11 +6,13 @@ var crimeWeight = 1;
 var schoolWeight = 10;
 var amenWeight = 1;
 var includedAmen = ['foodbanks', 'historic', 'art', 'parks', 'pools'];
+var done = 0;
 
 // testData needs to contain everything from schoolList and crimeList
 var testData = [];
 var populatePoints = function () {
-
+    done++;
+    if(done == 7){
     for (var i = 0; i < crimeList.length; i++) {
         testData.push({
             location: new google.maps.LatLng(crimeList[i]["lat"], crimeList[i]["long"]),
@@ -46,12 +48,13 @@ var populatePoints = function () {
             });
         }
 
-for (var i = 0; i < publicPoolList.length; i++) {
+        for (var i = 0; i < publicPoolList.length; i++) {
             testData.push({
                 location: new google.maps.LatLng(publicPoolList[i]["lat"], publicPoolList[i]["long"]),
                 weight: amenWeight
             });
         }
+    }
 }
 
 setTimeout(function () {
