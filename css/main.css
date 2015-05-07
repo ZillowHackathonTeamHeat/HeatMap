@@ -69,6 +69,7 @@ body,
     left: 45vw;
     opacity: 0.65;
     display: none;
+    width: 220px;
 }
 
 .line-separator {
