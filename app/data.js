@@ -13,20 +13,28 @@ var publicParkList = [];
 var publicPoolList = [];
 
 //which crimes are included
-var includedCrimes = ["ASSAULTS", "BURGLARY", "ROBBERY"];
+var includedCrimes = ["assaults", "burglary", "robbery", "suspicious"];
 var crimeBaseURL = "https://data.seattle.gov/resource/3k2p-39jp.json?initial_type_subgroup="
 
 var populateCrime = function (includedCrimes) {
-    console.time("crime");
     var lst = [];
     for (var j = 0; j < includedCrimes.length; j++) {
         var URL = crimeBaseURL + includedCrimes[j];
         var idx = 0;
+        if(includedCrimes[j] === "suspcious"){
+            URL = crimeBaseURL + "suspicious circumstances";
+        }
         $.getJSON(URL, function (data) {
             var len = Object.keys(data).length;
             for (var i = 0; i < len; i++) {
                 var crime = {};
                 var curObj = data[i];
+                crime["date"] = curObj["event_clearance_date"];
+                var b = moment(crime["date"]);
+                var a = moment(startDate.get());
+
+                console.log(b < a);
+
                 crime["long"] = curObj["longitude"];
                 crime["lat"] = curObj["latitude"];
                 crime["type"] = includedCrimes[idx];
@@ -35,14 +43,14 @@ var populateCrime = function (includedCrimes) {
             idx++;
         }).done(function () {
             crimeList = lst;
-            console.timeEnd("crime");
+            done++;
             populatePoints();
         })
     }
 };
 
 var includedSchoolTypes = ["public", "private"];
-var includedSchoolLevels = ["elementary", "middle"];
+var includedSchoolLevels = ["elementary", "middle", "high"];
 var populateSchools = function () {
     $.ajax({
         type: "GET",
@@ -55,11 +63,9 @@ var populateSchools = function () {
 };
 
 function parseXml(xml) {
-    console.time("school");
     var lst = [];
     $(xml).find("school").each(function () {
         var schools = {};
-
         schools["gsID"] = $(this).find("gsId").text();
         schools["name"] = $(this).find("name").text();
         schools["type"] = $(this).find("type").text();
@@ -69,7 +75,7 @@ function parseXml(xml) {
         lst.push(schools);
     });
     schoolList = lst;
-    console.timeEnd("school");
+    done++;
     populatePoints();
 }
 
@@ -84,7 +90,6 @@ var populateFoodBanks = function () {
 };
 
 function parseXmlFoodBank(xml) {
-    console.time("foodbank");
     var foodLst = [];
     $(xml).find("row").each(function () {
         var amenity = {};
@@ -94,13 +99,12 @@ function parseXmlFoodBank(xml) {
         foodLst.push(amenity);
     });
     foodBankList = foodLst;
-    console.timeEnd("foodbank");
+    done++;
     populatePoints();
 }
 
 var publicArtUrl = "https://data.seattle.gov/resource/82su-5fxf.json?City Feature='Public Art'"
 var populatePublicArt = function () {
-    console.time("art");
     var artLst = [];
     $.getJSON(publicArtUrl, function (data) {
         for (var i = 0; i < Object.keys(data).length; i++) {
@@ -112,14 +116,13 @@ var populatePublicArt = function () {
         }
     }).done(function () {
         publicArtList = artLst;
-        console.timeEnd("art");
+        done++;
         populatePoints();
     })
 };
 
 var publicParkUrl = "https://data.seattle.gov/resource/82su-5fxf.json?City Feature='Parks'"
 var populatePublicParks = function () {
-    console.time("park");
     var parkLst = [];
     $.getJSON(publicParkUrl, function (data) {
         for (var i = 0; i < Object.keys(data).length; i++) {
@@ -131,14 +134,13 @@ var populatePublicParks = function () {
         }
     }).done(function () {
         publicParkList = parkLst;
-        console.timeEnd("park");
+        done++;
         populatePoints();
     })
 };
 
 var publicPoolUrl = "https://data.seattle.gov/resource/82su-5fxf.json?City Feature='Pools'"
 var populatePublicPools = function () {
-    console.time("pool");
     var poolLst = [];
     $.getJSON(publicPoolUrl, function (data) {
         for (var i = 0; i < Object.keys(data).length; i++) {
@@ -150,7 +152,7 @@ var populatePublicPools = function () {
         }
     }).done(function () {
         publicPoolList = poolLst;
-        console.timeEnd("pool");
+        done++;
         populatePoints();
     })
 };
