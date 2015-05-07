@@ -1,3 +1,5 @@
+var startDate;
+var endDate;
 $("#test").ionRangeSlider({
     grid: true,
     min: 0,
@@ -5,10 +7,9 @@ $("#test").ionRangeSlider({
     from: crimeWeight,
     prefix: "Priority: ",
     onChange: function (data) {
-        crimeWeight = data['from']/10 //crimeList.length;
-        console.log(crimeWeight);
+        crimeWeight = data['from'] / 10 //crimeList.length;
     }
-});
+}); -
 $("#test2").ionRangeSlider({
     grid: true,
     min: 0,
@@ -16,8 +17,7 @@ $("#test2").ionRangeSlider({
     from: schoolWeight,
     prefix: "Priority: ",
     onChange: function (data) {
-        schoolWeight = data['from']//schoolList.length;
-        console.log(schoolWeight);
+        schoolWeight = data['from'] //schoolList.length;
     }
 });
 $("#test3").ionRangeSlider({
@@ -28,25 +28,32 @@ $("#test3").ionRangeSlider({
     prefix: "Priority: ",
     onChange: function (data) {
         amenWeight = data['from'] //amenWeight.length;
-        console.log(amenWeight);
     }
 });
 //$("#overlaybutton").click(function () {
-$(function(){
-    setTimeout(function(){
+$(function () {
+    setTimeout(function () {
         $('#ajax').show(500);
     }, 500);
     $('.datepicker').pickadate({
         selectMonths: true, // Creates a dropdown to control month
         selectYears: 5 // Creates a dropdown of 15 years to control year
     });
+    startDate = $('#start').pickadate().pickadate('picker');
+    endDate = $('#end').pickadate().pickadate('picker');
+    startDate.set('select', [2012, 4, 1]);
+    endDate.set('select', [2015, 4, 20]);
 
+    console.log(startDate.get());
+    console.log(done);
+    setTimeout(function () {
+        if (done == 8) {
+            //$('#ajax').hide(500);
+        }
+    }, 2050);
 });
 
-var $input = $('.datepicker').pickadate()
-var picker = $input.pickadate('picker')
-
-setTimeout(function(){
+setTimeout(function () {
     $("#mainmenu").show(1000);
     $("#panel").show(1000);
     $("#overlay").hide(1000);
@@ -57,8 +64,6 @@ $("#newmapButton").click(function () {
     $('#ajax').show(350);
     testData = [];
     populatePoints();
-    setHeatMap();
-    $('#ajax').hide(350);
 });
 
 $('#mainmenu').draggable({
@@ -82,7 +87,6 @@ $('#educationoptions').click(function () {
 });
 
 $('#safetyoptions').click(function () {
-    console.log("HI");
     if (($('#sform').is(':hidden'))) {
         $('#sform').show(500);
         $('#dateRange').show(500);
@@ -101,4 +105,24 @@ $('.amen').click(function () {
         _.pull(includedAmen, amen);
     }
     console.log(includedAmen);
+});
+
+$('.safety').click(function () {
+    var crime = $(this).attr('id')
+    if (_.indexOf(includedCrimes, crime) == -1) {
+        includedCrimes.push(crime);
+    } else {
+        _.pull(includedCrimes, crime);
+    }
+    console.log(includedCrimes);
+});
+
+$('.school').click(function () {
+    var school = $(this).attr('id')
+    if (_.indexOf(includedSchoolTypes, school) == -1) {
+        includedSchoolTypes.push(school);
+    } else {
+        _.pull(includedSchoolTypes, school);
+    }
+    console.log(includedSchoolTypes);
 });
