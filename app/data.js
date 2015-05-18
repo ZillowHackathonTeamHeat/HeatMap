@@ -33,8 +33,6 @@ var populateCrime = function (includedCrimes) {
                 var b = moment(crime["date"]);
                 var a = moment(startDate.get());
 
-                console.log(b < a);
-
                 crime["long"] = curObj["longitude"];
                 crime["lat"] = curObj["latitude"];
                 crime["type"] = includedCrimes[idx];
