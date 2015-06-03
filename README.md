@@ -5,10 +5,10 @@
 
 ## Contributors
 ###   Alex Ngo (www.alexngo.io)
-###   Zane Brant ()
-###   Diana Griffing ()
-###   Shrinivas Kopparam Ramanath ()
-###   Duc Tan Ngo (https://www.linkedin.com/in/softwareengineerduc | Facebook: dngo@live.com)
+###   Zane Brant
+###   Diana Griffing
+###   Shrinivas Kopparam Ramanath
+###   Duc Tan Ngo (https://www.linkedin.com/in/softwareengineerduc)
 
 ## Description of the application
 
