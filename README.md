@@ -1,5 +1,5 @@
 # Team Name:    Heat
-# App Name:     'Hood Scout
+# App Name:     Hood Scout
 
 ##www.alexngo.io/Heatmap
 
