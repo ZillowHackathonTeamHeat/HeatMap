@@ -2,16 +2,18 @@
 
 ##www.alexngo.io/Heatmap
 
-We are Team Heat, and this weekend we created Hood Scout.
-
-We created Hood Scout using JavaScript, HTML, CSS and Google Maps JavaScript API.
+We are Team Heat, and this weekend we created Hood Scout using JavaScript, HTML, CSS and Google Maps JavaScript API.
 
 ##Contributors
-###Alex Ngo (www.alexngo.io)
-###Zane Brant
-###Diana Griffing
-###Shrinivas Kopparam Ramanath
-###Duc Tan Ngo (https://www.linkedin.com/in/softwareengineerduc)
+Alex Ngo (www.alexngo.io)
+
+Zane Brant
+
+Diana Griffing
+
+Shrinivas Kopparam Ramanath
+
+Duc Tan Ngo (https://www.linkedin.com/in/softwareengineerduc)
 
 ##Description of the application
 
