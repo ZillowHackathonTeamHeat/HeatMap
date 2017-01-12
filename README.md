@@ -1,7 +1,5 @@
 #Team Heat Presents Hood Scout
 
-##www.alexngo.io/Heatmap
-
 We are Team Heat, and this weekend we created Hood Scout using JavaScript, HTML, CSS and Google Maps JavaScript API.
 
 ##Contributors
