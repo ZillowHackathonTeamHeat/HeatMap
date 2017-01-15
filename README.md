@@ -13,7 +13,7 @@ Shrinivas Kopparam Ramanath
 
 Duc Tan Ngo (https://www.linkedin.com/in/softwareengineerduc)
 
-##Description of the Application
+##App Description
 
 Hood Scout is a customizable heatmap web app. The purpose of the heatmap is to visualize the intersection and severity of favorable and unfavorable neighborhood characteristics, like the presence of crime, considered unfavorable, and parks, considered favorable.
 
